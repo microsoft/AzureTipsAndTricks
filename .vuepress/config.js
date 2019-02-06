@@ -3,6 +3,10 @@ const currentDateUTC = new Date().toUTCString()
 module.exports = {
 	title: 'Azure Tips and Tricks',
 	dest: './public',
+	base: '/azpagetest/',
+    markdown: {
+        lineNumbers: true
+      },
 	themeConfig: {
 		displayAllHeaders: true,
 		sidebar: 'auto',
