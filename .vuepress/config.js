@@ -33,6 +33,13 @@ module.exports = {
 						'/blog/tip139'	]
 			},
 			{
+				title: 'App Service',
+				collapsable: true,
+				children: [ '/blog/tip16', '/blog/tip20', '/blog/tip21', '/blog/tip22', '/blog/tip23', '/blog/tip26', '/blog/tip27', '/blog/tip28', '/blog/tip29', '/blog/tip30', '/blog/tip31', '/blog/tip32', '/blog/tip33', 
+				'/blog/tip112', '/blog/tip113', '/blog/tip117', '/blog/tip119', '/blog/tip132', '/blog/tip143', 
+				'/blog/tip144', '/blog/tip149'	]
+			},
+			{
 				title: 'Media Services',
 				collapsable: true,
 				children: ['/blog/tip178', 
@@ -43,10 +50,9 @@ module.exports = {
 			{ text: 'Home', link: '/' },
 			{ text: 'Blog', link: '/blog/' },
 			{ text: 'Questions?', link: 'http://github.com/microsoft/azuretipsandtricks/issues' },
-			{ text: 'RSS Feed', link: '/rss.xml' }
+			{ text: 'RSS Feed', link: '/rss.xml/' }
 		],
-		logo: '/vuepress-blog-logo.png',
-		docsDir: 'src'
+		logo: '/vuepress-blog-logo.png'
 	},
 	plugins: [
 		[
