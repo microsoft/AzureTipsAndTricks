@@ -27,10 +27,16 @@ module.exports = {
 				collapsable: false
 			},
 			{
+				title: 'AzCopy',
+				collapsable: true,
+				children: ['/blog/tip81', 
+						'/blog/tip139'	]
+			},
+			{
 				title: 'Media Services',
 				collapsable: true,
-				children: ['/blog/tip179', 
-						'/blog/tip180'	]
+				children: ['/blog/tip178', 
+						'/blog/tip179'	]
 			},
 		],
 		nav: [
