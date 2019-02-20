@@ -3,6 +3,7 @@ const currentDateUTC = new Date().toUTCString()
 module.exports = {
 	title: 'Azure Tips and Tricks',
 	dest: './public',
+	port: 8097,
 	base: '/azpagetest/',
     markdown: {
         lineNumbers: true
@@ -10,8 +11,10 @@ module.exports = {
 	themeConfig: {
 		displayAllHeaders: true,
 		sidebar: 'auto',
+		footer: 'MIT Licensed | Created by @mbcrump',
+		searchMaxSuggestions: 10, 
 		repo: 'microsoft/azuretipsandtricks',
-		repoLabel: 'GitHub',
+		repoLabel: 'Contribute',
 		editLinks: true,
 		editLinkText: 'Edit this page on GitHub',
 		sidebar: [
@@ -36,8 +39,64 @@ module.exports = {
 				title: 'App Service',
 				collapsable: true,
 				children: [ '/blog/tip16', '/blog/tip20', '/blog/tip21', '/blog/tip22', '/blog/tip23', '/blog/tip26', '/blog/tip27', '/blog/tip28', '/blog/tip29', '/blog/tip30', '/blog/tip31', '/blog/tip32', '/blog/tip33', 
+				'/blog/tip101','/blog/tip102','/blog/tip103','/blog/tip104','/blog/tip105','/blog/tip107','/blog/tip108','/blog/tip109','/blog/tip110',
 				'/blog/tip112', '/blog/tip113', '/blog/tip117', '/blog/tip119', '/blog/tip132', '/blog/tip143', 
 				'/blog/tip144', '/blog/tip149'	]
+			},
+			{
+				title: 'CLI',
+				collapsable: true,
+				children: [ '/blog/tip7','/blog/tip8','/blog/tip19','/blog/tip34','/blog/tip111']
+			},
+			{
+				title: 'Cloud Shell',
+				collapsable: true,
+				children: [ '/blog/tip11','/blog/tip13','/blog/tip14','/blog/tip15','/blog/tip17','/blog/tip49','/blog/tip69','/blog/tip127','/blog/tip131','/blog/tip142']
+			},
+			{
+				title: 'Cognitive Services',
+				collapsable: true,
+				children: [ '/blog/tip70','/blog/tip71','/blog/tip72','/blog/tip129','/blog/tip154','/blog/tip174','/blog/tip175']
+			},
+			{
+				title: 'Containers',
+				collapsable: true,
+				children: [ '/blog/tip45','/blog/tip46','/blog/tip47','/blog/tip48','/blog/tip54','/blog/tip55','/blog/tip56','/blog/tip57','/blog/tip58','/blog/tip60']
+			},
+			{
+				title: 'Cosmos DB',
+				collapsable: true,
+				children: [ '/blog/tip65','/blog/tip66','/blog/tip67','/blog/tip68','/blog/tip152','/blog/tip166','/blog/tip167']
+			},
+			{
+				title: 'DevOps',
+				collapsable: true,
+				children: [ '/blog/tip168','/blog/tip169']
+			},
+			{
+				title: 'Functions',
+				collapsable: true,
+				children: [ '/blog/tip35','/blog/tip36','/blog/tip50','/blog/tip51','/blog/tip52','/blog/tip61','/blog/tip62','/blog/tip63','/blog/tip64','/blog/tip94','/blog/tip97','/blog/tip98','/blog/tip99','/blog/tip100','/blog/tip130','/blog/tip133','/blog/tip134','/blog/tip135','/blog/tip136','/blog/tip147','/blog/tip148','/blog/tip157','/blog/tip158','/blog/tip161']
+			},
+			{
+				title: 'HD Insight',
+				collapsable: true,
+				children: [ '/blog/tip172']
+			},
+			{
+				title: 'IoT',
+				collapsable: true,
+				children: [ '/blog/tip96','/blog/tip114','/blog/tip122','/blog/tip123','/blog/tip124','/blog/tip125','/blog/tip126']
+			},
+			{
+				title: 'Key Vault',
+				collapsable: true,
+				children: [ '/blog/tip180','/blog/tip181' ]
+			},
+			{
+				title: 'Logic Apps',
+				collapsable: true,
+				children: [ '/blog/tip37','/blog/tip38','/blog/tip39','/blog/tip40','/blog/tip41','/blog/tip42','/blog/tip43','/blog/tip44','/blog/tip156','/blog/tip159']
 			},
 			{
 				title: 'Media Services',
@@ -45,10 +104,56 @@ module.exports = {
 				children: ['/blog/tip178', 
 						'/blog/tip179'	]
 			},
+			{
+				title: 'Portal',
+				collapsable: true,
+				children: [ '/blog/tip1','/blog/tip2','/blog/tip3','/blog/tip4','/blog/tip5','/blog/tip6','/blog/tip116']
+			},
+			{
+				title: 'PowerShell',
+				collapsable: true,
+				children: [ '/blog/tip24','/blog/tip120','/blog/tip137']
+			},
+			{
+				title: 'Productivity',
+				collapsable: true,
+				children: [ '/blog/tip18','/blog/tip25','/blog/tip115','/blog/tip128','/blog/tip150','/blog/tip153','/blog/tip155','/blog/tip162','/blog/tip163','/blog/tip164','/blog/tip173','/blog/tip176','/blog/tip177']
+			},
+			{
+				title: 'SAP',
+				collapsable: true,
+				children: [ '/blog/tip170','/blog/tip171']
+			},
+			{
+				title: 'SendGrid',
+				collapsable: true,
+				children: [ '/blog/tip73']
+			},
+			{
+				title: 'SQL',
+				collapsable: true,
+				children: [ '/blog/tip90','/blog/tip91','/blog/tip92','/blog/tip93','/blog/tip140','/blog/tip145','/blog/tip146']
+			},
+			{
+				title: 'Storage',
+				collapsable: true,
+				children: [ '/blog/tip74','/blog/tip75','/blog/tip76','/blog/tip77','/blog/tip78','/blog/tip79','/blog/tip80','/blog/tip82','/blog/tip83','/blog/tip84','/blog/tip85','/blog/tip86','/blog/tip87','/blog/tip88','/blog/tip89','/blog/tip95','/blog/tip138','/blog/tip141']
+			},
+			{
+				title: 'Virtual Machines',
+				collapsable: true,
+				children: [ '/blog/tip9','/blog/tip10','/blog/tip12','/blog/tip53']
+			},
+			{
+				title: 'VNET',
+				collapsable: true,
+				children: [ '/blog/tip182']
+			},
 		],
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Blog', link: '/blog/' },
+			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
+			{ text: 'eBooks', link: 'http://ebook.azuredev.tips' },
 			{ text: 'Questions?', link: 'http://github.com/microsoft/azuretipsandtricks/issues' },
 			{ text: 'RSS Feed', link: '/rss.xml/' }
 		],
@@ -60,6 +165,12 @@ module.exports = {
 			{
 				ga: '' // UA-00000000-0
 			}
+		],
+		[
+				'@vuepress/search', 
+				{
+					searchMaxSuggestions: 10      
+				}
 		],
 		[
 			'vuepress-plugin-rss',

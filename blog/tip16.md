@@ -1,13 +1,10 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub Pages to Azure"
+title: "Deploy Jekyll Site Hosted on GitHub Pages to Azure"
 excerpt: "Learn how to quickly deploy a Jekyll based site hosted on GitHub Pages to Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-13 17:00:00
 ---
-
-
-## Deploy Jekyll Site Hosted on GitHub to Azure
 
 If you have already have an existing [Jekyll](https://jekyllrb.com/) based site that is hosted on GitHub, you can easily deploy that site to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/web/). 
 
@@ -18,8 +15,6 @@ But why? If [GitHub Pages](https://pages.github.com/) is free, then why pay?
 * Taking advantage of [deployment slots](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-staged-publishing). 
 
 I'm sure there are more, but those are top of mind for me. 
-
-## Let's begin
 
 I'm assuming you already have a GitHub Pages site that uses Jekyll hosted on GitHub. If that is true, then the first thing that you'll want to do is grab these three files. 
 

@@ -6,7 +6,7 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-17 17:00:00
 ---
 
-## Working with AzCopy and Azure Storage
+#### Working with AzCopy and Azure Storage
 
 We've reviewed the following options with Azure Storage so far:
 
