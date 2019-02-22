@@ -27,7 +27,7 @@ Thanks,
 
 Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
 
-## Contributing
+#### Contributing
 ------------
 
 In general, we follow the "fork-and-pull" Git workflow.
