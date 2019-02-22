@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Deploy Jekyll Site Hosted on GitHub Pages to Azure"
+title: "Tip 16 - Deploy Jekyll Site Hosted on GitHub Pages to Azure"
 excerpt: "Learn how to quickly deploy a Jekyll based site hosted on GitHub Pages to Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-13 17:00:00

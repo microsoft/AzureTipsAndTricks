@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 44 - Deploying Azure Logic App through Visual Studio 2017"
+title: "Tip 44 - Deploying Azure Logic App through Visual Studio 2017"
 excerpt: "Learn how to use Visual Studio 2017 to deploy an Azure Logic App"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-01 17:00:00
 ---
 
 
-## Deploying Azure Logic App through Visual Studio 2017
+#### Deploying Azure Logic App through Visual Studio 2017
 
 Now that you know [how to setup your Visual Studio environment](http://www.michaelcrump.net/azure-tips-and-tricks43/), you probably wrote some code and it is time to deploy it. 
 

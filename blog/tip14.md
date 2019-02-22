@@ -1,12 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 14 - Generate SSH public key to log into Linux VM with Cloud Shell"
+title: "Tip 14 - Generate SSH public key to log into Linux VM with Cloud Shell"
 excerpt: "Learn how to generate SSH keys to log into a Linux VM with Cloud Shell and BASH on Windows 10"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-11 17:00:00
 ---
 
-## Generate SSH keys to log into Linux VM with Cloud Shell
+#### Generate SSH keys to log into Linux VM with Cloud Shell
+
 
 For these instructions, I'll assume you have a Linux VM already setup and connecting via Cloud Shell. 
 
@@ -92,7 +93,7 @@ Last login: Sun Sep 10 23:49:35 2017 from 40.83.147.69
 
 <img :src="$withBase('/files/cloudshellpersistdata.gif')">
 
-## BONUS: If you want to disable the password you previously set on the Linux machine
+#### BONUS: If you want to disable the password you previously set on the Linux machine
 
 If you want to disable the password on the Linux machine that you previously set:  
 
@@ -110,7 +111,7 @@ If you want to disable the password on the Linux machine that you previously set
 
 3.) You can see if the password authentication is disabled by logging out and then trying to connect with key file authentication disabled with `ssh user@ipaddress -o PubkeyAuthentication=no`. You should get "Permission denied". 
 
-## BONUS #2: You can easily do the same with BASH on Windows 10
+#### BONUS #2: You can easily do the same with BASH on Windows 10
 
 You can have the same goodness that you have with Azure Cloud Shell on your local machine. In my case, I'm using BASH on Windows and can just run steps 1-5 listed above. Boom! 
 

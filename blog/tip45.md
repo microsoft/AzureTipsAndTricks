@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure"
+title: "Tip 45 - Getting Started with Docker and Azure"
 excerpt: "Learn how to get started using Docker and Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-05 17:00:00
 ---
 
 
-## Containers for the rest of us
+#### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
@@ -16,10 +16,10 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 * [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 * [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 
-## Getting Started with Docker and Azure
+#### Getting Started with Docker and Azure
 
 **What is Docker?** Docker is an open-source project that automates the deployment of applications inside software containers. It automates the repetitive tasks of setting up and configuring development environments so that developers can develop. 
-{: .notice--primary}
+
 
 Head over to [Docker](https://www.docker.com/) and you'll want to download the Community Edition. Keep in mind that there are two channels. Which are the Stable and Edge version. As you can imagine, the stable build is... well... stable and the edge build is for those that want the latest bits (which may not be tested). Choose your poison. For this series, we'll use the Stable version. 
 
@@ -38,7 +38,7 @@ If you would like to see version information then type `docker version`.
 Great, so now let's pull an image since it is up and running properly. Head over to [store.docker.com](http://store.docker.com) and search for aspnetcore-build. 
 
 **Why this image?** We want to run an ASP.NET Core without installing the tools, platform and SDK on my local machine. 
-{: .notice--primary}
+
 
 If you search for `aspnetcore-build` then you'll land on this [page](https://store.docker.com/community/images/microsoft/aspnetcore-build). Pay close attention to the following command (highlighted below) that we'll use to copy into our terminal/command prompt to pull down the image. 
 

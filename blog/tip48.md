@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo"
+title: "Tip 48 - Pushing a Container Image to a Docker Repo"
 excerpt: "Learn how to create a container image with Docker"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-08 17:00:00
 ---
 
 
-## Containers for the rest of us
+#### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
@@ -16,7 +16,7 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 * [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 * [Today - Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks48/)
 
-## Pushing a Container Image to a Docker Repo
+#### Pushing a Container Image to a Docker Repo
 
 Let's continue where we [left off](http://www.michaelcrump.net/azure-tips-and-tricks47/) in our last post, in which we created a new image that we can distribute that contains our new app. In this post, we'll go ahead and push the image to a Docker repo to prep it for later. 
 
@@ -59,7 +59,7 @@ Great! Now you can log into your account on [store.docker.com](http://store.dock
 
 You'll see that it provides instructions to push a new version of the image as well as the commands to do so from the CLI. 
 
-## To Recap what we've done so far
+#### To Recap what we've done so far
 
 If you've been following the last four post, then we've went through the following steps: 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#"
+title: "Tip 93 - Part 4 - Searching an index with Azure Search with C#"
 excerpt: "Learn how to query an Azure Search Index using C#"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-11 17:00:00
 ---
 
 
-## Implementing Azure Search with SQL Server and ASP.NET MVC
+#### Implementing Azure Search with SQL Server and ASP.NET MVC
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
@@ -16,7 +16,7 @@ In this series I'll cover Azure Search, SQL Server and putting it all together i
 * [Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
 * [Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
 
-## Implementing Azure Search
+#### Implementing Azure Search
 
 Last week we've learned that Azure Search is a search-as-a-service that connects to a variety of data sources such as SQL Server. We've created our SQL Server DB, and stood up Azure Search and even query the index through the Azure Portal. In this final section, we'll work with C# and query the index.
 

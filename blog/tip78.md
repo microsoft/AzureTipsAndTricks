@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 78 - Copy Azure Storage Blobs and Files via C#"
+title: "Tip 78 - Copy Azure Storage Blobs and Files via C#"
 excerpt: "Learn how to copy Azure Storage Blobs and Files via C#"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-14 17:00:00
 ---
 
-## Copy Azure Storage Blobs and Files via C#
+#### Copy Azure Storage Blobs and Files via C#
 
 Last week we've reviewed the following options with Azure Storage :
 

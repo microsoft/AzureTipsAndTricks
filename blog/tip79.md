@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 79 - Creating an Azure Blob Hierarchy"
+title: "Tip 79 - Creating an Azure Blob Hierarchy"
 excerpt: "Learn how to creating an Azure blob hierarchy"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-15 17:00:00
 ---
 
-## Creating an Azure Blob Hierarchy
+#### Creating an Azure Blob Hierarchy
 
 We've reviewed the following options with Azure Storage so far:
 
@@ -19,7 +19,7 @@ We've reviewed the following options with Azure Storage so far:
 Today, we are going to look at creating an Azure blob hierarchy via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](http://www.michaelcrump.net/azure-tips-and-tricks75/). If you want to start from this post, then use the code located [here](https://github.com/mbcrump/azurestorage).
 
 The goal of this exercise is to create a blob hierarchy or folder structure inside of our container. So for example, we'd like to place a file in a structure such as such as **backup/images-backup.png**. 
-{: .notice--info}
+
 
 If you look below, you will notice that there is no way to create a folder structure from inside the portal. 
 

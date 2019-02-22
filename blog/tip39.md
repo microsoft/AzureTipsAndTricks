@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 39 - Setup an HTTP Request Trigger that is used in an Azure Logic Apps"
+title: "Tip 39 - Setup an HTTP Request Trigger that is used in an Azure Logic Apps"
 excerpt: "Learn how to setup an HTTP Request Trigger with Azure Logic Apps"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-24 17:00:00
 ---
 
 
-## My Scenario - Tracking Run Data
+#### My Scenario - Tracking Run Data
 
 I thought I'd use this week's Tip and Tricks series to show a practical example of how I am using Azure. I've started running outdoors and would like to extract several links that my app generates via email and send them to my OneDrive account automatically vs doing it manually after each run. I'm also concerned that the app that generates my data may be abandoned one day. In order to secure my data, I used a combination of [Zappier.com](http://www.zapier.com) and [Azure](http://www.azure.com) to solve my problem and over the course of this week, we'll cover the following sections needed in order to implement this: 
 
@@ -17,7 +17,7 @@ I thought I'd use this week's Tip and Tricks series to show a practical example 
 * [Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
 
 
-## Setup an HTTP Request Trigger that is used in an Azure Logic Apps
+#### Setup an HTTP Request Trigger that is used in an Azure Logic Apps
 
 In the [last post](http://www.michaelcrump.net/azure-tips-and-tricks38/), we used Zappier to setup a web hook that calls a POST method that provides the filename, csv, gpx and kml url that it parsed from our email. 
 
@@ -63,7 +63,7 @@ Go ahead and press **Edit** and remember the JSON Schema from the [last post](ht
 ```
 
 **Note:** You can use the "Use sample payload to generate schema" option, but I prefer the additional meta data that [JSON Schema](https://jsonschema.net/#/editor) can provide. 
-{: .notice--info}
+
 
 You'll now have a GET URL that you can put in Zappier and replace the [requestb.in](https://requestb.in/) that we stubbed out earlier. 
 

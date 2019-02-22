@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 86 - Deleting an item from a Azure Storage Table"
+title: "Tip 86 - Deleting an item from a Azure Storage Table"
 excerpt: "Learn how to delete an item from an Azure Storage Table"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-28 17:00:00
 ---
 
-## Deleting an item from a Azure Storage Table
+#### Deleting an item from a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
@@ -18,13 +18,13 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 
 Today, we'll be taking a look at deleting an item through C# code into an Azure Storage Table. 
 
-## Getting Started
+#### Getting Started
 
 Open the C# Console application that we were working with [last week](http://www.michaelcrump.net/azure-tips-and-tricks85/) and let's add a method to:
 
 * Delete an item based off of the table, RowKey and PartitionKey that we pass in.
 
-## Delete an item
+#### Delete an item
 
 In our `Program.cs` file, we'll now add in a helper method that passes in a table, RowKey and PartitionKey to identify the message we want to delete.
 
@@ -46,7 +46,7 @@ static void DeleteMessage(CloudTable table, string partitionKey, string rowKey)
 
 In this example, we retrieve the message and then delete the entity.
 
-## Putting it all together.
+#### Putting it all together.
 
 The **Main** method inside of the `Program.cs` file, we'll call our helper method. 
 

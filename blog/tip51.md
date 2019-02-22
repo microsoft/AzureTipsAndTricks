@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 51 - Debug Azure Functions with Visual Studio Code"
+title: "Tip 51 - Debug Azure Functions with Visual Studio Code"
 excerpt: "Learn how to write local Azure Functions with Visual Studio Code"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-14 17:00:00
 ---
 
 
-## Debug Azure Functions with Visual Studio Code
+#### Debug Azure Functions with Visual Studio Code
 
 Yesterday, we looked at adding an Azure Function project to Visual Studio Code in this [post](http://www.michaelcrump.net/azure-tips-and-tricks50/). Today, we'll take that same app and look at debugging it locally. 
 

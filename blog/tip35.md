@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 35 - Work with the Azure Functions File System using the Console"
+title: "Tip 35 - Work with the Azure Functions File System using the Console"
 excerpt: "Learn how to quickly rename Azure functions using the Azure Portal Console"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-17 17:00:00
 ---
 
 
-## Work with the Azure Functions File System using the Console
+#### Work with the Azure Functions File System using the Console
 
 I debated writing this one, but have seen a lot of folks struggling with files and folders while using Azure Functions. The most common question being, "How do I rename my Function?" as shown below.
 

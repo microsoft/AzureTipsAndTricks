@@ -1,17 +1,17 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs"
+title: "Tip 25 - Use the Azure Resource Explorer to quickly explore REST APIs"
 excerpt: "Learn how to use the Azure Resource Explorer to quickly explore REST APIs"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-01 17:00:00
 ---
 
 
-## Intro
+#### Intro
 
 We've recently created a [web app](http://www.michaelcrump.net/azure-tips-and-tricks19/) and uploaded it to Azure App Service. We also took a look at [multiple ways](http://www.michaelcrump.net/azure-tips-and-tricks20/) to examine those files through the Azure portal interface and how we'd add [extensions](http://www.michaelcrump.net/azure-tips-and-tricks21/) and [deployment slots](http://www.michaelcrump.net/azure-tips-and-tricks22/) for our web app. We also took a look at a feature called [Testing in Production](http://www.michaelcrump.net/azure-tips-and-tricks23/) which allows us to distribute traffic between our production and other slots. We also looked at using [PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks24/) to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature. In this post, we'll continue exploring our web app with a feature called Azure Resource Explorer which will allow us to quickly explore REST APIs.  
 
-## Use the Azure Resource Explorer to quickly explore REST APIs
+#### Use the Azure Resource Explorer to quickly explore REST APIs
 
 The Azure Resource Manager allows you to explore (and learn) REST APIs in your Azure Subscription in a friendly fashion. If you log into your Azure account and go to your App Service that you created and look under **Development Tools** then you will see it. 
 
@@ -26,7 +26,7 @@ There is a navigation tree that you can click on to drill into the current web a
 <img :src="$withBase('/files/azureresourceexplorer3.gif')">
 
 **Note:** Keep in mind that you'll need to be in `Read\Write` mode to do this which can be found in the top panel by your name. 
-{: .notice--info}
+
 
 You can also perform a POST or DELETE on some resources as well as Create. There is documentation, but what is very interesting to me is the **PowerShell** and **CLI 2.0** options. If you click on **CLI 2.0** for a resource then you'll see the following. 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 70 - Key Phrase Extraction with Cognitive Service and Azure"
+title: "Tip 70 - Key Phrase Extraction with Cognitive Service and Azure"
 excerpt: "Learn how to access text analysis with Cognitive Service and Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-18 17:00:00
 ---
 
 
-## Key Phrase Extraction with Cognitive Service and Azure
+#### Key Phrase Extraction with Cognitive Service and Azure
 
 I recently took a look at Text Analysis that was introduced with Cognitive Services and is now inside the Azure portal. If you open the Azure portal and look for **AI and Cognitive Services** then you'll see the following:
 
@@ -32,7 +32,7 @@ https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/languages
 We'll use the  **keyPhrases** endpoint for learning purposes. 
 
 **What are Key Phrases?** They automatically extract key phrases to quickly identify the main points. 
-{: .notice--primary}
+
 
 Copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases` url into Postman and set the following three header properties:
 

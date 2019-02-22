@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 31 - Setting up Email Alerts with Azure App Services"
+title: "Tip 31 - Setting up Email Alerts with Azure App Services"
 excerpt: "Learn how to setup email alerts with Azure App Services"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-10 17:00:00
 ---
 
 
-## Setting up Email Alerts with Azure App Servicess
+#### Setting up Email Alerts with Azure App Servicess
 
 **Alerts** allows you to receive an alert based on monitoring metric for your Azure app services. You can be notified in a variety of ways such as the Azure Portal, Webhooks or Email. In this post, we'll setup an alert based on a 404 error message and send it via email. 
 
@@ -23,7 +23,7 @@ Here you'll see the following options:
 * Alert on Metric or Events - You can trigger an alert on some metric or an event. 
 
 **Metric vs. Event**  A metric would be something like "If we receive 5 or more Http Server Errors over the last 5 minutes then trigger an alert". An Event would be if something Started, Stopped, Deleted or all of the above happened with our App Service than trigger an alert. 
-{: .notice--info}
+
 
 Go ahead and select a resource and provide a **Name** and **Description** and select **Http 404** for the metric with the **Greater than** condition set for **O threshold** and **Over the last 5 minutes**. Go ahead and add a checkmark for the email and provide an additional email address as shown below. 
 

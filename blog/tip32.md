@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 32 - Using Application Insights with Azure App Service"
+title: "Tip 32 - Using Application Insights with Azure App Service"
 excerpt: "Learn how to setup Application Insights in an MVC application using Azure App Service"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-11 17:00:00
 ---
 
 
-## Using Application Insights with Azure App Service
+#### Using Application Insights with Azure App Service
 
 **Application Insights** is a simple way to detect and diagnose exceptions and application performance issues in your web apps and web services. In this blog post, I'll walk you through adding it to an ASP.NET MVC application. 
 

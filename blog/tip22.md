@@ -1,20 +1,20 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 22 - Deployment Slots for Web Apps using Azure App Service"
+title: "Tip 22 - Deployment Slots for Web Apps using Azure App Service"
 excerpt: "Learn how to use Deployment Slots for Web Apps using Azure App Service"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-24 17:00:00
 ---
 
 
-## Test Web Apps in Production with Azure App Service
+#### Test Web Apps in Production with Azure App Service
 
 We've recently created a [web app](http://www.michaelcrump.net/azure-tips-and-tricks19/) and uploaded it to Azure App Service. We also took a look at [multiple ways](http://www.michaelcrump.net/azure-tips-and-tricks20/) to examine those files through the Azure portal interface and how we'd add [extensions](http://www.michaelcrump.net/azure-tips-and-tricks21/) to our web apps. In this post, we'll take a look at using deployment slots for web apps. 
 
-### Creating Deployment Slot
+##### Creating Deployment Slot
 
 **Hold Up. What's a Deployment Slot?** Deployment slots let you deploy different versions of your web app to different URLs. You can test a certain version and then swap content and configuration between slots.
-{: .notice--info}
+
 
 Go to the Azure Portal and select my App Service and click on **Deployment Slots** under **Deployment** to get started. Then click on the **Add Slots** button. Give it a name such as `staging` then use an existing configuration source. We'll use our "production" web app. You know, the cool [quiz application](http://myquizapplication.azurewebsites.net/). 
 

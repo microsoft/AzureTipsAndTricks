@@ -1,15 +1,15 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 98 - Creating an Email Subscription with Azure Functions - Storing Emails"
+title: "Tip 98 - Creating an Email Subscription with Azure Functions - Storing Emails"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-26 17:00:00
 ---
 
-## Where are we?
+#### Where are we?
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
-{: .notice--info}
+
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
@@ -22,7 +22,7 @@ We're trying to build a Email Subscription similar to the following. If you want
 
 <img :src="$withBase('/files/emailsub1.png')">
 
-## Continuing where we left off
+#### Continuing where we left off
 
 We recently created a Visual Studio project that used the Azure Functions template. We used NuGet to pull in references to the following packages that we'll be working with shortly:
 
@@ -40,7 +40,7 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 `[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]`
 
 **Keep in mind:** You can use [output bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments. 
-{: .notice--info} 
+ 
 
 Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has a single field: 
 
@@ -129,7 +129,7 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 ```
 
 Keep in mind, you'll need to pull in your using references for the namespaces we added earlier.
-{: .notice--info} 
+ 
 
 **Block #1** is all about pulling in the POST data and checking to see if an email address is being sent. If it is, then it will send a summary of what fields are missing. 
 

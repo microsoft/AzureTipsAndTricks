@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 94 - Customize an Azure Functions Endpoint in Seconds"
+title: "Tip 94 - Customize an Azure Functions Endpoint in Seconds"
 excerpt: "Learn how to query an Azure Search Index using C#"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-12 17:00:00
 ---
 
 
-## Customize the Azure Functions endpoint
+#### Customize the Azure Functions endpoint
 
 This one tends to come up a lot and typically folks want to solve the following two problems. 
 

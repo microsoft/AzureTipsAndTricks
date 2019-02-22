@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 75 - Create an Azure Storage Blob Container through C#"
+title: "Tip 75 - Create an Azure Storage Blob Container through C#"
 excerpt: "Learn how to create an Azure Storage Blobs Container with C#"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-08 17:00:00
 ---
 
-## Create an Azure Storage Blob Container through C#
+#### Create an Azure Storage Blob Container through C#
 
 Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In this post, we'll take a look at creating an Azure Storage Blob container with C#. [Yesterday](http://www.michaelcrump.net/azure-tips-and-tricks74/), I described how to do it through the Azure Portal. 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 72 - Sentiment Analysis with Cognitive Service and Azure"
+title: "Tip 72 - Sentiment Analysis with Cognitive Service and Azure"
 excerpt: "Learn how to access text analysis such as sentiment analysis with Cognitive Service and Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-20 17:00:00
 ---
 
 
-## Sentiment Analysis with Cognitive Service and Azure
+#### Sentiment Analysis with Cognitive Service and Azure
 
 After reviewing the [Text Analysis API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview), I noticed three capabilities that I wanted to take a further look at: 
 
@@ -25,7 +25,7 @@ Select **Keys** and copy the value of KEY 1 if you don't already have this.
 
 <img :src="$withBase('/files/aicog3.png')">
 
-## Working with Sentiment Analysis and Postman
+#### Working with Sentiment Analysis and Postman
 
 We need an endpoint to begin calling the API, if you look at the **Overview** option inside your cognitive service, then you'll see the following: 
 
@@ -42,7 +42,7 @@ languages
 We want to use the **sentiment** endpoint for this tutorial. 
 
 **What is sentiment analysis?** Find out what customers think of your brand or topic by analyzing raw text for clues about positive or negative sentiment. This API returns a sentiment score between 0 and 1 for each document, where 1 is the most positive.
-{: .notice--primary}
+
 
 Copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment` url into Postman and set the following three header properties:
 

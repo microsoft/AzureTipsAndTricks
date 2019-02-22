@@ -1,15 +1,15 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 97 - Generate a Weekly Digest Email for a Blog using Azure Functions, SendGrid and Azure Storage"
+title: "Tip 97 - Generate a Weekly Digest Email for a Blog using Azure Functions, SendGrid and Azure Storage"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-25 17:00:00
 ---
 
-## Where are we?
+#### Where are we?
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
-{: .notice--info}
+
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
@@ -18,7 +18,7 @@ This blog post is part of a series on how to generate a weekly digest email for 
 * [Part 3 - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
 * [Part 4 - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
 
-## The Problem
+#### The Problem
 
 While reading a blog post, one of these popped up: 
 
@@ -34,7 +34,7 @@ Most companies offer you a certain number of subscribers for free, then you'll q
 
 Since I like to save a penny now and again and am aware that I have more subscribers that the free account offers (200), I decided to roll my own. But what would I need? 
 
-## My Requirements to roll my own
+#### My Requirements to roll my own
 
 My requirements for my version of creating an email subscription is the following: 
 
@@ -44,7 +44,7 @@ My requirements for my version of creating an email subscription is the followin
 * Code running in the cloud (1) on a schedule and (2) perform actions based on a POST request.
 * Visual Studio and C# as I'm well versed in them.
 
-## My Stack
+#### My Stack
 
 After poking around for a bit, I landed on the following:
 
@@ -54,7 +54,7 @@ After poking around for a bit, I landed on the following:
 * HTTP Trigger with Azure Functions to collect POST data coming from my website that contains the email address and subscription status that someone types in. 
 * Azure Functions supports Visual Studio tooling and the full .NET Framework. (in case, I want to use something outside of .NET Core)
 
-## Creating a SendGrid account
+#### Creating a SendGrid account
 
 Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for what I was trying to accomplish. 
 
@@ -62,7 +62,7 @@ Go to the **Azure Portal** and search services for **SendGrid** and create an ac
 
 Go to your SendGrid account once provisioned and click on **Manage** and it will bring you to [https://app.sendgrid.com/](https://app.sendgrid.com/). From the SendGrid portal, you are going to want to grab your API key. You can find it under **Settings**, then **API Keys**. Give your API Key a name and then give it **Full Access** and click **Create and View**. Now that you have your API Key, save it somewhere safe.
 
-## Creating an Azure Storage Table
+#### Creating an Azure Storage Table
 
 Go back to the Azure Portal and click **Create a Resource** and select **Azure Storage**. We'll keep it simple as shown below to get started. 
 
@@ -82,7 +82,7 @@ Go ahead and give the table a name that you'll remember and look under **Setting
 
 Now that we have our **SendGrid** account and our **Azure Storage Table** created. We can proceed. 
 
-## Open Visual Studio
+#### Open Visual Studio
 
 Create a C# Azure Function application by opening Visual Studio and selecting the template under the **Cloud** node as shown below:
 

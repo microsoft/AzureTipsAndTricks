@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server"
+title: "Tip 91 - Part 2 - Implementing Azure Search with SQL Server"
 excerpt: "Learn how to implement Azure Search with SQL Server"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-05 17:00:00
 ---
 
 
-## Implementing Azure Search with SQL Server and ASP.NET MVC
+#### Implementing Azure Search with SQL Server and ASP.NET MVC
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
@@ -15,7 +15,7 @@ In this series I'll cover Azure Search, SQL Server and putting it all together i
 * [This post - Part 2](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 
 
-## Implementing Azure Search
+#### Implementing Azure Search
 
 Yesterday, we learned that Azure Search is a search-as-a-service that allows you to search over your content using web, desktop or mobile apps. There is variety of services that you can attach Azure Search to, including SQL Server - which we covered yesterday. Today we'll walk through adding Azure Search to our existing SQL Server instance. 
 

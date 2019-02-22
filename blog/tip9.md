@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 9 - Quickly Connect to Windows VMs with RDP"
+title: "Tip 9 - Quickly Connect to Windows VMs with RDP"
 excerpt: "Learn how to quickly connect to Windows VMs using RDP"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-03 17:00:00

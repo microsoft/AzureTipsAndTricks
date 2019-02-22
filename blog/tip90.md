@@ -1,24 +1,24 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC"
+title: "Tip 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC"
 excerpt: "Learn how to implement search using SQL Server and ASP.NET MVC"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-03 17:00:00
 ---
 
 
-## Implementing Azure Search with SQL Server and ASP.NET MVC
+#### Implementing Azure Search with SQL Server and ASP.NET MVC
 
 Welcome to a new series, in this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. I'll be adding the post to this series below as I go:
 
 * [Part 1](http://www.michaelcrump.net/azure-tips-and-tricks90/)
 * [This post - Part 2](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 
-## What is it? 
+#### What is it? 
 
 Azure Search is a search-as-a-service cloud solution that allows you to access APIs (REST and an SDK) to search over your content using web, desktop or mobile apps. There is variety of services that you can attach Azure Search to, including SQL Server - which we'll cover in this tutorial. 
 
-## First Step - Creating the SQL Server Database that we'll place the indexer
+#### First Step - Creating the SQL Server Database that we'll place the indexer
 
 Go into the Azure Portal and search for SQL Server and click the Add button. 
 
@@ -29,9 +29,9 @@ Your screen should look like the following:
 <img :src="$withBase('/files/azuresearch1.jpg')">
 
 **Remember this!** Double check you selected the select **AdventureWorksLT** database if you want to follow along with this tutorial. 
-{: .notice--primary}
 
-## Take a look at the data
+
+#### Take a look at the data
 
 Now that we have a sample database and it has deployed, let's use **Query Editor** which is inside the SQL Server blade to take a look at the table structure. Note: You can also use [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) if you prefer it better. 
 

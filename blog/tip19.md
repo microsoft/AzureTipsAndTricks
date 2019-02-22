@@ -1,12 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 19 - Deploy an Azure Web App using only the CLI"
+title: "Tip 19 - Deploy an Azure Web App using only the CLI"
 excerpt: "Learn how to deploy an Azure Web App using only the CLI tools from scratch"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-20 17:00:00
 ---
 
 
+#### Deploy an Azure Web App using only the CLI
 While I love working with the Azure Portal or even Visual Studio, it is sometimes nice to do everything from the command line. While I'm a power Windows user, in this tutorial I'll be using a Linux VM and BASH to do everything. 
 
 Step 1) Ensure you have the following stack installed. 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 50 - Create an Azure Functions project with Visual Studio Code"
+title: "Tip 50 - Create an Azure Functions project with Visual Studio Code"
 excerpt: "Learn how to write local Azure Functions with Visual Studio Code"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-13 17:00:00
 ---
 
 
-## Create an Azure Functions project with Visual Studio Code
+#### Create an Azure Functions project with Visual Studio Code
 
 Visual Studio Code is the best thing since coffee for developers and if you pair it with Azure Functions... well, more awesome happens. In this post, we'll look at adding an Azure Function project to Visual Studio Code. 
 

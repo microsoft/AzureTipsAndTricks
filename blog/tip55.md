@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 55 - Use .NET Core WebAPI and Docker Compose"
+title: "Tip 55 - Use .NET Core WebAPI and Docker Compose"
 excerpt: "Learn how to use a .NET Core WebAPI Project and Docker Compose"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-21 17:00:00
 ---
 
 
-## Use .NET Core WebAPI and Docker Compose
+#### Use .NET Core WebAPI and Docker Compose
 
 How hard do you think it is to:
 
@@ -17,7 +17,7 @@ How hard do you think it is to:
 
 In this mini-series, we'll build on each part starting with creating and publishing a .NET Core WebAPI project. Today, we'll use Docker Compose to create an image and push it to Docker Cloud and we'll wrap up by deploying it to Azure using [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/). 
 
-## Use .NET Core WebAPI and Docker Compose
+#### Use .NET Core WebAPI and Docker Compose
 
 Now that we have [created and published a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/), we'll resume by using Docker Compose to create an image. 
 
@@ -27,12 +27,12 @@ Think of this as three steps:
 2.) We need a docker-compose.yml file to pass to the Docker Compose Command
 3.) We need to run the Docker Compose command. 
 
-## Step 1
+#### Step 1
 
 Let's begin by creating a Dockerfile. 
 
 **What is a DockerFile?**  It is simply a text file containing the instructions needed to create a new container image. These instructions include identification of an existing image to be used as a base, commands to be run during the image creation process, and a command that will run when new instances of the container image are deployed. In other words, this file defines your app’s environment so it can be reproduced anywhere.
-{: .notice--info}
+
 
 Copy and paste the following and name it `Dockerfile` without an extension and place it in the same folder as your source code. 
 
@@ -52,12 +52,12 @@ Let's go over the main instructions:
 * The COPY instruction provides where it is going to pull the final release from
 * The ENTRYPOINT instruction provides the entry point into the application and in our case, we specify the release .dll. 
 
-## Step 2
+#### Step 2
 
 We need a docker-compose.yml file to pass to the Docker Compose Command
 
 **What is docker-compose.yml?**  This file defines the services that make up your app so they can be run together in an isolated environment.
-{: .notice--info}
+
 
 ```text
 version: '3'
@@ -75,9 +75,9 @@ Let's go over the main instructions:
 When composing this Docker image, we will use the `mbcwebapi` project and build an image called `mbcrump/mbcwebapi`. We'll set the context to look in the `./mbcwebapi` folder and there it will find the `Dockerfile`. 
 
 **Note:**  Please note that the image name `mbcrump/mbcwebapi` was based my Docker username and then the app name. If you don't have a Docker account, then you probably want to create one now. 
-{: .notice--info}
 
-## Step 3
+
+#### Step 3
 
 We need to simply run `docker-compose up` and Docker Compose will start and run your entire app.
 
@@ -120,7 +120,7 @@ mbcwebapi_1  | Application started. Press Ctrl+C to shut down.
 
 Excellent! We now have a ASP.NET WebAPI project living inside a Docker Container that we can push to Docker Hub. 
 
-## Push to Docker Cloud
+#### Push to Docker Cloud
 
 Login to [Docker Cloud](https://cloud.docker.com) and create a repository. In my case, I used `mbcrump/mbcwebapi` just like in the docker-compose.yml example earlier. 
 

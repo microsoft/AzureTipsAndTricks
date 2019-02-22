@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 73 - Send Emails through Azure with C# and SendGrid"
+title: "Tip 73 - Send Emails through Azure with C# and SendGrid"
 excerpt: "Learn how to send emails through Azure with C# and SendGrid"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-03 17:00:00
 ---
 
-## Send Emails through Azure with C# and SendGrid
+#### Send Emails through Azure with C# and SendGrid
 
 In this post, I'll walk through the process that I completed to create an account with SendGrid and send an email with C#.
 
@@ -27,7 +27,7 @@ Give your API Key a name and then give it **Full Access** and click **Create and
 <img :src="$withBase('/files/sendgrid4.png')">
 
 **Remember this!** Copy this key somewhere safe as we'll be using it again shortly!
-{: .notice--primary}
+
 
 Now that you have your API Key, open Visual Studio and create a new Console Application. (Keep in mind this could be an Azure Function for example). You'll need to add in the **Sendgrid** NuGet package (which you can do from Manage NuGet packages). 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 47 - Creating a Container Image with Docker"
+title: "Tip 47 - Creating a Container Image with Docker"
 excerpt: "Learn how to create a container image with Docker"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-07 17:00:00
 ---
 
 
-## Containers for the rest of us
+#### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
@@ -16,7 +16,7 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 * [Today - Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 * [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 
-## Create an app to run inside a Container Image with Docker
+#### Create an app to run inside a Container Image with Docker
 
 Let's continue where we [left off](http://www.michaelcrump.net/azure-tips-and-tricks46/) in our last post, which showed how to use an image from the Docker Store as our base and create our own console app. In this post, we'll create a new image that we can distribute that contains our new app. 
 

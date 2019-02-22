@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application"
+title: "Tip 68 - Access Cosmos DB through a .NET Application"
 excerpt: "Learn how to access Cosmos DB through a .NET Application"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-13 17:00:00
 ---
 
 
-## Access Cosmos DB through a .NET Application
+#### Access Cosmos DB through a .NET Application
 
 I use .NET to access my Cosmos DB instance a lot and typically before spinning up an ASP.NET MVC application (for instance), I use a console application to explore objects and play with different settings. In this brief walkthrough, I'll show you how I access it and provide a "template" that you can use for your own explorations. Keep in mind that this is just how I work with Cosmos DB, you may have a different (or better) way. 
 
@@ -42,7 +42,7 @@ You can go to **Data Explorer** for the following pieces:
 
 Now that your `app.config` is setup properly, you'll need to make minor tweaks to the code, unless you are using the data that I used in my [earlier post](tip66/).
 
-## Walking through the demo application
+#### Walking through the demo application
 
 We declare each value as a string that we can later use as well as instantiate your DocumentClient object. 
 
@@ -77,7 +77,7 @@ Console.Read();
 ```
 
 **Why did you use Dynamic?** I used a dynamic type because the structure of your collection will be different everytime. It would be best to stub out a class and add properties for each field in your collection. There are example online of how to do that. 
-{: .notice--primary}
+
 
 
 In this instance, I am just displaying all the book of the Bible. 

@@ -1,12 +1,13 @@
 ---
 type: post
-title: "Working with Files in Azure App Service"
+title: "Tip 20 - Working with Files in Azure App Service"
 excerpt: "Learn how to work with files that you've uploaded to Azure App Service"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-21 17:00:00
 ---
 
 In the [last post](http://www.michaelcrump.net/azure-tips-and-tricks19/), we created a web app and uploaded it to Azure App Service. In this post, we'll take a look at the files uploaded and three tools that I use to work with them
+
 
 I can go to the Azure Portal and select my App Service and click on **Console** under **Development Tools** to have a command prompt to quickly work with my Azure App Service. 
 
@@ -44,7 +45,7 @@ I can do basic commands here and even use `type <filename>` to parse the output 
 
 
 
-### A VS Code experience to my App Service
+##### A VS Code experience to my App Service
 
 There is also another option that is called "**App Service Editor**" located just two items down from **"Console"** that you picked before. 
 
@@ -58,7 +59,7 @@ Just like in VS Code, you can modify your settings and even change your theme.
 
 <img :src="$withBase('/files/vscodechangetheme.png')">
 
-### Kudu Diagnostic Console
+##### Kudu Diagnostic Console
 
 No App Service tutorial is complete without mentioning Kudu Diagnostic Console. You can access it from within the **App Service Editor** under **your app name** -> **Open Kudu Console** or through the portal under **Advanced Tools**. 
 

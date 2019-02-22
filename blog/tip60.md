@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 60 - Use Visual Studio 2017 with Docker Support"
+title: "Tip 60 - Use Visual Studio 2017 with Docker Support"
 excerpt: "Learn how to use Visual Studio 2017 with Docker Support"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-29 17:00:00
 ---
 
 
-## Intro
+#### Intro
 
 I've recently covered a variety of Docker topics including:
 
@@ -19,7 +19,7 @@ I've recently covered a variety of Docker topics including:
 
 One topic that keep coming up is how do you use Visual Studio 2017 with Docker support. If you go back and read [this post](tip55/), then  you'll see that I did everything manually on my mac, but Visual Studio 2017 makes this much easier. Let's take a look. 
 
-## Use Visual Studio 2017 with Docker Compose
+#### Use Visual Studio 2017 with Docker Compose
 
 Before we begin, make sure you have [Docker for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed. 
 
@@ -50,7 +50,7 @@ This project is going to run docker-compose to create our image and is the defau
 <img :src="$withBase('/files/azurevsdoc4.png')">
 
 **Keep it Simple** This project takes care of steps 2 and 3 that we performed manually before.  
-{: .notice--info}
+
 
 **A ASP.NET WebAPI project**
 
@@ -110,7 +110,7 @@ At this point, it has spun up a localhost and started our site.
 <img :src="$withBase('/files/azurevsdoc8.png')">
 
 
-## We can now push the image to Docker Cloud
+#### We can now push the image to Docker Cloud
 
 Head back to the command prompt and enter: 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 96 - Getting up and started with Azure IoT MXChip"
+title: "Tip 96 - Getting up and started with Azure IoT MXChip"
 excerpt: "Learn how to get up and running with Azure IoT MXChip"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-21 17:00:00
 ---
 
 
-## Getting up and running with Azure IoT MXChip
+#### Getting up and running with Azure IoT MXChip
 
 I recently was given an Azure IoT DevKit that included the new [MXChip](http://mxchip.com/az3166). The chip is very impressive and while it supports a lot of amazing features, the following caught my eyes:
 

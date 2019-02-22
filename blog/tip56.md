@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 56 - Deploy a .NET Core WebAPI Project to Web App for Containers"
+title: "Tip 56 - Deploy a .NET Core WebAPI Project to Web App for Containers"
 excerpt: "Learn how to use deploy a .NET Core WebAPI Project to Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-22 17:00:00
 ---
 
 
-## Use .NET Core WebAPI and Docker Compose
+#### Use .NET Core WebAPI and Docker Compose
 
 How hard do you think it is to:
 
@@ -17,7 +17,7 @@ How hard do you think it is to:
 
 In this mini-series, we'll build on each part starting with creating and publishing a .NET Core WebAPI project. Yesterday, we used Docker Compose to create an image and push it to Docker Cloud and we'll wrap up today by deploying it to Azure using [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/). 
 
-## Deploy a .NET Core WebAPI Project to Web App for Containers
+#### Deploy a .NET Core WebAPI Project to Web App for Containers
 
 Remember [yesterday](http://www.michaelcrump.net/azure-tips-and-tricks55/), how we pushed our Docker Image to Docker Cloud? As a reminder, we created a repository in Docker Cloud and headed back to our command prompt (or terminal) and ran the following commands: 
 

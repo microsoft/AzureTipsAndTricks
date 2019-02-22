@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 58 - Continuous Deployment with Docker and Web App for Containers"
+title: "Tip 58 - Continuous Deployment with Docker and Web App for Containers"
 excerpt: "Learn how to setup continuous deployment with Docker and Web App for Containers"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-27 17:00:00
 ---
 
 
-## Continuous Deployment with Docker and Web App for Containers
+#### Continuous Deployment with Docker and Web App for Containers
 
 To recap, last week I used [Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks55/) to create an image using our existing [ASP.NET WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/). Yesterday, I explained the difference between [Docker Registry and Docker Repository](http://www.michaelcrump.net/azure-tips-and-tricks57/) and today, I'll cover setting up Continuous Deployment with Docker and Web App for Containers. 
 
@@ -16,7 +16,7 @@ Navigate back to the Web App for Container service [we recently created](tip56/)
 <img :src="$withBase('/files/dockercd1.png')">
 
 **Note** If you want to verify CD is setup correctly, go to your **Application Settings** and under **App Settings**, you'll see `DOCKER_ENABLE_CI` has been set to true. 
-{: .notice--primary}
+
 
 Navigate back over to [Docker Hub](https://hub.docker.com/r/mbcrump/mbcwebapi/) and navigate to your repository. You'll see **Web Hooks** and want to add the URL that you copied earlier. 
 

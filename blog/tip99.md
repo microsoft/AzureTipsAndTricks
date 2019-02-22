@@ -1,15 +1,15 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 99 - Creating an Email Subscription with Azure Functions - Writing the Frontend"
+title: "Tip 99 - Creating an Email Subscription with Azure Functions - Writing the Frontend"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-27 17:00:00
 ---
 
-## Where are we?
+#### Where are we?
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
-{: .notice--info}
+
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
@@ -22,7 +22,7 @@ We're trying to build a Email Subscription similar to the following. If you want
 
 <img :src="$withBase('/files/emailsub1.png')">
 
-## Writing the frontend
+#### Writing the frontend
 
 In our last post, we left off by creating an Azure Function that had the ability to accept a POST request and store data using Azure Table Storage for our email address. While this works great in something like Postman, we need to create a way to allow a user to interact with it.
 
@@ -38,18 +38,18 @@ If you click it, then copy and paste the Function url as you'll use that later.
 
 <img :src="$withBase('/files/emailsub10.png')">
 
-## Dealing with CORS
+#### Dealing with CORS
 
 While we're in the portal, click on your Azure Function and under **Platform Features**, you'll see **API** and then **CORS**. 
 
 Cross-Origin Resource Sharing (CORS) allows JavaScript code running in a browser on an external host to interact with your backend. 
-{: .notice--info} 
+ 
 
 Since we'll be moving this to a web host shorly, you'll want to specify your domain name. Here is mine:
 
 <img :src="$withBase('/files/emailsub11.png')">
 
-## Finally, the frontend. 
+#### Finally, the frontend. 
 
 Create a new .HTML page anywhere and begin by adding the following code:
 

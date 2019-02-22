@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 64 - Using a different route prefix with Azure Functions"
+title: "Tip 64 - Using a different route prefix with Azure Functions"
 excerpt: "Learn how to use a different route prefix with Azure Function"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-06 17:00:00
 ---
 
 
-## Using a different route prefix with Azure Functions
+#### Using a different route prefix with Azure Functions
 
 Sometimes you have the requirement to use a different route prefix than the one that Azure Functions auto-generates
 

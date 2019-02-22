@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 52 - Deploy Azure Functions with Visual Studio Code"
+title: "Tip 52 - Deploy Azure Functions with Visual Studio Code"
 excerpt: "Learn how to deploy Azure Functions with Visual Studio Code"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-15 17:00:00
 ---
 
 
-## Deploy Azure Functions with Visual Studio Code
+#### Deploy Azure Functions with Visual Studio Code
 
 We previously looked at adding an Azure Function project to Visual Studio Code in this [post](http://www.michaelcrump.net/azure-tips-and-tricks50/) and then we looked at [debugging it locally](http://www.michaelcrump.net/azure-tips-and-tricks50/). In this post, we'll wrap up this mini-series by deploying Azure Functions to Azure directly.
 

@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 80 - Adding Metadata to a file inside Azure Storage Blob Container"
+title: "Tip 80 - Adding Metadata to a file inside Azure Storage Blob Container"
 excerpt: "Learn how to add metadata to a file inside Azure Storage Blob Container"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-16 17:00:00
 ---
 
-## Adding Metadata to a file inside Azure Storage Blob Container
+#### Adding Metadata to a file inside Azure Storage Blob Container
 
 We've reviewed the following options with Azure Storage so far:
 
@@ -21,7 +21,7 @@ We've reviewed the following options with Azure Storage so far:
 Today, we are going to look at setting user-defined metadata to a file inside an Azure Storage Blob Container via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](http://www.michaelcrump.net/azure-tips-and-tricks75/). If you want to start from this post, then use the code located [here](https://github.com/mbcrump/azurestorage).
 
 **What is User-defined metadata?** [User-defined metadata](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-properties-metadata) is metadata that you specify on a given resource in the form of a name-value pair. You can use metadata to store additional values with a storage resource. These additional metadata values are for your own purposes only, and do not affect how the resource behaves.*(courtesy of docs)*
-{: .notice--info}
+
 
 If you look below, you will notice that there is a way to do this inside the portal. 
 

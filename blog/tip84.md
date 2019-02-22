@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 84 - Reading an item from an Azure Storage Table"
+title: "Tip 84 - Reading an item from an Azure Storage Table"
 excerpt: "Learn how to read an item from an Azure Storage Table"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-23 17:00:00
 ---
 
-## Adding an item to a Azure Storage Table
+#### Adding an item to a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
@@ -17,14 +17,14 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 
 Today, we'll be taking a look at reading an item through code that we previously placed into an Azure Storage Table. 
 
-## Getting Started
+#### Getting Started
 
 Open the C# Console application that we were working with [yesterday](http://www.michaelcrump.net/azure-tips-and-tricks83/) and let's add two methods to:
 
 * Return all messages in a table
 * Lookup a message based off of the RowKey and PartitionKey 
 
-## Return all messages in a table
+#### Return all messages in a table
 
 In our `Program.cs` file, we'll now add in a helper method to return all messages in a given table. 
 
@@ -46,7 +46,7 @@ In our `Program.cs` file, we'll now add in a helper method to return all message
 
 In this example, we'll pass in the given table name and passed on the PartitionKey it will return all messsages. In this example, we  ***hardcoded*** the value to be "ThanksApp". 
 
-## Lookup a message based off of the RowKey and PartitionKey  
+#### Lookup a message based off of the RowKey and PartitionKey  
 
 Again in our `Program.cs` file, we'll now add another helper method to return a message based off of the RowKey and PartitionKey that we supply. 
 
@@ -63,7 +63,7 @@ static void GetMessage(CloudTable table, string partitionKey, string rowKey)
 
 In this example, we'll pass in the table name, a partition key and a row key to return a message. 
 
-## Putting it all together
+#### Putting it all together
 
 The **Main** method inside of the `Program.cs` file just needs to call the methods as shown below:
 

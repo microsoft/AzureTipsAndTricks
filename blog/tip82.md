@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 82 - Creating your first Azure Storage Table"
+title: "Tip 82 - Creating your first Azure Storage Table"
 excerpt: "Learn how to creating your first Azure Storage Table"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-21 17:00:00
 ---
 
-## Creating your first Azure Storage Table
+#### Creating your first Azure Storage Table
 
 In case you are new to the Azure Storage, we've reviewed the following options so far:
 
@@ -26,13 +26,13 @@ In case you are new to the Azure Storage, we've reviewed the following options s
 While we've been working with Azure Storage Blobs and Files, we'll switch this week to taking a look at Azure Storage Tables. 
 
 **What is Azure Storage Tables?** They are a NoSQL key-value store for rapid development using massive semi-structured datasets*
-{: .notice--info}
+
 
 As a refresher, Azure Storage Blobs can store any type of text or binary data, such as a document, media file, or application installer. Blob storage is also referred to as object storage.
 
 So to recap, think of Azure Storage Tables as key-value data set that you can query vs. Azure Storage Blobs which are typically files. 
 
-## Getting Started
+#### Getting Started
 
 Go ahead and open the Azure Portal and click **Create a Resource** and select **Azure Storage**. We'll keep it simple as shown below to get started. 
 

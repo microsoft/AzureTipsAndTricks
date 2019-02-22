@@ -1,18 +1,19 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 15 - Underlying Software in Azure Cloud Shell"
+title: "Tip 15 - Underlying Software in Azure Cloud Shell"
 excerpt: "Learn about some of the software found inside a Azure Cloud Shell instance"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-12 17:00:00
 ---
 
-## Underlying Software in Azure Cloud Shell
+#### Underlying Software in Azure Cloud Shell
+
 
 When you spin up an Azure Cloud Shell, it create a container that contains things such the OS and other runtimes. By default you get Linux, Node.js and more (covered later). The storage account setup the first time you use Cloud Shell then persist data (like shell scripts, SSH keys, etc.) that you can use once you are connected to the container. It also persist things automatically such as your `.bash_history` and stores your Azure authentication token in `./azure/accessTokens.json`. 
 
 With that information, let's see what is under the hood. Spin up your Azure Cloud Shell now!
 
-### Host Operating System
+##### Host Operating System
 
 The container that your Azure Cloud Shell instance is running in is Ubuntu Linux. You can gather additional information about the release with the following commands. 
 
@@ -35,7 +36,7 @@ Things like `arch` gives you architecture information
 	michael@Azure:~$ arch
 	x86_64
 
-## You have access to typical Linux apps
+#### You have access to typical Linux apps
 
 You can type `man` for access to the manual. 
 
@@ -49,7 +50,7 @@ You have access to vim, nano and other editors.
 <img :src="$withBase('/files/azuretip15.gif')">
 
 
-### Additional Software Installed in Cloud Shell
+##### Additional Software Installed in Cloud Shell
 
 The container also contains things like Git, Python, Node.js, .NET Core. You can test this by the following commands: 
 

@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 71 - Language Detection with Cognitive Service and Azure"
+title: "Tip 71 - Language Detection with Cognitive Service and Azure"
 excerpt: "Learn how to access text analysis such as language detection with Cognitive Service and Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-19 17:00:00
 ---
 
 
-## Language Detection with Cognitive Service and Azure
+#### Language Detection with Cognitive Service and Azure
 
 After reviewing the [Text Analysis API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview), I noticed three capabilities that I wanted to take a further look at: 
 
@@ -25,7 +25,7 @@ Select **Keys** and copy the value of KEY 1 if you don't already have this.
 
 <img :src="$withBase('/files/aicog3.png')">
 
-## Working with Language Detection and Postman
+#### Working with Language Detection and Postman
 
 We need an endpoint to begin calling the API, if you look at the **Overview** option inside your cognitive service, then you'll see the following: 
 
@@ -42,7 +42,7 @@ languages
 We want to use the **languages** endpoint for this tutorial. 
 
 **What are languages?** This feature detects which language the input text is written in and report a single language code for every document submitted on the request. The language code is paired with a score indicating the strength of the score.
-{: .notice--primary}
+
 
 Copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/languages` url into Postman and set the following three header properties:
 

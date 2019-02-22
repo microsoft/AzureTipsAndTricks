@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 54 - Getting a .NET Core WebAPI Project Ready for Docker"
+title: "Tip 54 - Getting a .NET Core WebAPI Project Ready for Docker"
 excerpt: "Learn how to get a .NET Core WebAPI Project ready for docker"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-20 17:00:00
 ---
 
 
-## Getting a .NET Core WebAPI Project Ready for Docker
+#### Getting a .NET Core WebAPI Project Ready for Docker
 
 How hard do you think it is to:
 
@@ -17,7 +17,7 @@ How hard do you think it is to:
 
 In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers. 
 
-## Create a .NET Core WebAPI Project
+#### Create a .NET Core WebAPI Project
 
 Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows) is installed and then follow the direction below: 
 
@@ -53,7 +53,7 @@ Add `http://localhost:5000/api/values` to see a response from the WebAPI, otherw
 
 You should see `["value1","value2"]`. Nice! It is working properly!
 
-## Publish the .NET Core WebAPI
+#### Publish the .NET Core WebAPI
 
 The `dotnet publish` command packs the application and its dependencies into a folder for deployment to a hosting system. We are going to prep our project for Docker, so use `dotnet publish -c Release -o ./obj/Docker/publish`. 
 

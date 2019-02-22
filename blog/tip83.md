@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 83 - Adding an item to a Azure Storage Table"
+title: "Tip 83 - Adding an item to a Azure Storage Table"
 excerpt: "Learn how to add an item to a Azure Storage Table"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-22 17:00:00
 ---
 
-## Adding an item to a Azure Storage Table
+#### Adding an item to a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
@@ -18,9 +18,9 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 Today, we'll be taking a look at adding an item to the Azure Storage Table that we were working with yesterday. 
 
 As a refresher, Azure Storage Blobs can store any type of text or binary data, such as a document, media file, or application installer. Blob storage is also referred to as object storage.
-{: .notice--info}
 
-## Getting Started
+
+#### Getting Started
 
 Open the C# Console application that we were working with [previously](http://www.michaelcrump.net/azure-tips-and-tricks82/) and let's add a folder called **Entities** and add a class named **Thanks**.
 

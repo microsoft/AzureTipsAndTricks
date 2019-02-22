@@ -1,12 +1,12 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 89 - Shared Access Tokens with Azure Storage Blob Containers"
+title: "Tip 89 - Shared Access Tokens with Azure Storage Blob Containers"
 excerpt: "Learn how to create shared access tokens with Azure Storage Blob Containers"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-31 17:00:00
 ---
 
-## Shared Access Tokens with Azure Storage Blob Containers
+#### Shared Access Tokens with Azure Storage Blob Containers
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items so far:
 
@@ -19,11 +19,11 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [What's the purpose of ETag in Azure Storage Table?](http://www.michaelcrump.net/azure-tips-and-tricks88/)
 * [Shared Access Tokens with Azure Storage Blob Containers](http://www.michaelcrump.net/azure-tips-and-tricks89/)
 
-## What is it? 
+#### What is it? 
 
 A shared access signature (or you may hear SAS) provides delegated access to resources in your storage account. With a SAS, you can grant  access to resources in your storage account, without sharing your master account keys. In other words, a SAS is a secure way to share your storage resources without compromising your account keys.
 
-## A Practical Example 
+#### A Practical Example 
 
 Let's say that I have a image that is stored in an Azure Storage Blob Container with the endpoint of [https://mbcrumpsa.blob.core.windows.net/images/mikepic.png](https://mbcrumpsa.blob.core.windows.net/images/mikepic.png). 
 

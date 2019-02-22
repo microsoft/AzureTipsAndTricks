@@ -1,13 +1,13 @@
 ---
 type: post
-title: "Azure Tips and Tricks Part 37 - Parse Emails to be used in a Azure Logic Apps"
+title: "Tip 37 - Parse Emails to be used in a Azure Logic Apps"
 excerpt: "Learn how to parse email output and use it with Azure Logic Apps"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-22 17:00:00
 ---
 
 
-## My Scenario - Tracking Run Data
+#### My Scenario - Tracking Run Data
 
 I thought I'd use this week's Tip and Tricks series to show a practical example of how I am using Azure. I've started running outdoors and would like to extract several links that my app generates via email and send them to my OneDrive account automatically vs doing it manually after each run. I'm also concerned that the app that generates my data may be abandoned one day. In order to secure my data, I used a combination of [Zappier.com](http://www.zapier.com) and [Azure](http://www.azure.com) to solve my problem and over the course of this week, we'll cover the following sections needed in order to implement this: 
 
@@ -17,7 +17,7 @@ I thought I'd use this week's Tip and Tricks series to show a practical example 
 * [Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
 
 
-## Parse Emails to be used in a Azure Logic Apps
+#### Parse Emails to be used in a Azure Logic Apps
 
 Once a run is complete, the app that I use (Runmeter) generates an email with a link to the run data (GPX, CSV, KML File) in the following format: 
 
