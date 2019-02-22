@@ -156,8 +156,8 @@ module.exports = {
 			{ text: 'eBooks', link: 'http://ebook.azuredev.tips' },
 			{ text: 'Questions?', link: 'http://github.com/microsoft/azuretipsandtricks/issues' },
 			{ text: 'RSS Feed', link: '/rss.xml/' }
-		],
-		logo: '/vuepress-blog-logo.png'
+		]//,
+	//	logo: '/vintage.png'
 	},
 	plugins: [
 		[
