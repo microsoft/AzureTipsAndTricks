@@ -153,7 +153,7 @@ module.exports = {
 			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
 			{ text: 'eBooks', link: 'http://ebook.azuredev.tips' },
 			{ text: 'Questions?', link: 'http://github.com/microsoft/azuretipsandtricks/issues' },
-			{ text: 'RSS Feed', link: '/rss.xml/' }
+			{ text: 'RSS Feed', link: 'https://microsoft.github.io/AzureTipsAndTricks/rss.xml' }
 		]//,
 	//	logo: '/vintage.png'
 	},
