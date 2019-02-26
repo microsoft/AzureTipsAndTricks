@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Part 1 - Use Keyboard Shortcuts in the Azure Portal"
+title: "Tip 1 - Use Keyboard Shortcuts in the Azure Portal"
 excerpt: "Learn how to use developer keyboard shortcuts for use in the Azure Portal"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-20 17:00:00

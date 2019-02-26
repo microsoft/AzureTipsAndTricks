@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Part 6 - Add and Reorder Favorites in the Azure Dashboard"
+title: "Tip 6 - Add and Reorder Favorites in the Azure Dashboard"
 excerpt: "Learn how to add and reorder favorites in the Azure dashboard"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-28 17:00:00

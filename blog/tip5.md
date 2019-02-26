@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Part 5 - Custom Tile Sizes in the Azure Dashboard"
+title: "Tip 5 - Custom Tile Sizes in the Azure Dashboard"
 excerpt: "Learn how some tiles support custom sizes in the Azure dashboard"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-27 17:00:00

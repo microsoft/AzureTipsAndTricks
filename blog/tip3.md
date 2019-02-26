@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Part 3 - Drag Tiles to customize your Azure Dashboard"
+title: "Tip 3 - Drag Tiles to customize your Azure Dashboard"
 excerpt: "Learn how to quickly drag and customize tiles in the Azure Portal"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-22 17:00:00
