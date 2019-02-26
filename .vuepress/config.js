@@ -3,15 +3,13 @@ const currentDateUTC = new Date().toUTCString()
 module.exports = {
 	title: 'Azure Tips and Tricks',
 	dest: './public',
-	port: 8097,
-	base: '/azpagetest/',
+	base: '/AzureTipsAndTricks/',
     markdown: {
         lineNumbers: true
       },
 	themeConfig: {
 		displayAllHeaders: true,
 		sidebar: 'auto',
-		footer: 'MIT Licensed | Created by @mbcrump',
 		searchMaxSuggestions: 10, 
 		repo: 'microsoft/azuretipsandtricks',
 		repoLabel: 'Contribute',
@@ -176,7 +174,7 @@ module.exports = {
 			'vuepress-plugin-rss',
 			{
 				base_url: '/',
-				site_url: 'https://mbcrump.github.io/azpagetest',
+				site_url: 'https://microsoft.github.io/AzureTipsAndTricks',
             	copyright: '2019 Microsoft',
 				filter: frontmatter => frontmatter.date <= new Date(currentDateUTC),
 				count: 20
