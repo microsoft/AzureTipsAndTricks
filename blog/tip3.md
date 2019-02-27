@@ -6,6 +6,7 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-22 17:00:00
 ---
 
+#### Drag Tiles to customize your Azure Dashboard
 
 You are probably aware that you can press the "Edit" button on your dashboard to begin customizing your Azure dashboard :
 

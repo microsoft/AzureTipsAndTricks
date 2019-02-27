@@ -6,6 +6,7 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-20 17:00:00
 ---
 
+#### Azure Portal Keyboard Shortcuts
 
 Developers love keyboard shortcuts and there are plenty keyboard shortcuts in the Azure platform. You can see a list by going to Help and then Keyboard Shortcuts in the portal as shown below. 
 
