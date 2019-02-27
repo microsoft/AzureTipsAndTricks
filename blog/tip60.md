@@ -109,7 +109,6 @@ At this point, it has spun up a localhost and started our site.
 
 <img :src="$withBase('/files/azurevsdoc8.png')">
 
-
 #### We can now push the image to Docker Cloud
 
 Head back to the command prompt and enter: 

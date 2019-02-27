@@ -32,6 +32,4 @@ This is accomplished by both Bob and David storing the ETag from when the record
 
 If you don't care that David's changes may overwrite Bob's changes, then you can pass "*" with the save and Azure won't give an error when the ETag does not match.
 
-*** Original credit goes to Michael Lang for this example, I've made minor tweaks to help folks understand it better. ***
-
-#### Wrap-up
+_Original credit goes to Michael Lang for this example, I've made minor tweaks to help folks understand it better._

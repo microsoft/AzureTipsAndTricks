@@ -13,7 +13,7 @@ When you spin up an Azure Cloud Shell, it create a container that contains thing
 
 With that information, let's see what is under the hood. Spin up your Azure Cloud Shell now!
 
-##### Host Operating System
+#### Host Operating System
 
 The container that your Azure Cloud Shell instance is running in is Ubuntu Linux. You can gather additional information about the release with the following commands. 
 
@@ -50,7 +50,7 @@ You have access to vim, nano and other editors.
 <img :src="$withBase('/files/azuretip15.gif')">
 
 
-##### Additional Software Installed in Cloud Shell
+#### Additional Software Installed in Cloud Shell
 
 The container also contains things like Git, Python, Node.js, .NET Core. You can test this by the following commands: 
 

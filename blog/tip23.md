@@ -11,7 +11,7 @@ date: 2017-09-25 17:00:00
 
 We've recently created a [web app](http://www.michaelcrump.net/azure-tips-and-tricks19/) and uploaded it to Azure App Service. We also took a look at [multiple ways](http://www.michaelcrump.net/azure-tips-and-tricks20/) to examine those files through the Azure portal interface and how we'd add [extensions](http://www.michaelcrump.net/azure-tips-and-tricks21/) and [deployment slots](http://www.michaelcrump.net/azure-tips-and-tricks22/) for our web app. In this post, we'll look at a feature called `Testing in Production` which isn't as scary as it sounds.  
 
-##### Testing Web Apps in Production with Azure App Service
+#### Testing Web Apps in Production with Azure App Service
 
 **Hold up!** You'll want to take a look at the [deployment slots](http://www.michaelcrump.net/azure-tips-and-tricks22/) post if you haven't worked with deployment slots before. 
 
