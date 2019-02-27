@@ -1,8 +1,6 @@
 ---
-#home: true
 title: Welcome
 type: post
-footer: MIT Licensed | Created by @mbcrump
 ---
 
 # Welcome
