@@ -28,6 +28,11 @@ module.exports = {
 				collapsable: false
 			},
 			{
+				title: 'Recently Added',
+				collapsable: true,
+				children: ['/blog/tip184', '/blog/tip183'	]
+			},
+			{
 				title: 'AzCopy',
 				collapsable: true,
 				children: ['/blog/tip81', 
@@ -39,7 +44,7 @@ module.exports = {
 				children: [ '/blog/tip16', '/blog/tip20', '/blog/tip21', '/blog/tip22', '/blog/tip23', '/blog/tip26', '/blog/tip27', '/blog/tip28', '/blog/tip29', '/blog/tip30', '/blog/tip31', '/blog/tip32', '/blog/tip33', 
 				'/blog/tip101','/blog/tip102','/blog/tip103','/blog/tip104','/blog/tip105','/blog/tip107','/blog/tip108','/blog/tip109','/blog/tip110',
 				'/blog/tip112', '/blog/tip113', '/blog/tip117', '/blog/tip119', '/blog/tip132', '/blog/tip143', 
-				'/blog/tip144', '/blog/tip149'	]
+				'/blog/tip144', '/blog/tip149', '/blog/tip184'	]
 			},
 			{
 				title: 'CLI',
@@ -115,7 +120,7 @@ module.exports = {
 			{
 				title: 'Productivity',
 				collapsable: true,
-				children: [ '/blog/tip18','/blog/tip25','/blog/tip115','/blog/tip128','/blog/tip150','/blog/tip153','/blog/tip155','/blog/tip162','/blog/tip163','/blog/tip164','/blog/tip173','/blog/tip176','/blog/tip177']
+				children: [ '/blog/tip18','/blog/tip25','/blog/tip115','/blog/tip128','/blog/tip150','/blog/tip153','/blog/tip155','/blog/tip162','/blog/tip163','/blog/tip164','/blog/tip173','/blog/tip176','/blog/tip177', '/blog/tip183']
 			},
 			{
 				title: 'SAP',
