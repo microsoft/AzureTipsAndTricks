@@ -30,17 +30,17 @@ You can also find me on Twitter:
 
 **NOTE :** The bleed line shown in the images below is for the printer. It will not appear in the printed stickers. 
 
-<img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/lightbulb.png" alt="drawing"  height="350" /> <img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/seattle.png" alt="drawing" height="350"/>
+<img :src="$withBase('/files/lightbulb.png')" height="350" /> <img :src="$withBase('/files/seattle.png')" height="350"/>
 
 * [Download Lightbulb](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-lightbulb.eps)
 * [Download Seattle Skyline](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-seattle.eps)
 
-<img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/vintage.png" alt="drawing" height="350" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/8bit.png" alt="drawing" height="350"/>
+<img :src="$withBase('/files/vintage.png')" height="350" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/8bit.png')" height="350"/>
 
 * [Download Vintage](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-vintage.eps)
 * [Download 8-bit](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-square-8-bit.eps)
 
-<img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/shark.png" alt="drawing" width="350" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/preview/boggle.png" alt="drawing" height="350"/>
+<img :src="$withBase('/files/shark.png')" width="350" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/boggle.png')" height="350"/>
 
 * [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-shark-laser-eyes.eps)
 * [Download Boggle](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-boggle.eps)
