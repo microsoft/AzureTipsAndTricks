@@ -156,8 +156,8 @@ module.exports = {
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
-			{ text: 'eBooks', link: 'https://microsoft.github.io/AzureTipsAndTricks/#site-map' },
-			{ text: 'Questions?', link: 'http://github.com/microsoft/azuretipsandtricks/issues' },
+			{ text: 'eBooks', link: '/#site-map' },
+			{ text: 'Questions?', link: 'https://microsoft.github.io/AzureTipsAndTricks/issues' },
 			{ text: 'RSS Feed', link: 'https://microsoft.github.io/AzureTipsAndTricks/rss.xml' }
 		]//,
 	//	logo: '/vintage.png'
