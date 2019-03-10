@@ -30,7 +30,7 @@ You can also find me on Twitter:
 
 **NOTE :** The bleed line shown in the images below is for the printer. It will not appear in the printed stickers. 
 
-<img :src="$withBase('/files/lightbulb.png')" height="350" /> <img :src="$withBase('/files/seattle.png')" height="350"/>
+<img :src="$withBase('/files/lightbulb.png')" height="350" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/seattle.png')" height="350"/>
 
 * [Download Lightbulb](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-lightbulb.eps)
 * [Download Seattle Skyline](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-seattle.eps)
