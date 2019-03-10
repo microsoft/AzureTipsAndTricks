@@ -30,7 +30,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip184', '/blog/tip183'	]
+				children: ['/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'AzCopy',
@@ -69,7 +69,7 @@ module.exports = {
 			{
 				title: 'Cosmos DB',
 				collapsable: true,
-				children: [ '/blog/tip65','/blog/tip66','/blog/tip67','/blog/tip68','/blog/tip152','/blog/tip166','/blog/tip167']
+				children: [ '/blog/tip185','/blog/tip65','/blog/tip66','/blog/tip67','/blog/tip68','/blog/tip152','/blog/tip166','/blog/tip167']
 			},
 			{
 				title: 'DevOps',
