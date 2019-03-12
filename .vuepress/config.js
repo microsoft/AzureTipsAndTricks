@@ -30,7 +30,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip185', '/blog/tip184', '/blog/tip183'	]
+				children: ['/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'AzCopy',
@@ -131,6 +131,11 @@ module.exports = {
 				title: 'SendGrid',
 				collapsable: true,
 				children: [ '/blog/tip73']
+			},
+			{
+				title: 'SignalR',
+				collapsable: true,
+				children: [ '/blog/tip186']
 			},
 			{
 				title: 'SQL',
