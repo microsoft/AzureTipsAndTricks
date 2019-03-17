@@ -30,7 +30,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
+				children: ['/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'AzCopy',
@@ -85,6 +85,11 @@ module.exports = {
 				title: 'HD Insight',
 				collapsable: true,
 				children: [ '/blog/tip172']
+			},
+			{
+				title: 'iOS',
+				collapsable: true,
+				children: [ '/blog/tip187']
 			},
 			{
 				title: 'IoT',
