@@ -30,7 +30,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
+				children: [ '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'AzCopy',
@@ -105,6 +105,11 @@ module.exports = {
 				title: 'Logic Apps',
 				collapsable: true,
 				children: [ '/blog/tip37','/blog/tip38','/blog/tip39','/blog/tip40','/blog/tip41','/blog/tip42','/blog/tip43','/blog/tip44','/blog/tip156','/blog/tip159']
+			},
+			{
+				title: 'Machine Learning',
+				collapsable: true,
+				children: ['/blog/tip189']
 			},
 			{
 				title: 'Media Services',
