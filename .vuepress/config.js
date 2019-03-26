@@ -30,13 +30,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: [ '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
-			},
-			{
-				title: 'AzCopy',
-				collapsable: true,
-				children: ['/blog/tip81', 
-						'/blog/tip139'	]
+				children: [  '/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'App Service',
@@ -45,6 +39,17 @@ module.exports = {
 				'/blog/tip101','/blog/tip102','/blog/tip103','/blog/tip104','/blog/tip105','/blog/tip107','/blog/tip108','/blog/tip109','/blog/tip110',
 				'/blog/tip112', '/blog/tip113', '/blog/tip117', '/blog/tip119', '/blog/tip132', '/blog/tip143', 
 				'/blog/tip144', '/blog/tip149', '/blog/tip184'	]
+			},
+			{
+				title: 'Authentication',
+				collapsable: true,
+				children: ['/blog/tip190'	]
+			},
+			{
+				title: 'AzCopy',
+				collapsable: true,
+				children: ['/blog/tip81', 
+						'/blog/tip139'	]
 			},
 			{
 				title: 'CLI',
