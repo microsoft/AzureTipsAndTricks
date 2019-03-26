@@ -5,24 +5,20 @@ type: post
 
 # Welcome
 
-Welcome to Azure Tips and Tricks, this site is a special collection of over 180+ tips, videos, conference talks, and 2 eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that the community has encountered while using Azure. Feel free to jump in and come back weekly for new tips!
+Welcome to Azure Tips and Tricks, this site is a special collection of over 180+ tips, videos, conference talks, and 2 eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that the community has encountered while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
 
 #### Site Map
 
 |  Resouce 	|   Description	|
 |---	|---
 |   [Home](http://azuredev.tips)	|   This site can always be found at http://azuredev.tips	|
-|   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 40+ videos based on the series	|
+|   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 50+ videos based on the series	|
 |   [eBook Vol 1](http://ebook.azuredev.tips) and [eBook Vol 2](http://ebookvol2.azuredev.tips)	|   We have two volumes of Azure Tips and Tricks in an eBook format based on the best tips of all time	|
 |   [Questions](http://github.com/microsoft/azuretipsandtricks/issues)	|   Add to the GitHub issue tracker and tag it as a question	|
 |   [RSS Feed](/feed.xml/)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
 |   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
 |   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
-|   [Contributing](http://github.com/microsoft/azuretipsandtricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it	|
-
-#### Contact Information
-
-Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
+|   [Contribute and star the repo](http://github.com/microsoft/azuretipsandtricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, star the repo to keep up to date with the project.	|
 
 #### Git Workflow
 ------------

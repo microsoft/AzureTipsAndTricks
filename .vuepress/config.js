@@ -12,9 +12,10 @@ module.exports = {
 		sidebar: 'auto',
 		searchMaxSuggestions: 10, 
 		repo: 'microsoft/azuretipsandtricks',
-		repoLabel: 'Contribute',
+		repoLabel: 'Star this Repo',
 		editLinks: true,
 		editLinkText: 'Edit this page on GitHub',
+		logo: '/files/vintage.png',
 		sidebar: [
 			{
 				title: 'Home',

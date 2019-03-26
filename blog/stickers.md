@@ -18,29 +18,27 @@ Select the design that you want and use [Sticker Mule](https://www.stickermule.c
 
 ## Software and File Type used
 
-The application used to create all of the images was Adobe Illustrator. After creation, we exported to EPS so that transferring image data between different operating systems would be easier. The EPS file type is supported by several different drawing programs and vector graphic editing applications. 
+The application used to create all of the images was **Adobe Illustrator**. After creation, we exported to EPS so that transferring image data between different operating systems would be easier. The EPS file type is supported by several different drawing programs and vector graphic editing applications. 
 
-## Find me
+## Reach out to me on Twitter if you have a meetup/usergroup/event and would like for me to send you some stickers.
 
-You can also find me on Twitter: 
-
-[@mbcrump](https://twitter.com/mbcrump)
+On Twitter - [@mbcrump](https://twitter.com/mbcrump)
 
 ## Collage
 
 **NOTE :** The bleed line shown in the images below is for the printer. It will not appear in the printed stickers. 
 
-<img :src="$withBase('/files/lightbulb.png')" height="350" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/seattle.png')" height="350"/>
+<img :src="$withBase('/files/lightbulb.png')" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/seattle.png')" height="300"/>
 
 * [Download Lightbulb](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-lightbulb.eps)
 * [Download Seattle Skyline](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-seattle.eps)
 
-<img :src="$withBase('/files/vintage.png')" height="350" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/8bit.png')" height="350"/>
+<img :src="$withBase('/files/vintage.png')" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/8bit.png')" height="300"/>
 
 * [Download Vintage](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-circle-vintage.eps)
 * [Download 8-bit](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-square-8-bit.eps)
 
-<img :src="$withBase('/files/shark.png')" width="350" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/boggle.png')" height="350"/>
+<img :src="$withBase('/files/shark.png')" width="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/boggle.png')" height="300"/>
 
 * [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-shark-laser-eyes.eps)
 * [Download Boggle](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-boggle.eps)
