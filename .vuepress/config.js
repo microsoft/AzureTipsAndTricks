@@ -31,7 +31,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: [  '/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
+				children: [  '/blog/tip191','/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'App Service',
@@ -166,7 +166,7 @@ module.exports = {
 			{
 				title: 'Virtual Machines',
 				collapsable: true,
-				children: [ '/blog/tip9','/blog/tip10','/blog/tip12','/blog/tip53']
+				children: [ '/blog/tip191','/blog/tip9','/blog/tip10','/blog/tip12','/blog/tip53']
 			},
 			{
 				title: 'VNET',

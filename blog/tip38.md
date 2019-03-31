@@ -76,10 +76,10 @@ Too easy! Now head over to the [Zappier Editor](https://zapier.com/app/editor) a
 
 You'll want to use the **New Email** Trigger and use the **Email Parser by Zappier** and allow it to connect to your mailbox that you [created earlier](http://www.michaelcrump.net/azure-tips-and-tricks37/).  
 
-For the next step, you'll want to use an **Action** that is a **POST** request that uses **Webhooks by Zappier**. When you get to the point to where it asks you for a URL, then use [requestb.in](https://requestb.in/) to see what your HTTP client is sending or to inspect and debug webhook requests. Now you have a URL that you can use for testing. Ensure your payload is set to **JSON** and now you can select the data from your parsed email (filename, csv, kml, gpx). You can leave the rest of the fields as-is. When you finish your screen should look like the following: 
+For the next step, you'll want to use an **Action** that is a **POST** request that uses **Webhooks by Zappier**. When you get to the point to where it asks you for a URL, then use [requestbin](https://requestbin.com/) to see what your HTTP client is sending or to inspect and debug webhook requests. Now you have a URL that you can use for testing. Ensure your payload is set to **JSON** and now you can select the data from your parsed email (filename, csv, kml, gpx). You can leave the rest of the fields as-is. When you finish your screen should look like the following: 
 
 <img :src="$withBase('/files/schemablog3.png')">
 
-Go ahead and save and run the test. After you switch over to your [requestb.in](https://requestb.in/). You should see the output that matches the parsed data from the email. 
+Go ahead and save and run the test. After you switch over to your [requestbin](https://requestbin.com/). You should see the output that matches the parsed data from the email. 
 
 <img :src="$withBase('/files/schemablog4.png')">
