@@ -18,7 +18,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 180+
 |   [RSS Feed](/feed.xml/)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
 |   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
 |   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
-|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=bug_report.md&title=)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, star the repo to keep up to date with the project.	|
+|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, star the repo to keep up to date with the project.	|
 
 #### Git Workflow
 ------------

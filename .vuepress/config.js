@@ -31,7 +31,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: [  '/blog/tip191','/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
+				children: [ '/blog/tip192', '/blog/tip191','/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187','/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183'	]
 			},
 			{
 				title: 'App Service',
@@ -122,6 +122,11 @@ module.exports = {
 				collapsable: true,
 				children: ['/blog/tip178', 
 						'/blog/tip179'	]
+			},
+			{
+				title: 'Networking',
+				collapsable: true,
+				children: ['/blog/tip192'	]
 			},
 			{
 				title: 'Portal',
