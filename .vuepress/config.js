@@ -124,11 +124,6 @@ module.exports = {
 						'/blog/tip179'	]
 			},
 			{
-				title: 'Networking',
-				collapsable: true,
-				children: ['/blog/tip192'	]
-			},
-			{
 				title: 'Portal',
 				collapsable: true,
 				children: [ '/blog/tip1','/blog/tip2','/blog/tip3','/blog/tip4','/blog/tip5','/blog/tip6','/blog/tip116']
