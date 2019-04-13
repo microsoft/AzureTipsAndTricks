@@ -8,6 +8,7 @@ module.exports = {
         lineNumbers: true
       },
 	themeConfig: {
+		domain: 'http://azuredev.tips',
 		displayAllHeaders: true,
 		sidebar: 'auto',
 		searchMaxSuggestions: 10, 
@@ -307,6 +308,7 @@ module.exports = {
 			'meta',
 			{ name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }
 		],
-		['meta', { name: 'theme-color', content: '#ffffff' }]
+		['meta', { name: 'theme-color', content: '#ffffff' }],
+		['script', { async: true, src: "https://platform.twitter.com/widgets.js", charset: "utf-8" }]
 	]
 }

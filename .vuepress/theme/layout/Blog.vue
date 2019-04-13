@@ -7,6 +7,16 @@
 
     <Content class="custom" />
 
+    <section class="share">
+      <h2>Share</h2>
+      <a class="share__button" 
+        :href="`https://twitter.com/intent/tweet?text=${$page.title} by @mbcrump ${$themeConfig.domain}${$page.path}`"
+        target="_blank"
+      >
+        <i class="fab fa-twitter"></i> Tweet
+      </a>
+    </section>
+
     <div class="page-edit">
       <div
         class="edit-link"
@@ -188,6 +198,18 @@ export default {
         path
       )
     }
+  },
+
+mounted() {
+    let tweets = document.querySelectorAll('.twitter-tweet')
+    if (tweets && tweets.length > 0) {
+      tweets.forEach(tweet => {
+        let id = tweet.dataset.twitterId
+        tweets.widgets.createTweet(id, tweet)
+        tweet.setAttribute('style', 'border: 0; padding: 0; margin-right: 0;')
+        tweet.children[0].setAttribute('style', 'display: none;')
+      })
+    }
   }
 }
 
@@ -272,6 +294,23 @@ function find (page, items, offset) {
   .next
     float right
 
+.share {
+  margin-bottom: 2rem;
+  &__button {
+    padding: 0.5rem 1rem;
+    border: 1px solid $accentColor;
+    border-radius: 10px;
+    background-color: $accentColor;
+    color: #fff;
+    transition: 0.2s ease-in background-color,
+      0.2s ease-in color;
+    &:hover {
+      background-color: #fff;
+      color: $accentColor;
+    }
+  }
+}
+
 @media (max-width: $MQMobile)
   .page-edit
     .edit-link
@@ -280,6 +319,10 @@ function find (page, items, offset) {
       font-size .8em
       float none
       text-align left
+
+.twitter-tweet-rendered {
+  margin: 10px auto;
+}
 
 @media (max-width: $MQMobileNarrow) {
   .blog__title {
