@@ -11,11 +11,11 @@ date: 2017-12-17 17:00:00
 
 I've discussed at great lengths many aspects of Azure Cloud Shell. Some of my recent posts include : 
 
-* [Access Cloud Shell from within Microsoft Docs](http://www.michaelcrump.net/azure-tips-and-tricks11/)
-* [Demystifying storage in Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks13/)
-* [Generate SSH public key to log into Linux VM with Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks14/)
-* [Underlying Software in Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks15/)
-* [Use PowerShell with Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks17/)
+* [Access Cloud Shell from within Microsoft Docs](https://microsoft.github.io/AzureTipsAndTricks/blog/tip11.html?WT.mc_id=github-azuredevtips-micrum)
+* [Demystifying storage in Cloud Shell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip13.html?WT.mc_id=github-azuredevtips-micrum)
+* [Generate SSH public key to log into Linux VM with Cloud Shell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip14.html?WT.mc_id=github-azuredevtips-micrum)
+* [Underlying Software in Azure Cloud Shell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip15.html?WT.mc_id=github-azuredevtips-micrum)
+* [Use PowerShell with Azure Cloud Shell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip17.html?WT.mc_id=github-azuredevtips-micrum)
 
 Today, I'd like to discuss the new functionality with Azure Cloud Shell, which allows you to spin up a shell in your browser by simply going to [shell.azure.com](http://shell.azure.com). 
 
@@ -32,6 +32,6 @@ You can also specify which instance of Cloud Shell you wish to launch (ex. Power
 
 #### Embed Cloud Shell
 
-According to the [docs](https://docs.microsoft.com/en-us/azure/cloud-shell/embed-cloud-shell), you can easily embed this into Markdown or a Pop-up. 
+According to the [docs](https://docs.microsoft.com/en-us/azure/cloud-shell/embed-cloud-shell?WT.mc_id=docs-azuredevtips-micrum), you can easily embed this into Markdown or a Pop-up. 
 
 For instance, this button [![Launch Cloud Shell](https://shell.azure.com/images/launchcloudshell.png "Launch Cloud Shell")](https://shell.azure.com) was created using the Markdown the docs team provided. They also have a sample for a pop-up. 

@@ -7,6 +7,12 @@ type: post
 
 Welcome to Azure Tips and Tricks, this site is a special collection of over 180+ tips, videos, conference talks, and 2 eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that the community has encountered while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
 
+::: tip What's New?
+:calendar: Check out the **Recently Added** item on the left sidebar :point_left:for the latest tips and tricks!
+
+:punch: that :star: button on the official [GitHub repo](https://github.com/Microsoft/AzureTipsAndTricks/) to stay up to date.
+:::
+
 #### Site Map
 
 |  Resouce 	|   Description	|
@@ -18,7 +24,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 180+
 |   [RSS Feed](/feed.xml/)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
 |   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
 |   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
-|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, star the repo to keep up to date with the project.	|
+|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project.	|
 
 #### Git Workflow
 ------------

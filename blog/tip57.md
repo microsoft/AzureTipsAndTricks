@@ -9,13 +9,13 @@ date: 2017-11-26 17:00:00
 
 #### Docker Registry vs. Docker Repository
 
-Last week, we used [Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks55/) to create an image using our existing [ASP.NET WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/). The bit of feedback that I feel that I didn't drive home was the difference between Docker Registry and Docker Repository. I wanted to cover that today. 
+Last week, we used [Docker Compose](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum) to create an image using our existing [ASP.NET WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum). The bit of feedback that I feel that I didn't drive home was the difference between Docker Registry and Docker Repository. I wanted to cover that today. 
 
 #### Docker Registry
 
 Docker Registry is a service that **stores** your docker images, but it could be hosted by a third party and even private if you need so. A couple of examples are:
 
-* [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry/)
+* [Azure Container Registry](https://azure.microsoft.com/en-us/services/container-registry?WT.mc_id=azure-azuredevtips-micrum)
 * [Docker Hub](https://hub.docker.com/)
 * [Quay Enterprise](https://coreos.com/quay-enterprise/docs/latest/)
 

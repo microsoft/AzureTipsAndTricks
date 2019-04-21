@@ -10,13 +10,13 @@ date: 2018-01-15 17:00:00
 
 We've reviewed the following options with Azure Storage so far:
 
-* [Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
-* [Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
-* [Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
-* [Working with Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/)
-* [Copy Azure Storage Blobs and Files via C#](http://www.michaelcrump.net/azure-tips-and-tricks78/)
+* [Working with Azure Storage Blobs and Files through the Portal](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create an Azure Storage Blob Container through C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html?WT.mc_id=github-azuredevtips-micrum)
+* [Uploading and Downloading a Stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html?WT.mc_id=github-azuredevtips-micrum)
+* [Working with Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html?WT.mc_id=github-azuredevtips-micrum)
+* [Copy Azure Storage Blobs and Files via C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip78.html?WT.mc_id=github-azuredevtips-micrum)
 
-Today, we are going to look at creating an Azure blob hierarchy via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](http://www.michaelcrump.net/azure-tips-and-tricks75/). If you want to start from this post, then use the code located [here](https://github.com/mbcrump/azurestorage).
+Today, we are going to look at creating an Azure blob hierarchy via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html?WT.mc_id=github-azuredevtips-micrum). If you want to start from this post, then use the code located [here](https://github.com/mbcrump/azurestorage?WT.mc_id=github-azuredevtips-micrum).
 
 The goal of this exercise is to create a blob hierarchy or folder structure inside of our container. So for example, we'd like to place a file in a structure such as such as **backup/images-backup.png**. 
 

@@ -11,15 +11,15 @@ date: 2017-10-24 17:00:00
 
 I thought I'd use this week's Tip and Tricks series to show a practical example of how I am using Azure. I've started running outdoors and would like to extract several links that my app generates via email and send them to my OneDrive account automatically vs doing it manually after each run. I'm also concerned that the app that generates my data may be abandoned one day. In order to secure my data, I used a combination of [Zappier.com](http://www.zapier.com) and [Azure](http://www.azure.com) to solve my problem and over the course of this week, we'll cover the following sections needed in order to implement this: 
 
-* [Parse Emails to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks37/)
-* [Create JSON Schema to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks38/)
-* [This post - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks39/)
-* [Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
+* [Parse Emails to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip37.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create JSON Schema to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip38.html?WT.mc_id=github-azuredevtips-micrum)
+* [This post - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip39.html?WT.mc_id=github-azuredevtips-micrum)
+* [Upload Files from a URL with Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip40.html?WT.mc_id=github-azuredevtips-micrum)
 
 
 #### Setup an HTTP Request Trigger that is used in an Azure Logic Apps
 
-In the [last post](http://www.michaelcrump.net/azure-tips-and-tricks38/), we used Zappier to setup a web hook that calls a POST method that provides the filename, csv, gpx and kml url that it parsed from our email. 
+In the [last post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip38.html?WT.mc_id=github-azuredevtips-micrum), we used Zappier to setup a web hook that calls a POST method that provides the filename, csv, gpx and kml url that it parsed from our email. 
 
 We'll pick up by creating a new Azure Logic App. Go to the Azure Portal and create a new Logic App. 
 
@@ -33,7 +33,7 @@ Note that the URL isn't generated until we provide the parameters.
 
 <img :src="$withBase('/files/logicappblog3.png')">
 
-Go ahead and press **Edit** and remember the JSON Schema from the [last post](http://www.michaelcrump.net/azure-tips-and-tricks38/)? Well, now is the time to paste it in. I'll also include it below: 
+Go ahead and press **Edit** and remember the JSON Schema from the [last post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip38.html?WT.mc_id=github-azuredevtips-micrum)? Well, now is the time to paste it in. I'll also include it below: 
 
 ```json
 {

@@ -35,9 +35,9 @@ Ensure you give it an:
 
 * Application Insights - You can turn it on or off to help you detech and diagnose issues with .NET apps. 
 
-Finally, there is **Automation Options** which brings you to the [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy) templates that are so valuable.
+Finally, there is **Automation Options** which brings you to the [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy?WT.mc_id=docs-azuredevtips-micrum) templates that are so valuable.
 
-**What is a Azure Resource Manager again?** Azure Resource Manager enables you to work with the resources in your solution as a group. You can deploy, update, or delete all the resources for your solution in a single, coordinated operation. You use a template for deployment and that template can work for different environments such as testing, staging, and production. Resource Manager provides security, auditing, and tagging features to help you manage your resources after deployment. [source](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview)
+**What is a Azure Resource Manager again?** Azure Resource Manager enables you to work with the resources in your solution as a group. You can deploy, update, or delete all the resources for your solution in a single, coordinated operation. You use a template for deployment and that template can work for different environments such as testing, staging, and production. Resource Manager provides security, auditing, and tagging features to help you manage your resources after deployment. [source](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview?WT.mc_id=docs-azuredevtips-micrum)
 
 
 Once everything is setup then press **Create** and you'll see the **Deployment in Progress** begin. You can click on it while deploying to see details as shown below: 

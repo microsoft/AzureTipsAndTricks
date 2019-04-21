@@ -46,5 +46,5 @@ You can even drill down on what URL was called to trigger the error.
 
 <img :src="$withBase('/files/appinsight6.png')">
 
-If you add Application Insights to your Visual Studio project by right-clicking the project and then adding **Configure Application Insights**, then you can add code to collect exception telemetry. You can learn more about that by [clicking here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-asp-net-exceptions). 
+If you add Application Insights to your Visual Studio project by right-clicking the project and then adding **Configure Application Insights**, then you can add code to collect exception telemetry. You can learn more about that by [clicking here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-asp-net-exceptions?WT.mc_id=docs-azuredevtips-micrum). 
 

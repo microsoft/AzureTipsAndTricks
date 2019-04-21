@@ -11,15 +11,15 @@ date: 2017-11-21 17:00:00
 
 How hard do you think it is to:
 
-* [Create and Publish a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/)
-* [Today - Add it to a Docker Container using Docker Compose and push it to a Docker Cloud](http://www.michaelcrump.net/azure-tips-and-tricks55/)
-* [Use it in Azure with Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
+* [Create and Publish a .NET Core WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum)
+* [Today - Add it to a Docker Container using Docker Compose and push it to a Docker Cloud](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum)
+* [Use it in Azure with Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum)
 
-In this mini-series, we'll build on each part starting with creating and publishing a .NET Core WebAPI project. Today, we'll use Docker Compose to create an image and push it to Docker Cloud and we'll wrap up by deploying it to Azure using [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/). 
+In this mini-series, we'll build on each part starting with creating and publishing a .NET Core WebAPI project. Today, we'll use Docker Compose to create an image and push it to Docker Cloud and we'll wrap up by deploying it to Azure using [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers?WT.mc_id=azure-azuredevtips-micrum). 
 
 #### Use .NET Core WebAPI and Docker Compose
 
-Now that we have [created and published a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/), we'll resume by using Docker Compose to create an image. 
+Now that we have [created and published a .NET Core WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum), we'll resume by using Docker Compose to create an image. 
 
 Think of this as three steps: 
 

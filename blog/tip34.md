@@ -25,7 +25,7 @@ The first command just updates the homebrew database and the next command instal
 
 <img :src="$withBase('/files/climac1.gif')">
 
-Wow, that was pretty easy! You can type `az -h` to get help documentation or go to [aka.ms/cli](https://aka.ms/cli) to read the docs.
+Wow, that was pretty easy! You can type `az -h` to get help documentation or go to [aka.ms/cli](https://aka.ms/cli?WT.mc_id=akams-azuredevtips-micrum) to read the docs.
 
 ##### Log in to Azure
 
@@ -59,4 +59,4 @@ Switch back to the terminal app and you'll see something similar to the followin
 ]
 ```
 
-Keep in mind that you can always get back to this screen with `az account` list. You can now try to create a Ubuntu VM using only the CLI. [Here](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli) is a great doc to get started. 
+Keep in mind that you can always get back to this screen with `az account` list. You can now try to create a Ubuntu VM using only the CLI. [Here](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli?WT.mc_id=docs-azuredevtips-micrum) is a great doc to get started. 

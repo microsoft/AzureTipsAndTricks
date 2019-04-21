@@ -9,7 +9,7 @@ date: 2017-11-15 17:00:00
 
 #### Deploy Azure Functions with Visual Studio Code
 
-We previously looked at adding an Azure Function project to Visual Studio Code in this [post](http://www.michaelcrump.net/azure-tips-and-tricks50/) and then we looked at [debugging it locally](http://www.michaelcrump.net/azure-tips-and-tricks50/). In this post, we'll wrap up this mini-series by deploying Azure Functions to Azure directly.
+We previously looked at adding an Azure Function project to Visual Studio Code in this [post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip50.html?WT.mc_id=github-azuredevtips-micrum) and then we looked at [debugging it locally](https://microsoft.github.io/AzureTipsAndTricks/blog/tip50.html?WT.mc_id=github-azuredevtips-micrum). In this post, we'll wrap up this mini-series by deploying Azure Functions to Azure directly.
 
 Select the Azure subscription that you'd like to use and select "Create Function App in Azure." You'll need to select a name and then a resource group (or create a new one). Finally, you'll need a storage account which you can also create a new one or select an existing one. Once that is complete, the Azure Function has been created in Azure.
 

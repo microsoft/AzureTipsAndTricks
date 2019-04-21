@@ -11,10 +11,10 @@ date: 2018-02-11 17:00:00
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
-* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
-* [Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
-* [Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
-* [Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
+* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](https://microsoft.github.io/AzureTipsAndTricks/blog/tip90.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 2 - Implementing Azure Search with SQL Server](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 3 - Querying an Azure Search Index](https://microsoft.github.io/AzureTipsAndTricks/blog/tip92.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 4 - Searching an index with Azure Search with C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip93.html?WT.mc_id=github-azuredevtips-micrum)
 
 #### Implementing Azure Search
 

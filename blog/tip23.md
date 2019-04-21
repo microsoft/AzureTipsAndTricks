@@ -9,11 +9,11 @@ date: 2017-09-25 17:00:00
 
 #### Intro
 
-We've recently created a [web app](http://www.michaelcrump.net/azure-tips-and-tricks19/) and uploaded it to Azure App Service. We also took a look at [multiple ways](http://www.michaelcrump.net/azure-tips-and-tricks20/) to examine those files through the Azure portal interface and how we'd add [extensions](http://www.michaelcrump.net/azure-tips-and-tricks21/) and [deployment slots](http://www.michaelcrump.net/azure-tips-and-tricks22/) for our web app. In this post, we'll look at a feature called `Testing in Production` which isn't as scary as it sounds.  
+We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html?WT.mc_id=github-azuredevtips-micrum) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html?WT.mc_id=github-azuredevtips-micrum) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html?WT.mc_id=github-azuredevtips-micrum) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html?WT.mc_id=github-azuredevtips-micrum) for our web app. In this post, we'll look at a feature called `Testing in Production` which isn't as scary as it sounds.  
 
 #### Testing Web Apps in Production with Azure App Service
 
-**Hold up!** You'll want to take a look at the [deployment slots](http://www.michaelcrump.net/azure-tips-and-tricks22/) post if you haven't worked with deployment slots before. 
+**Hold up!** You'll want to take a look at the [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html?WT.mc_id=github-azuredevtips-micrum) post if you haven't worked with deployment slots before. 
 
 
 Go to the Azure Portal and select my App Service and click on **Testing in Production** under **Development Tools** to get started. The first thing you'll see is `Static Routing` and you'll notice that it's looking for a deployment slot and traffic percentage. 

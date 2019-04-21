@@ -8,25 +8,25 @@ date: 2017-09-13 17:00:00
 
 #### Deploy Jekyll Site Hosted on GitHub to Azure
 
-If you have already have an existing [Jekyll](https://jekyllrb.com/) based site that is hosted on GitHub, you can easily deploy that site to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/web/). 
+If you have already have an existing [Jekyll](https://jekyllrb.com/) based site that is hosted on GitHub, you can easily deploy that site to [Azure App Services](https://azure.microsoft.com/en-us/services/app-service/web?WT.mc_id=azure-azuredevtips-micrum). 
 
 But why? If [GitHub Pages](https://pages.github.com/) is free, then why pay?
 
 * You might want to push your site to a private repo (instead of public)
 * Setting up "real" SSL, compared to the [workarounds](https://css-tricks.com/switching-site-https-shoestring-budget/) (see comments)
-* Taking advantage of [deployment slots](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-staged-publishing). 
+* Taking advantage of [deployment slots](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-staged-publishing?WT.mc_id=docs-azuredevtips-micrum). 
 
 I'm sure there are more, but those are top of mind for me. 
 
 #### Let's begin
 I'm assuming you already have a GitHub Pages site that uses Jekyll hosted on GitHub. If that is true, then the first thing that you'll want to do is grab these three files. 
 
-* [deploy.cmd](https://github.com/mbcrump/mbcrump.github.io/blob/master/deploy.cmd) - is a [Kudu](https://github.com/projectkudu/kudu) Deployment script that handles setup and deployment of the web site and ensures Ruby is installed
-* [getruby.cmd](https://github.com/mbcrump/mbcrump.github.io/blob/master/getruby.cmd) - is a site that ensure the latest version of Ruby is installed and ensures Jekyll has been built
-* [.deployment](https://github.com/mbcrump/mbcrump.github.io/blob/master/.deployment) - is a configuration file  that Kudu understands that calls the `deploy.cmd` script
-* [Gemfile](https://github.com/mbcrump/mbcrump.github.io/blob/master/Gemfile) - you probably already have this but ensure it is there and if not then just copy mine. 
+* [deploy.cmd](https://github.com/mbcrump/mbcrump.github.io/blob/master/deploy.cmd?WT.mc_id=github-azuredevtips-micrum) - is a [Kudu](https://github.com/projectkudu/kudu?WT.mc_id=github-azuredevtips-micrum) Deployment script that handles setup and deployment of the web site and ensures Ruby is installed
+* [getruby.cmd](https://github.com/mbcrump/mbcrump.github.io/blob/master/getruby.cmd?WT.mc_id=github-azuredevtips-micrum) - is a site that ensure the latest version of Ruby is installed and ensures Jekyll has been built
+* [.deployment](https://github.com/mbcrump/mbcrump.github.io/blob/master/.deployment?WT.mc_id=github-azuredevtips-micrum) - is a configuration file  that Kudu understands that calls the `deploy.cmd` script
+* [Gemfile](https://github.com/mbcrump/mbcrump.github.io/blob/master/Gemfile?WT.mc_id=github-azuredevtips-micrum) - you probably already have this but ensure it is there and if not then just copy mine. 
 
-***Thanks goes to [Khalid Abuhakmeh](https://github.com/khalidabuhakmeh) for writing the scripts***
+***Thanks goes to [Khalid Abuhakmeh](https://github.com/khalidabuhakmeh?WT.mc_id=github-azuredevtips-micrum) for writing the scripts***
 
 Once you have these three files, ensure they are in the root of your public GitHub pages site (ex. something.github.io)
 

@@ -11,15 +11,15 @@ date: 2017-11-20 17:00:00
 
 How hard do you think it is to:
 
-* [Today - Create and Publish a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/)
-* [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](http://www.michaelcrump.net/azure-tips-and-tricks55/)
-* [Use it in Azure with Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
+* [Today - Create and Publish a .NET Core WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum)
+* [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum)
+* [Use it in Azure with Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum)
 
 In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers. 
 
 #### Create a .NET Core WebAPI Project
 
-Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows) is installed and then follow the direction below: 
+Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows?WT.mc_id=microsoft-azuredevtips-micrum) is installed and then follow the direction below: 
 
 Create a directory on your HDD `mkdir mbcwebapi`. Now `cd mbcwebapi` into it. 
 

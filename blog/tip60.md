@@ -11,11 +11,11 @@ date: 2017-11-29 17:00:00
 
 I've recently covered a variety of Docker topics including:
 
-* [Create and Publish a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/)
-* [Add it to a Docker Container using Docker Compose and push it to a Docker Cloud](http://www.michaelcrump.net/azure-tips-and-tricks55/)
-* [Use it in Azure with Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
-* [Docker Registry vs. Docker Repository](http://www.michaelcrump.net/azure-tips-and-tricks57/)
-* [Continuous Deployment with Docker and Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks58/)
+* [Create and Publish a .NET Core WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum)
+* [Add it to a Docker Container using Docker Compose and push it to a Docker Cloud](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum)
+* [Use it in Azure with Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum)
+* [Docker Registry vs. Docker Repository](https://microsoft.github.io/AzureTipsAndTricks/blog/tip57.html?WT.mc_id=github-azuredevtips-micrum)
+* [Continuous Deployment with Docker and Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip58.html?WT.mc_id=github-azuredevtips-micrum)
 
 One topic that keep coming up is how do you use Visual Studio 2017 with Docker support. If you go back and read [this post](tip55/), then  you'll see that I did everything manually on my mac, but Visual Studio 2017 makes this much easier. Let's take a look. 
 

@@ -10,16 +10,16 @@ date: 2018-01-24 17:00:00
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
-* [Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
-* [Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
-* [Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
-* [Today - Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
+* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum)
+* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum)
+* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum)
+* [Today - Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html?WT.mc_id=github-azuredevtips-micrum)
 
 Today, we'll be taking a look at updating an item through C# code into an Azure Storage Table. 
 
 #### Getting Started
 
-Open the C# Console application that we were working with [yesterday](http://www.michaelcrump.net/azure-tips-and-tricks84/) and let's add a method to:
+Open the C# Console application that we were working with [yesterday](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum) and let's add a method to:
 
 * Update an item based off of the table, RowKey and PartitionKey that we pass in.
 

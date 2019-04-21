@@ -8,9 +8,9 @@ date: 2018-01-08 17:00:00
 
 #### Create an Azure Storage Blob Container through C#
 
-Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In this post, we'll take a look at creating an Azure Storage Blob container with C#. [Yesterday](http://www.michaelcrump.net/azure-tips-and-tricks74/), I described how to do it through the Azure Portal. 
+Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In this post, we'll take a look at creating an Azure Storage Blob container with C#. [Yesterday](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum), I described how to do it through the Azure Portal. 
 
-Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [yesterday](http://www.michaelcrump.net/azure-tips-and-tricks74/).
+Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [yesterday](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum).
 
 Look under **Settings**, then **Access Keys** and copy the connection string. 
 

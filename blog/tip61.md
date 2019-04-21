@@ -15,7 +15,7 @@ I just spent time over the weekend playing with Java in Azure Functions. As a pr
 
 You'll need a few things before getting started such as: 
 
-[.NET Core](https://www.microsoft.com/net/core),[JDK](https://www.azul.com/downloads/zulu/), [Azure CLI](https://docs.microsoft.com/cli/azure), [Apache Maven](https://maven.apache.org) and [Node.js](https://nodejs.org/download/). 
+[.NET Core](https://www.microsoft.com/net/core),[JDK](https://www.azul.com/downloads/zulu/), [Azure CLI](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-micrum), [Apache Maven](https://maven.apache.org) and [Node.js](https://nodejs.org/download/). 
 
  Once that is ready, you can easily turn this on by `npm install -g azure-functions-core-tools@core`. You should see the following: 
 
@@ -43,7 +43,7 @@ You'll now take advantage of Maven and will scaffold a new Azure Functions proje
 
 <img :src="$withBase('/files/functionjava1.gif')">
 
-**Remember this!** There is a ridiculous number of things you can do with Maven. Check out the [GitHub repo](https://github.com/Microsoft/azure-maven-plugins/tree/master/azure-functions-maven-plugin) for usage and configuration examples. 
+**Remember this!** There is a ridiculous number of things you can do with Maven. Check out the [GitHub repo](https://github.com/Microsoft/azure-maven-plugins/tree/master/azure-functions-maven-plugin?WT.mc_id=github-azuredevtips-micrum) for usage and configuration examples. 
 
 
 I'd also recommend installing the extension that is suggested for Java projects:

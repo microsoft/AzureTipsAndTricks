@@ -11,14 +11,14 @@ date: 2017-11-08 17:00:00
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
-* [Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](http://www.michaelcrump.net/azure-tips-and-tricks45/)
-* [Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks46/)
-* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
-* [Today - Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks48/)
+* [Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html?WT.mc_id=github-azuredevtips-micrum)
+* [Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip46.html?WT.mc_id=github-azuredevtips-micrum)
+* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html?WT.mc_id=github-azuredevtips-micrum)
+* [Today - Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](https://microsoft.github.io/AzureTipsAndTricks/blog/tip48.html?WT.mc_id=github-azuredevtips-micrum)
 
 #### Pushing a Container Image to a Docker Repo
 
-Let's continue where we [left off](http://www.michaelcrump.net/azure-tips-and-tricks47/) in our last post, in which we created a new image that we can distribute that contains our new app. In this post, we'll go ahead and push the image to a Docker repo to prep it for later. 
+Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html?WT.mc_id=github-azuredevtips-micrum) in our last post, in which we created a new image that we can distribute that contains our new app. In this post, we'll go ahead and push the image to a Docker repo to prep it for later. 
 
 Make sure you have a [Docker account](http://www.docker.com) (It's free) and type `docker login` at the terminal or command prompt to ensure we are authenticated. 
 

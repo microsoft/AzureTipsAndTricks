@@ -9,7 +9,7 @@ date: 2017-10-31 17:00:00
 
 #### Working with Azure Logic App using Visual Studio 2017
 
-A great tip that I remember learning from [Jeff Hollan](https://twitter.com/jeffhollan?lang=en) is that folks can work with Logic Apps with Visual Studio. I'm going to use Visual Studio 2017 but previous version work as well. 
+A great tip that I remember learning from [Jeff Hollan](https://twitter.com/jeffhollan?lang=en?WT.mc_id=twitter-azuredevtips-micrum) is that folks can work with Logic Apps with Visual Studio. I'm going to use Visual Studio 2017 but previous version work as well. 
 
 Fire up Visual Studio 2017 and select **File** -> **New Project** -> **Cloud** -> **Resource Group**
 

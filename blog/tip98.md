@@ -8,15 +8,15 @@ date: 2018-02-26 17:00:00
 
 #### Where are we?
 
-**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
+**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-micrum)
 
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
-* [Part 1 - What we're going to build and how to build it](http://www.michaelcrump.net/azure-tips-and-tricks97/)
-* [Part 2 - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
-* [Part 3 - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
-* [Part 4 - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
+* [Part 1 - What we're going to build and how to build it](https://microsoft.github.io/AzureTipsAndTricks/blog/tip97.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 2 - Storing Emails using Azure Table Storage](https://microsoft.github.io/AzureTipsAndTricks/blog/tip98.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 3 - Writing the Frontend with HTML5 and jQuery](https://microsoft.github.io/AzureTipsAndTricks/blog/tip99.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 4 - Sending Emails with Sendgrid and Azure Functions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip100.html?WT.mc_id=github-azuredevtips-micrum)
 
 We're trying to build a Email Subscription similar to the following. If you want to catch up, then read the previous post. 
 
@@ -39,7 +39,7 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 
 `[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]`
 
-**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments. 
+**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?WT.mc_id=docs-azuredevtips-micrum) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments. 
  
 
 Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has a single field: 

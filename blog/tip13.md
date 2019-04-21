@@ -8,7 +8,7 @@ date: 2017-09-10 17:00:00
 
 
 #### What's under the hood of Azure Cloud Shell?
-The [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) commands and didn't really stop to think what is "Under the hood"... until now. 
+The [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell?WT.mc_id=azure-azuredevtips-micrum) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=docs-azuredevtips-micrum) commands and didn't really stop to think what is "Under the hood"... until now. 
 
 When you first open the Cloud Shell, you will find that it requires you to create a Storage account. The reason for that Storage Account is to persist the scripts, keys, etc that you'll use over and over as you interact with your resources. 
 
@@ -22,7 +22,7 @@ If you drill down into the Storage account, you'll land on two directories - `.c
 
 Open the Azure Cloud Shell inside of the portal by clicking on the icon at the top (looks like `>_`)
 
-Keep in mind that the Cloud Shell is based off an open-source implementation of [Xterm.js](https://github.com/sourcelair/xterm.js) that emulates the terminal in your browser. It is talking over a web socket to a full Linux BASH shell. Begin by typing:
+Keep in mind that the Cloud Shell is based off an open-source implementation of [Xterm.js](https://github.com/sourcelair/xterm.js?WT.mc_id=github-azuredevtips-micrum) that emulates the terminal in your browser. It is talking over a web socket to a full Linux BASH shell. Begin by typing:
 
 	michael@Azure:~$ ls -l
 	total 0

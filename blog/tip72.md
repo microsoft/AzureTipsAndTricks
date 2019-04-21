@@ -9,7 +9,7 @@ date: 2017-12-20 17:00:00
 
 #### Sentiment Analysis with Cognitive Service and Azure
 
-After reviewing the [Text Analysis API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview), I noticed three capabilities that I wanted to take a further look at: 
+After reviewing the [Text Analysis API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview?WT.mc_id=docs-azuredevtips-micrum), I noticed three capabilities that I wanted to take a further look at: 
 
 * [This post - Sentiment Analysis](tip72/) - Find out what customers think of your brand or topic by analyzing raw text for clues about positive or negative sentiment. 
 * [Key Phrase Detection](tip70/) - Automatically extract key phrases to quickly identify the main points. 

@@ -11,7 +11,7 @@ date: 2017-12-13 17:00:00
 
 I use .NET to access my Cosmos DB instance a lot and typically before spinning up an ASP.NET MVC application (for instance), I use a console application to explore objects and play with different settings. In this brief walkthrough, I'll show you how I access it and provide a "template" that you can use for your own explorations. Keep in mind that this is just how I work with Cosmos DB, you may have a different (or better) way. 
 
-I've pushed some code to my GitHub repo that you can clone and it can be found [here](https://github.com/mbcrump/cosmosdb). While you can work with Cosmos DB with whatever IDE or editor that you choose, I'll work with Visual Studio. Begin by opening Visual Studio and selecting **File** -> **New** -> **Project from Existing Code** and paste in the [git url](https://github.com/mbcrump/cosmosdb.git) and press **Clone**.
+I've pushed some code to my GitHub repo that you can clone and it can be found [here](https://github.com/mbcrump/cosmosdb?WT.mc_id=github-azuredevtips-micrum). While you can work with Cosmos DB with whatever IDE or editor that you choose, I'll work with Visual Studio. Begin by opening Visual Studio and selecting **File** -> **New** -> **Project from Existing Code** and paste in the [git url](https://github.com/mbcrump/cosmosdb.git?WT.mc_id=github-azuredevtips-micrum) and press **Clone**.
 
 <img :src="$withBase('/files/clonerepoazure1.png')">
 

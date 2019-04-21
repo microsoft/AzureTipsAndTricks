@@ -10,18 +10,18 @@ date: 2018-01-21 17:00:00
 
 In case you are new to the Azure Storage, we've reviewed the following options so far:
 
-* [Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
-* [Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
-* [Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
-* [Working with Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/)
-* [Copy Azure Storage Blobs and Files via C#](http://www.michaelcrump.net/azure-tips-and-tricks78/)
-* [Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
-* [Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
-* [Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
-* [Today - Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
-* [Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
-* [Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
-* [Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
+* [Working with Azure Storage Blobs and Files through the Portal](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create an Azure Storage Blob Container through C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html?WT.mc_id=github-azuredevtips-micrum)
+* [Uploading and Downloading a Stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html?WT.mc_id=github-azuredevtips-micrum)
+* [Working with Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html?WT.mc_id=github-azuredevtips-micrum)
+* [Copy Azure Storage Blobs and Files via C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip78.html?WT.mc_id=github-azuredevtips-micrum)
+* [Creating an Azure Blob Hierarchy](https://microsoft.github.io/AzureTipsAndTricks/blog/tip79.html?WT.mc_id=github-azuredevtips-micrum)
+* [Adding Metadata to a file inside Azure Storage Blob Container](https://microsoft.github.io/AzureTipsAndTricks/blog/tip80.html?WT.mc_id=github-azuredevtips-micrum)
+* [Working with AzCopy and Azure Storage](https://microsoft.github.io/AzureTipsAndTricks/blog/tip81.html?WT.mc_id=github-azuredevtips-micrum)
+* [Today - Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum)
+* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum)
+* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum)
+* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html?WT.mc_id=github-azuredevtips-micrum)
 
 While we've been working with Azure Storage Blobs and Files, we'll switch this week to taking a look at Azure Storage Tables. 
 

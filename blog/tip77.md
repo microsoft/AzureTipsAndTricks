@@ -10,13 +10,13 @@ date: 2018-01-10 17:00:00
 
 This week we've reviewed the following options with Azure Storage :
 
-* [Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
-* [Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
-* [Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
+* [Working with Azure Storage Blobs and Files through the Portal](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create an Azure Storage Blob Container through C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html?WT.mc_id=github-azuredevtips-micrum)
+* [Uploading and Downloading a Stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html?WT.mc_id=github-azuredevtips-micrum)
 
 While it has been easy working with Azure Storage through the Portal and C#, one gem that I haven't covered was Azure Storage Explorer. In this post, we'll take a look at it. 
 
-**What is it?** [Azure Storage Manager](https://azure.microsoft.com/en-us/features/storage-explorer/) allows you to easily manage the contents of your storage account. It comes complete with features such as: upload, download, and manage blobs, files, queues, tables, and Cosmos DB entities.
+**What is it?** [Azure Storage Manager](https://azure.microsoft.com/en-us/features/storage-explorer?WT.mc_id=azure-azuredevtips-micrum) allows you to easily manage the contents of your storage account. It comes complete with features such as: upload, download, and manage blobs, files, queues, tables, and Cosmos DB entities.
 
 
 #### How I typically work with Azure Storage Explorer

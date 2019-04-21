@@ -10,21 +10,21 @@ date: 2018-01-17 17:00:00
 
 We've reviewed the following options with Azure Storage so far:
 
-* [Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
-* [Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
-* [Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
-* [Working with Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/)
-* [Copy Azure Storage Blobs and Files via C#](http://www.michaelcrump.net/azure-tips-and-tricks78/)
-* [Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
-* [Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
-* [Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
+* [Working with Azure Storage Blobs and Files through the Portal](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create an Azure Storage Blob Container through C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html?WT.mc_id=github-azuredevtips-micrum)
+* [Uploading and Downloading a Stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html?WT.mc_id=github-azuredevtips-micrum)
+* [Working with Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html?WT.mc_id=github-azuredevtips-micrum)
+* [Copy Azure Storage Blobs and Files via C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip78.html?WT.mc_id=github-azuredevtips-micrum)
+* [Creating an Azure Blob Hierarchy](https://microsoft.github.io/AzureTipsAndTricks/blog/tip79.html?WT.mc_id=github-azuredevtips-micrum)
+* [Adding Metadata to a file inside Azure Storage Blob Container](https://microsoft.github.io/AzureTipsAndTricks/blog/tip80.html?WT.mc_id=github-azuredevtips-micrum)
+* [Working with AzCopy and Azure Storage](https://microsoft.github.io/AzureTipsAndTricks/blog/tip81.html?WT.mc_id=github-azuredevtips-micrum)
 
 Today, we are going to look at working with AzCopy to manipulate our Azure Storage container that we've been using throughout this series. Feel free to walk through other post in the series to get up to speed.
 
 **What is AzCopy?** AzCopy is a command-line utility designed for copying data to/from Microsoft Azure Blob, File, and Table storage, using simple commands designed for optimal performance. You can copy data between a file system and a storage account, or between storage accounts. *(courtesy of docs)*
 
 
-You can download either the latest version of AzCopy on [Windows](http://aka.ms/downloadazcopy) or [Linux](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux).
+You can download either the latest version of AzCopy on [Windows](http://aka.ms/downloadazcopy?WT.mc_id=akams-azuredevtips-micrum) or [Linux](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux?WT.mc_id=docs-azuredevtips-micrum).
 
 For this example, I'm going to use Windows. After I downloaded and installed the utility, I navigated inside my command prompt to the following folder `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy` and ran the `azcopy.exe` command to ensure everything was working properly. 
 
@@ -34,7 +34,7 @@ So you may be wondering if you need to do the device login as we did with the [A
 
 #### Getting the Azure Storage Access Key 
 
-Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [earlier](http://www.michaelcrump.net/azure-tips-and-tricks74/).
+Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [earlier](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html?WT.mc_id=github-azuredevtips-micrum).
 
 Look under **Settings**, then **Access Keys** and copy the key1. 
 

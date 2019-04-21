@@ -45,7 +45,7 @@ Now you probably want to test your device by pressing the **B** button. This cyc
 
 Now all that is left to do is to download a script that installs all necessary files along with VS Code. If you already have some of them installed, the script will can and skip them.
 
-Get it here for [Windows](https://aka.ms/devkit/prod/installpackage/latest) or [Mac](https://aka.ms/devkit/prod/installpackage/mac/latest)
+Get it here for [Windows](https://aka.ms/devkit/prod/installpackage/latest?WT.mc_id=akams-azuredevtips-micrum) or [Mac](https://aka.ms/devkit/prod/installpackage/mac/latest?WT.mc_id=akams-azuredevtips-micrum)
 
 It contains the following: 
 

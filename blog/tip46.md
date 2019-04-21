@@ -11,14 +11,14 @@ date: 2017-11-06 17:00:00
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
-* [Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](http://www.michaelcrump.net/azure-tips-and-tricks45/)
-* [Today - Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks46/)
-* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
-* [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks47/)
+* [Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html?WT.mc_id=github-azuredevtips-micrum)
+* [Today - Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip46.html?WT.mc_id=github-azuredevtips-micrum)
+* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html?WT.mc_id=github-azuredevtips-micrum)
+* [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html?WT.mc_id=github-azuredevtips-micrum)
 
 #### Create an app to run inside a Container Image with Docker
 
-Let's continue where we [left off](http://www.michaelcrump.net/azure-tips-and-tricks45/) in our last post, which showed how to get started using Docker. We're specifically looking at how I use Docker with Azure in these posts.
+Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html?WT.mc_id=github-azuredevtips-micrum) in our last post, which showed how to get started using Docker. We're specifically looking at how I use Docker with Azure in these posts.
 
 Begin by opening two tabs instances of either command prompt or terminal. In the right tab, enter the following command to see what docker images are available.  
 
