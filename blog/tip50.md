@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-13 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Create an Azure Functions Project with Visual Studio Code](https://youtu.be/F0dJz8LLF4Q?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Create an Azure Functions project with Visual Studio Code
 

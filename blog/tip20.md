@@ -6,6 +6,12 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-21 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Work with Files in Azure App Service](https://youtu.be/igLj2WlVQ9M?WT.mc_id=youtube-azuredevtips-micrum).
+:::
+
 #### Working with Files in Azure App Service
 In the [last post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html?WT.mc_id=github-azuredevtips-micrum), we created a web app and uploaded it to Azure App Service. In this post, we'll take a look at the files uploaded and three tools that I use to work with them
 

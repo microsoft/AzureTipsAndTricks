@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-26 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Add Logic to Your Testing in Production Sites with PowerShell](https://youtu.be/laAwhwahb5I?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Intro
 

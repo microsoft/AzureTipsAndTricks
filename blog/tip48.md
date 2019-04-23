@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-08 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Push a Container Image to a Docker Repo](https://youtu.be/r_tGl4zF1ZQ?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Containers for the rest of us
 

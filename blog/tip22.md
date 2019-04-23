@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-24 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to use deployment slots for web applications](https://youtu.be/cavW-t4rItY?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Test Web Apps in Production with Azure App Service
 

@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-05 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Get Started with Docker and Azure](https://youtu.be/Kx7mOgdr3Ro?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Containers for the rest of us
 
