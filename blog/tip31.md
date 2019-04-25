@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-10 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Set Up e-mail Alerts with Azure App Services ](https://youtu.be/gY44IAPSXAE?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Setting up Email Alerts with Azure App Servicess
 

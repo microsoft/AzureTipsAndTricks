@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-01 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Logic Apps Documentation](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Deploy Azure Logic Apps through Visual Studio 2017](https://youtu.be/sK26e6JIBao?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Deploying Azure Logic App through Visual Studio 2017
 

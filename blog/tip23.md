@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-25 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Test Web Applications in Production](https://youtu.be/TLGLBbv3HoA?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Intro
 
