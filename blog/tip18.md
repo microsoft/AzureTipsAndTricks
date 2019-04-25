@@ -6,8 +6,13 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-19 17:00:00
 ---
 
-#### Use Tags to quickly organize Azure Resources
+::: tip
+:bulb: Learn more : [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager?WT.mc_id=docs-azuredevtips-micrum). 
 
+:tv: Watch the video : [How to use tags to quickly organize Azure Resources](https://www.youtube.com/watch?v=qFLvB5cxREg&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=14?WT.mc_id=youtube-azuredevtips-micrum).
+:::
+
+#### Use Tags to quickly organize Azure Resources
 
 Head over to the Azure Portal and select service. In my example, I'm going to select a Web App that I want to tag as a production app. Select the **Tags** menu and provide a Name and Value as shown below.  
 

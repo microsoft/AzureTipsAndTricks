@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-17 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-micrum).
+
+:tv: Watch the video : [How to work with the Azure Functions File System](https://www.youtube.com/watch?v=IoKkdVCvpNc&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=29?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Work with the Azure Functions File System using the Console
 

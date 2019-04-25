@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-18 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-micrum).
+
+:tv: Watch the video : [How to renew or revoke Azure Functions keys](https://www.youtube.com/watch?v=v67yVTLEu3U&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=30?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Quickly Renew or Revoke Azure Functions Keys
 

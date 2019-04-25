@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-24 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Logic Apps Documentation](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=docs-azuredevtips-micrum).
+
+:tv: Watch the video : [How to create a HTTP Trigger with Azure Logic Apps](https://www.youtube.com/watch?v=oIwDgJPmVCg&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=32?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### My Scenario - Tracking Run Data
 

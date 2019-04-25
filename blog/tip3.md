@@ -6,6 +6,12 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-22 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Portal Documentation](https://docs.microsoft.com/azure/azure-portal?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Pin Charts to Your Azure Dashboard](https://www.youtube.com/watch?v=r9BL9k8Pp1k&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=4?WT.mc_id=youtube-azuredevtips-micrum).
+:::
+
 #### Drag Tiles to customize your Azure Dashboard
 
 You are probably aware that you can press the "Edit" button on your dashboard to begin customizing your Azure dashboard :
