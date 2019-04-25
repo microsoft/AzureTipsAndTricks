@@ -9,7 +9,7 @@ date: 2017-10-25 17:00:00
 ::: tip
 :bulb: Learn more : [Azure Logic Apps Documentation](https://docs.microsoft.com/azure/logic-apps/?WT.mc_id=docs-azuredevtips-micrum).
 
-:tv: Watch the video : [How to Work with Connectors in Azure Logic Apps](https://youtu.be/rN24xLJwPbk?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Work with Connectors in Azure Logic Apps](https://www.youtube.com/watch?v=rN24xLJwPbk&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=39?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### My Scenario - Tracking Run Data

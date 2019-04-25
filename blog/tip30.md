@@ -9,7 +9,7 @@ date: 2017-10-09 17:00:00
 ::: tip
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Work with Log Stream and Azure App Services](https://youtu.be/wyuxnZZMeak?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Work with Log Stream and Azure App Services](https://www.youtube.com/watch?v=wyuxnZZMeak&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=25?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Working with Log Stream and Azure App Services

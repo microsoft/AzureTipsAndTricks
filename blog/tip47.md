@@ -9,7 +9,7 @@ date: 2017-11-07 17:00:00
 ::: tip
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-micrum).
 
-:tv: Watch the video : [How to Create a Container Image with Docker](https://youtu.be/R--rdLMN-Wk?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Create a Container Image with Docker](https://www.youtube.com/watch?v=R--rdLMN-Wk&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=41?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Containers for the rest of us

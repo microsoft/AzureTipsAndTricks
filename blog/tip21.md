@@ -9,7 +9,7 @@ date: 2017-09-23 17:00:00
 ::: tip
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Work with Extensions in Azure App Service](https://youtu.be/Wy97gLq7xZU?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Work with Extensions in Azure App Service](https://www.youtube.com/watch?v=Wy97gLq7xZU&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=17?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Adding Extensions to Web Apps in Azure App Service
