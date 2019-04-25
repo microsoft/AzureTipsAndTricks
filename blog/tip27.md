@@ -9,7 +9,7 @@ date: 2017-10-03 17:00:00
 ::: tip
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Work with App Settings in Azure App Services](https://youtu.be/P7CUEU9c0MM?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Work with App Settings in Azure App Services](https://www.youtube.com/watch?v=P7CUEU9c0MM&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=22?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Intro

@@ -9,7 +9,7 @@ date: 2017-10-04 17:00:00
 ::: tip
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Configure a Backup for Your Azure App Service](https://youtu.be/uQXDkW1pCzs?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Configure a Backup for Your Azure App Service](https://www.youtube.com/watch?v=uQXDkW1pCzs&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=23?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Configure a Backup for your Azure App Service and Database

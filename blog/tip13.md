@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-10 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=docs-azuredevtips-micrum).
+
+:tv: Watch the video : [How the Azure Cloud Shell uses storage](https://www.youtube.com/watch?v=JRvKnMqdBcY&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=11?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### What's under the hood of Azure Cloud Shell?
 The [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell?WT.mc_id=azure-azuredevtips-micrum) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=docs-azuredevtips-micrum) commands and didn't really stop to think what is "Under the hood"... until now. 

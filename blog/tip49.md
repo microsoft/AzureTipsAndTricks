@@ -9,7 +9,7 @@ date: 2017-11-12 17:00:00
 ::: tip
 :bulb: Learn more : [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Add the Azure Cloud Shell to Visual Studio Code](https://youtu.be/pB_xjSg7fcQ?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Add the Azure Cloud Shell to Visual Studio Code](https://www.youtube.com/watch?v=pB_xjSg7fcQ&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=43?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Add Azure Cloud Shell to Visual Studio Code

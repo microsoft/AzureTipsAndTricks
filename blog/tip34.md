@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-16 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
+
+:tv: Watch the video : [How to work with the Azure CLI using MacOS](https://www.youtube.com/watch?v=m-xUgEl6dcM&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=28?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Working with the Azure CLI using a Mac
 
