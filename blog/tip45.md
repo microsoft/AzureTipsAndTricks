@@ -9,7 +9,7 @@ date: 2017-11-05 17:00:00
 ::: tip
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-micrum). 
 
-:tv: Watch the video : [How to Get Started with Docker and Azure](https://youtu.be/Kx7mOgdr3Ro?WT.mc_id=youtube-azuredevtips-micrum).
+:tv: Watch the video : [How to Get Started with Docker and Azure](https://www.youtube.com/watch?v=Kx7mOgdr3Ro&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=36?WT.mc_id=youtube-azuredevtips-micrum).
 :::
 
 #### Containers for the rest of us
