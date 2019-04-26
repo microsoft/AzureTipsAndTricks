@@ -6,6 +6,11 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-01 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to use the Azure Resource Explorer](https://www.youtube.com/watch?v=hBl_2iaqIDs&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=20?WT.mc_id=youtube-azuredevtips-micrum).
+:::
 
 #### Intro
 

@@ -6,8 +6,13 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-12 17:00:00
 ---
 
-#### Underlying Software in Azure Cloud Shell
+::: tip
+:bulb: Learn more : [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=docs-azuredevtips-micrum).
 
+:tv: Watch the video : [Learn about the underlying Software in Azure Cloud Shell](https://www.youtube.com/watch?v=wODji8h6YYI&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=13?WT.mc_id=youtube-azuredevtips-micrum).
+:::
+
+#### Underlying Software in Azure Cloud Shell
 
 When you spin up an Azure Cloud Shell, it create a container that contains things such the OS and other runtimes. By default you get Linux, Node.js and more (covered later). The storage account setup the first time you use Cloud Shell then persist data (like shell scripts, SSH keys, etc.) that you can use once you are connected to the container. It also persist things automatically such as your `.bash_history` and stores your Azure authentication token in `./azure/accessTokens.json`. 
 

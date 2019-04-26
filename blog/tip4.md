@@ -6,6 +6,12 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-23 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Portal Documentation](https://docs.microsoft.com/azure/azure-portal?WT.mc_id=docs-azuredevtips-micrum). 
+
+:tv: Watch the video : [How to Customize Tiles in Your Azure Dashboard](https://www.youtube.com/watch?v=p-Dy4rSQAQo&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=3?WT.mc_id=youtube-azuredevtips-micrum).
+:::
+
 #### Customize and Pin Charts to your Azure Dashboard
 
 You are probably aware that you can drag and drop and re-size tiles in the Azure dashboard. 
