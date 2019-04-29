@@ -21,7 +21,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 180+
 |   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 50+ videos based on the series	|
 |   [eBook Vol 1](http://ebook.azuredev.tips) and [eBook Vol 2](http://ebookvol2.azuredev.tips)	|   We have two volumes of Azure Tips and Tricks in an eBook format based on the best tips of all time	|
 |   [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=)	|   Add to the GitHub issue tracker and tag it as a question	|
-|   [RSS Feed](/rss.xml)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
+|   [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
 |   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
 |   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
 |   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project.	|
