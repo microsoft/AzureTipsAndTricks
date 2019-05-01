@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190', '/blog/tip189', '/blog/tip188', '/blog/tip187', '/blog/tip186', '/blog/tip185', '/blog/tip184', '/blog/tip183']
+				children: ['/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
 			},
 			{
 				title: 'App Service',
@@ -66,7 +66,7 @@ module.exports = {
 			{
 				title: 'Cognitive Services',
 				collapsable: true,
-				children: ['/blog/tip70', '/blog/tip71', '/blog/tip72', '/blog/tip129', '/blog/tip154', '/blog/tip174', '/blog/tip175']
+				children: ['/blog/tip70', '/blog/tip71', '/blog/tip72', '/blog/tip129', '/blog/tip154']
 			},
 			{
 				title: 'Containers',
@@ -82,6 +82,11 @@ module.exports = {
 				title: 'DevOps',
 				collapsable: true,
 				children: ['/blog/tip168', '/blog/tip169']
+			},
+			{
+				title: 'Front Door',
+				collapsable: true,
+				children: ['/blog/tip192']
 			},
 			{
 				title: 'Functions',
@@ -116,13 +121,18 @@ module.exports = {
 			{
 				title: 'Machine Learning',
 				collapsable: true,
-				children: ['/blog/tip189']
+				children: ['/blog/tip189', '/blog/tip174', '/blog/tip175']
 			},
 			{
 				title: 'Media Services',
 				collapsable: true,
 				children: ['/blog/tip178',
 					'/blog/tip179']
+			},
+			{
+				title: 'Monitor',
+				collapsable: true,
+				children: ['/blog/tip195']
 			},
 			{
 				title: 'Portal',
