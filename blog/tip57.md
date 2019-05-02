@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-11-26 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Docker Registry vs. Docker Repository
 
