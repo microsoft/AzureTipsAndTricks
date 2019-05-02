@@ -6,6 +6,10 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-08-30 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
+:::
+
 #### Configure the Azure CLI to set Defaults and More
 
 In my last tip, I covered using the `--output Table` parameter to customize the results from the Azure CLI. You can also set it as a default amongst other thing. Simply run `az configure` and you'll see the following : 
