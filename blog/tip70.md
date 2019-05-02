@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-18 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Key Phrase Extraction with Cognitive Service and Azure
 
