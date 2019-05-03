@@ -6,6 +6,10 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-31 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
+:::
+
 #### Shared Access Tokens with Azure Storage Blob Containers
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items so far:

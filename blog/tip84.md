@@ -6,20 +6,24 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-23 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
+:::
+
 #### Adding an item to a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
-* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum)
-* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum)
-* [Today - Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum)
-* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html?WT.mc_id=github-azuredevtips-micrum)
+* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html)
+* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html)
+* [Today - Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html)
+* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
 
 Today, we'll be taking a look at reading an item through code that we previously placed into an Azure Storage Table. 
 
 #### Getting Started
 
-Open the C# Console application that we were working with [yesterday](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum) and let's add two methods to:
+Open the C# Console application that we were working with [yesterday](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html) and let's add two methods to:
 
 * Return all messages in a table
 * Lookup a message based off of the RowKey and PartitionKey 
