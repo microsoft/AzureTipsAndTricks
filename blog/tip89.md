@@ -14,14 +14,14 @@ date: 2018-01-31 17:00:00
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items so far:
 
-* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum)
-* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum)
-* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum)
-* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html?WT.mc_id=github-azuredevtips-micrum)
-* [Deleting an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html?WT.mc_id=github-azuredevtips-micrum)
-* [Ensure a clean RowKey in Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html?WT.mc_id=github-azuredevtips-micrum)
-* [What's the purpose of ETag in Azure Storage Table?](https://microsoft.github.io/AzureTipsAndTricks/blog/tip88.html?WT.mc_id=github-azuredevtips-micrum)
-* [Shared Access Tokens with Azure Storage Blob Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip89.html?WT.mc_id=github-azuredevtips-micrum)
+* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html)
+* [Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html)
+* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html)
+* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
+* [Deleting an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html)
+* [Ensure a clean RowKey in Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html)
+* [What's the purpose of ETag in Azure Storage Table?](https://microsoft.github.io/AzureTipsAndTricks/blog/tip88.html)
+* [Shared Access Tokens with Azure Storage Blob Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip89.html)
 
 #### What is it? 
 

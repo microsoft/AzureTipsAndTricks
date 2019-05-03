@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-05 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [SQL Server on Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Implementing Azure Search with SQL Server and ASP.NET MVC
 

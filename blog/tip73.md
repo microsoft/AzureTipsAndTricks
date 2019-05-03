@@ -6,6 +6,10 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-03 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [SendGrid on Azure](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email?WT.mc_id=docs-azuredevtips-micrum).
+:::
+
 #### Send Emails through Azure with C# and SendGrid
 
 In this post, I'll walk through the process that I completed to create an account with SendGrid and send an email with C#.
