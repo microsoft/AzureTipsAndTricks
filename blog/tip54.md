@@ -11,9 +11,9 @@ date: 2017-11-20 17:00:00
 
 How hard do you think it is to:
 
-* [Today - Create and Publish a .NET Core WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum)
-* [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum)
-* [Use it in Azure with Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum)
+* [Create and Publish a .NET Core WebAPI project](tip54.html)
+* [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](tip55.html)
+* [Use it in Azure with Web App for Containers](tip56.html)
 
 In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers. 
 

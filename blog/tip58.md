@@ -12,9 +12,9 @@ date: 2017-11-27 17:00:00
 
 #### Continuous Deployment with Docker and Web App for Containers
 
-To recap, last week I used [Docker Compose](https://microsoft.github.io/AzureTipsAndTricks/blog/tip55.html?WT.mc_id=github-azuredevtips-micrum) to create an image using our existing [ASP.NET WebAPI project](https://microsoft.github.io/AzureTipsAndTricks/blog/tip54.html?WT.mc_id=github-azuredevtips-micrum) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip56.html?WT.mc_id=github-azuredevtips-micrum). Yesterday, I explained the difference between [Docker Registry and Docker Repository](https://microsoft.github.io/AzureTipsAndTricks/blog/tip57.html?WT.mc_id=github-azuredevtips-micrum) and today, I'll cover setting up Continuous Deployment with Docker and Web App for Containers. 
+To recap, [in Tip 55 - Docker Compose](tip55.html) to create an image using our existing [ASP.NET WebAPI project](tip54.html) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](tip56.html). I also explained the difference between [Docker Registry and Docker Repository in Tip 57](tip57.html) and this tip, I'll cover setting up Continuous Deployment with Docker and Web App for Containers. 
 
-Navigate back to the Web App for Container service [we recently created](tip56/). Look under **Settings** and click on **Docker Container**. You'll see **Continuous Deployment** and will need to switch it on and then **Show the URL** and copy and paste it into somewhere else. Go ahead and press **save**. 
+Navigate back to the Web App for Container service [we recently created](tip56.html). Look under **Settings** and click on **Docker Container**. You'll see **Continuous Deployment** and will need to switch it on and then **Show the URL** and copy and paste it into somewhere else. Go ahead and press **save**. 
 
 <img :src="$withBase('/files/dockercd1.png')">
 
