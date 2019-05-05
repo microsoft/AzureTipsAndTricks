@@ -14,8 +14,8 @@ date: 2018-02-05 17:00:00
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
-* [Part 1](https://microsoft.github.io/AzureTipsAndTricks/blog/tip90.html?WT.mc_id=github-azuredevtips-micrum)
-* [This post - Part 2](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 1](tip90.html)
+* [This post - Part 2](tip91.html)
 
 
 #### Implementing Azure Search
