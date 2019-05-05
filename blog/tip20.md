@@ -13,7 +13,7 @@ date: 2017-09-21 17:00:00
 :::
 
 #### Working with Files in Azure App Service
-In the [last post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html?WT.mc_id=github-azuredevtips-micrum), we created a web app and uploaded it to Azure App Service. In this post, we'll take a look at the files uploaded and three tools that I use to work with them
+In the [Tip 19 - Deploy an Azure Web App using only the CLI](tip19.html), we created a web app and uploaded it to Azure App Service. In this post, we'll take a look at the files uploaded and three tools that I use to work with them
 
 ##### Console Access to my App Service
 I can go to the Azure Portal and select my App Service and click on **Console** under **Development Tools** to have a command prompt to quickly work with my Azure App Service. 
