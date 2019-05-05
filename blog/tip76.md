@@ -12,9 +12,9 @@ date: 2018-01-09 17:00:00
 
 #### Uploading and Downloading a Stream into an Azure Storage Blob
 
-Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In this post, we'll take a look at how to upload and download a stream into an Azure Storage Blob with C#. In previous [posts](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html), I've described how to create an Azure Storage account through the Portal and [recently](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html) how to create an Azure Storage Blob Container through C#.
+Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In this post, we'll take a look at how to upload and download a stream into an Azure Storage Blob with C#. In previous [posts](tip74.html), I've described how to create an Azure Storage account through the Portal and [recently](tip75.html) how to create an Azure Storage Blob Container through C#.
 
-Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [previously](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html) and open the [C# Console application](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html) as we'll be using it shortly.
+Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [previously](tip74.html) and open the [C# Console application](tip75.html) as we'll be using it shortly.
 
 #### Upload a File
 
