@@ -6,14 +6,18 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-22 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
+:::
+
 #### Adding an item to a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
-* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum)
-* [Today - Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html?WT.mc_id=github-azuredevtips-micrum)
-* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html?WT.mc_id=github-azuredevtips-micrum)
-* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html?WT.mc_id=github-azuredevtips-micrum)
+* [Creating your first Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html)
+* [Today - Adding an item to a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip83.html)
+* [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html)
+* [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
 
 Today, we'll be taking a look at adding an item to the Azure Storage Table that we were working with yesterday. 
 
@@ -22,7 +26,7 @@ As a refresher, Azure Storage Blobs can store any type of text or binary data, s
 
 #### Getting Started
 
-Open the C# Console application that we were working with [previously](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html?WT.mc_id=github-azuredevtips-micrum) and let's add a folder called **Entities** and add a class named **Thanks**.
+Open the C# Console application that we were working with [previously](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.htmlm) and let's add a folder called **Entities** and add a class named **Thanks**.
 
 Copy the following code into your new class:
 
@@ -91,5 +95,5 @@ static void Main(string[] args)
 }
 ```
 
-If we run the program now, then it will add our message along with the current DateTime to our Azure Storage Table called **thankfulfor**. If we want to test it now, then we can use [Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html?WT.mc_id=github-azuredevtips-micrum). If you come back tomorrow, then I'll show you how to do this through code. 
+If we run the program now, then it will add our message along with the current DateTime to our Azure Storage Table called **thankfulfor**. If we want to test it now, then we can use [Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html). If you come back tomorrow, then I'll show you how to do this through code. 
 

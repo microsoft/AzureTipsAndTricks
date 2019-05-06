@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-12 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Querying documents properties with special characters in Cosmos DB
 

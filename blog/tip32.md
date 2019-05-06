@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-11 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Using Application Insights with Azure App Service
 

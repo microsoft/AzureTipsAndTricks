@@ -6,10 +6,13 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-10 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Use Visual Studio Code to work with Cosmos DB
 
-**What is Cosmos DB?** Azure Cosmos DB is Microsoft's globally distributed, multi-model database. For more info visit [this page](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-micrum).
+**What is Cosmos DB?** Azure Cosmos DB is Microsoft's globally distributed, multi-model database. For more info visit [this page](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-micrum).
 
 
 Something that I wasn't aware of until yesterday is the [Visual Studio Code extension for Azure Cosmos DB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb).

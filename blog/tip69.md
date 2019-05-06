@@ -6,6 +6,9 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-12-17 17:00:00
 ---
 
+::: tip
+:bulb: Learn more : [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=docs-azuredevtips-micrum).
+:::
 
 #### Access and embed Azure Cloud Shell Anywhere
 
