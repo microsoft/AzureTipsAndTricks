@@ -13,7 +13,7 @@ date: 2017-09-10 17:00:00
 :::
 
 #### What's under the hood of Azure Cloud Shell?
-The [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell?WT.mc_id=azure-azuredevtips-micrum) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=docs-azuredevtips-micrum) commands and didn't really stop to think what is "Under the hood"... until now. 
+The [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell?WT.mc_id=azure-azuredevtips-micrum) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest?WT.mc_id=docs-azuredevtips-micrum) commands and didn't really stop to think what is "Under the hood"... until now. 
 
 When you first open the Cloud Shell, you will find that it requires you to create a Storage account. The reason for that Storage Account is to persist the scripts, keys, etc that you'll use over and over as you interact with your resources. 
 

@@ -23,7 +23,7 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 
 #### Create an app to run inside a Container Image with Docker
 
-Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html?WT.mc_id=github-azuredevtips-micrum) in our last post, which showed how to get started using Docker. We're specifically looking at how I use Docker with Azure in these posts.
+Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html) in our last post, which showed how to get started using Docker. We're specifically looking at how I use Docker with Azure in these posts.
 
 Begin by opening two tabs instances of either command prompt or terminal. In the right tab, enter the following command to see what docker images are available.  
 

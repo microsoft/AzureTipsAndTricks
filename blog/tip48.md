@@ -23,7 +23,7 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 
 #### Pushing a Container Image to a Docker Repo
 
-Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html?WT.mc_id=github-azuredevtips-micrum) in our last post, in which we created a new image that we can distribute that contains our new app. In this post, we'll go ahead and push the image to a Docker repo to prep it for later. 
+Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html) in our last post, in which we created a new image that we can distribute that contains our new app. In this post, we'll go ahead and push the image to a Docker repo to prep it for later. 
 
 Make sure you have a [Docker account](http://www.docker.com) (It's free) and type `docker login` at the terminal or command prompt to ensure we are authenticated. 
 

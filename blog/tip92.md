@@ -14,10 +14,10 @@ date: 2018-02-06 17:00:00
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
-* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](https://microsoft.github.io/AzureTipsAndTricks/blog/tip90.html?WT.mc_id=github-azuredevtips-micrum)
-* [Part 2 - Implementing Azure Search with SQL Server](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html?WT.mc_id=github-azuredevtips-micrum)
-* [Part 3 - Querying an Azure Search Index](https://microsoft.github.io/AzureTipsAndTricks/blog/tip92.html?WT.mc_id=github-azuredevtips-micrum)
-* [Part 4 - Searching an index with Azure Search with C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip93.html?WT.mc_id=github-azuredevtips-micrum)
+* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](https://microsoft.github.io/AzureTipsAndTricks/blog/tip90.html)
+* [Part 2 - Implementing Azure Search with SQL Server](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html)
+* [Part 3 - Querying an Azure Search Index](https://microsoft.github.io/AzureTipsAndTricks/blog/tip92.html)
+* [Part 4 - Searching an index with Azure Search with C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip93.html)
 
 
 #### Implementing Azure Search
@@ -44,4 +44,4 @@ Filtering - You can use the **$filter** parameter to return results matching the
 
 Order-by syntax - You can use the **$orderby** parameter to order the results by. You can use either asc or desc to explicitly specify the sort order. By default, it will use the sort order as ascending.
 
-I'd encourage you to view the [OData Expression Syntax for Azure Search](https://docs.microsoft.com/en-us/rest/api/searchservice/odata-expression-syntax-for-azure-search?WT.mc_id=docs-azuredevtips-micrum) for a full list and other samples that you can use. 
+I'd encourage you to view the [OData Expression Syntax for Azure Search](https://docs.microsoft.com/rest/api/searchservice/odata-expression-syntax-for-azure-search?WT.mc_id=docs-azuredevtips-micrum) for a full list and other samples that you can use. 

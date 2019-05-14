@@ -7,7 +7,7 @@ date: 2017-08-30 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
 :::
 
 #### Configure the Azure CLI to set Defaults and More
