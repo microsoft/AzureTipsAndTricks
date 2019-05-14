@@ -11,10 +11,10 @@ date: 2017-10-22 17:00:00
 
 I thought I'd use this week's Tip and Tricks series to show a practical example of how I am using Azure. I've started running outdoors and would like to extract several links that my app generates via email and send them to my OneDrive account automatically vs doing it manually after each run. I'm also concerned that the app that generates my data may be abandoned one day. In order to secure my data, I used a combination of [Zappier.com](http://www.zapier.com) and [Azure](http://www.azure.com) to solve my problem and over the course of this week, we'll cover the following sections needed in order to implement this: 
 
-* [This post - Parse Emails to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip37.html?WT.mc_id=github-azuredevtips-micrum)
-* [Create JSON Schema to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip38.html?WT.mc_id=github-azuredevtips-micrum)
-* [Setup an HTTP Request Trigger that is used in an Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip39.html?WT.mc_id=github-azuredevtips-micrum)
-* [Upload Files from a URL with Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip40.html?WT.mc_id=github-azuredevtips-micrum)
+* [This post - Parse Emails to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip37.html)
+* [Create JSON Schema to be used in a Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip38.html)
+* [Setup an HTTP Request Trigger that is used in an Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip39.html)
+* [Upload Files from a URL with Azure Logic Apps](https://microsoft.github.io/AzureTipsAndTricks/blog/tip40.html)
 
 
 #### Parse Emails to be used in a Azure Logic Apps

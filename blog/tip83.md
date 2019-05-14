@@ -26,7 +26,7 @@ As a refresher, Azure Storage Blobs can store any type of text or binary data, s
 
 #### Getting Started
 
-Open the C# Console application that we were working with [previously](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.htmlm) and let's add a folder called **Entities** and add a class named **Thanks**.
+Open the C# Console application that we were working with [previously](https://microsoft.github.io/AzureTipsAndTricks/blog/tip82.html) and let's add a folder called **Entities** and add a class named **Thanks**.
 
 Copy the following code into your new class:
 

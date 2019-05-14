@@ -14,11 +14,11 @@ date: 2017-09-26 17:00:00
 
 #### Intro
 
-We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html?WT.mc_id=github-azuredevtips-micrum) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html?WT.mc_id=github-azuredevtips-micrum) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html?WT.mc_id=github-azuredevtips-micrum) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html?WT.mc_id=github-azuredevtips-micrum) for our web app. We also took a look at a feature called [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html?WT.mc_id=github-azuredevtips-micrum) which allows us to distribute traffic between our production and other slots. In this post, we'll look at adding additional logic by using PowerShell to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature.   
+We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. We also took a look at a feature called [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) which allows us to distribute traffic between our production and other slots. In this post, we'll look at adding additional logic by using PowerShell to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature.   
 
 #### Install the PowerShell Azure CLI first
 
-**Hold up!** You'll want to take a look at the [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html?WT.mc_id=github-azuredevtips-micrum) and the [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html?WT.mc_id=github-azuredevtips-micrum) post to have context on what we're going to do here.
+**Hold up!** You'll want to take a look at the [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) and the [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) post to have context on what we're going to do here.
 
 
 Go to the [Azure CLI Projects page](https://azure.github.io/projects/clis/) and select select the WebPI Installer  or use the PowerShell gallery to bring together the power of Windows PowerShell and Azure.
@@ -29,7 +29,7 @@ Once it has been setup, type `az` from your PowerShell Window to see the shiny n
 
 #### PowerShell + Azure App Service + Your Web App = Win
 
-Keep in mine that we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html?WT.mc_id=github-azuredevtips-micrum) with  two versions of our site. One that is `production` and `staging`. They are identical except for the staging site has a large font that says `jsQuizEngine version 2`. We just **distributed** traffic manually between the two sites by going into the Azure Portal and changing this value from the Testing in Production blade.
+Keep in mine that we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) with  two versions of our site. One that is `production` and `staging`. They are identical except for the staging site has a large font that says `jsQuizEngine version 2`. We just **distributed** traffic manually between the two sites by going into the Azure Portal and changing this value from the Testing in Production blade.
 
 <img :src="$withBase('/files/testinprodazure7.png')">
 

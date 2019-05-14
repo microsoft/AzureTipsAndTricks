@@ -23,7 +23,7 @@ For some reason, I find containers are confusing and my goal with my [Azure Tips
 
 #### Create an app to run inside a Container Image with Docker
 
-Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip46.html?WT.mc_id=github-azuredevtips-micrum) in our last post, which showed how to use an image from the Docker Store as our base and create our own console app. In this post, we'll create a new image that we can distribute that contains our new app. 
+Let's continue where we [left off](https://microsoft.github.io/AzureTipsAndTricks/blog/tip46.html) in our last post, which showed how to use an image from the Docker Store as our base and create our own console app. In this post, we'll create a new image that we can distribute that contains our new app. 
 
 Remember how we used the `dotnet build` command in the last post? Well if you navigate the file structure of our existing console app, then you'll see there is a `myapp.dll` that contains the executable code. 
 

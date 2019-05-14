@@ -14,7 +14,7 @@ date: 2017-11-01 17:00:00
 
 #### Deploying Azure Logic App through Visual Studio 2017
 
-Now that you know [how to setup your Visual Studio environment](https://microsoft.github.io/AzureTipsAndTricks/blog/tip43.html?WT.mc_id=github-azuredevtips-micrum), you probably wrote some code and it is time to deploy it. 
+Now that you know [how to setup your Visual Studio environment](https://microsoft.github.io/AzureTipsAndTricks/blog/tip43.html), you probably wrote some code and it is time to deploy it. 
 
 Fire up Visual Studio 2017 Logic App project. In my case, I created an app that would monitor tweets and post them to OneDrive, but you can do whatever you want.
 

@@ -7,7 +7,7 @@ date: 2017-10-16 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-micrum).
 
 :tv: Watch the video : [How to work with the Azure CLI using MacOS](https://www.youtube.com/watch?v=m-xUgEl6dcM&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=28?WT.mc_id=youtube-azuredevtips-micrum).
 :::
@@ -64,4 +64,4 @@ Switch back to the terminal app and you'll see something similar to the followin
 ]
 ```
 
-Keep in mind that you can always get back to this screen with `az account` list. You can now try to create a Ubuntu VM using only the CLI. [Here](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli?WT.mc_id=docs-azuredevtips-micrum) is a great doc to get started. 
+Keep in mind that you can always get back to this screen with `az account` list. You can now try to create a Ubuntu VM using only the CLI. [Here](https://docs.microsoft.com/azure/virtual-machines/linux/quick-create-cli?WT.mc_id=docs-azuredevtips-micrum) is a great doc to get started. 

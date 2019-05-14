@@ -7,7 +7,7 @@ date: 2017-09-20 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum). 
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-micrum). 
 
 :tv: Watch the video : [How to deploy an Azure Web App using only the CLI tool](https://www.youtube.com/watch?v=lO5Dvde07Tg&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=15?WT.mc_id=youtube-azuredevtips-micrum).
 :::

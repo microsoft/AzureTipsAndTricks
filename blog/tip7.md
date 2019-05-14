@@ -7,7 +7,7 @@ date: 2017-08-29 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure?WT.mc_id=docs-azuredevtips-micrum). 
+:bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-micrum). 
 
 :tv: Watch the video : [How to use the table parameter in the Azure CLI](https://www.youtube.com/watch?v=zcKTr2uQwKA&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=6?WT.mc_id=youtube-azuredevtips-micrum).
 :::

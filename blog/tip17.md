@@ -58,7 +58,7 @@ Directory: Azure:\Demo - Azure Monitoring\VirtualMachines
 
 As you can tell, I can easily discover and navigate Azure resources now by using Powershell. 
 
-The other nice thing that I've seen while playing with PowerShell is the ability to run modules such as the ones found in Microsoft.PowerShell. For instance we can use `Get-Date` as described [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-date?view=powershell-5.1?WT.mc_id=docs-azuredevtips-micrum) inside of Cloud Shell. 
+The other nice thing that I've seen while playing with PowerShell is the ability to run modules such as the ones found in Microsoft.PowerShell. For instance we can use `Get-Date` as described [here](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-date?view=powershell-5.1?WT.mc_id=docs-azuredevtips-micrum) inside of Cloud Shell. 
 
 	PS Azure:\> Get-Date
 	

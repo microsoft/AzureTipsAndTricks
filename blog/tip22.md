@@ -14,7 +14,7 @@ date: 2017-09-24 17:00:00
 
 #### Test Web Apps in Production with Azure App Service
 
-We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html?WT.mc_id=github-azuredevtips-micrum) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html?WT.mc_id=github-azuredevtips-micrum) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html?WT.mc_id=github-azuredevtips-micrum) to our web apps. In this post, we'll take a look at using deployment slots for web apps. 
+We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) to our web apps. In this post, we'll take a look at using deployment slots for web apps. 
 
 ##### Creating Deployment Slot
 

@@ -28,7 +28,7 @@ In [Tip 55](tip55.html) we pushed our Docker Image to Docker Cloud. As a reminde
 
 `docker push mbcrump/mbcwebapi:latest` to push your image to Docker Cloud. 
 
-Now that we have a Docker Cloud repository, we can push it to Azure using [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers?WT.mc_id=azure-azuredevtips-micrum)?WT.mc_id=azure-azuredevtips-micrum). 
+Now that we have a Docker Cloud repository, we can push it to Azure using [Web App for Containers](https://azure.microsoft.com/services/app-service/containers?WT.mc_id=azure-azuredevtips-micrum)?WT.mc_id=azure-azuredevtips-micrum). 
 
 Go ahead and log into the Azure Portal and search for `Web App for Containers`. You should see the following: 
 
