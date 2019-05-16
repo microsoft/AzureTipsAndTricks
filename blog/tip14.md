@@ -53,29 +53,27 @@ michael@Azure:~$ ls -a
 
 ```
 
-3.) Looks good (we see `.ssh`), we'll go ahead and copy it to our server with `scp ~/.ssh/id_rsa.pub user@ipaddy:`
+3.) Looks good (we see `.ssh`), we'll go ahead and copy it to our server with `ssh-copy-id user@ipaddy:`
 
 ```
-michael@Azure:~$ scp ~/.ssh/id_rsa.pub user@ipaddy:
+michael@Azure:~$ ssh-copy-id user@ipaddy
 mbcrump@52.161.31.243's password:
 id_rsa.pub                                                                                                                                                                                                               100%  420     0.4KB/s   00:00
 ```
 
 4.) SSH to the Linux server with `ssh user@ipaddy`.
 
-5.) Append the public key to authorized_keys `cat id_rsa.pub >> ~/.ssh/authorized_keys` and then remove the file with `rm id_rsa.pub`. 
+5.) Edit the ssh server configuration file with `sudo nano /etc/ssh/sshd_config`.
 
-6.) Edit the ssh server configuration file with `sudo nano /etc/ssh/sshd_config`.
-
-6.1) These entries must be set to yes and they should already be that way by default:
+5.1) These entries must be set to yes and they should already be that way by default:
 	RSAAuthentication yes
 	PubkeyAuthentication yes
 
-7.) Reload the configuration with `sudo service ssh reload`.
+6.) Reload the configuration with `sudo service ssh reload`.
 
-8.) Disconnect and try to connect without the need to give the password to the ssh-client `ssh user@ipaddy`.
+7.) Disconnect and try to connect without the need to give the password to the ssh-client `ssh user@ipaddy`.
 
-9.) If everything goes as planned, you should see: 
+8.) If everything goes as planned, you should see: 
 
 ```
 michael@Azure:~$ ssh user@ipaddy
