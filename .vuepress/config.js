@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
+				children: ['/blog/tip198', '/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
 			},
 			{
 				title: 'App Service',
@@ -147,7 +147,7 @@ module.exports = {
 			{
 				title: 'PowerShell',
 				collapsable: true,
-				children: ['/blog/tip194', '/blog/tip24', '/blog/tip120', '/blog/tip137']
+				children: ['/blog/tip198', '/blog/tip194', '/blog/tip24', '/blog/tip120', '/blog/tip137']
 			},
 			{
 				title: 'Productivity',
