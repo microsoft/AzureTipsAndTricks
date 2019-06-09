@@ -37,7 +37,7 @@ Now that you have your API Key, open Visual Studio and create a new Console Appl
 
 <img :src="$withBase('/files/sendgrid5.png')">
 
-Insall the NuGet package and copy and paste the following C# code into your Console application, simply replacing your API key.
+Install the NuGet package and copy and paste the following C# code into your Console application, simply replacing your API key.
 
 ```csharp
     class Program
