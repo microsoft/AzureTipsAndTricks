@@ -17,7 +17,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 180+
 
 |  Resouce 	|   Description	|
 |---	|---
-|   [Home](http://azuredev.tips)	|   This site can always be found at http://azuredev.tips	|
+|   [Home](http://azuredev.tips)	|   This site can always be found at [http://azuredev.tips](http://azuredev.tips)	|
 |   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 50+ videos based on the series	|
 |   [eBook Vol 1](http://ebook.azuredev.tips) and [eBook Vol 2](http://ebookvol2.azuredev.tips)	|   We have two volumes of Azure Tips and Tricks in an eBook format based on the best tips of all time	|
 |   [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=)	|   Add to the GitHub issue tracker and tag it as a question	|
@@ -47,7 +47,7 @@ NOTE:
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+the rights to use your contribution. For details, visit [https://cla.microsoft.com](https://cla.microsoft.com).
 
 When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
 a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
@@ -67,9 +67,9 @@ see the [LICENSE](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/LI
 Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
 may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
 The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+Microsoft's general trademark guidelines can be found at [http://go.microsoft.com/fwlink/?LinkID=254653](http://go.microsoft.com/fwlink/?LinkID=254653).
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+Privacy information can be found at [https://privacy.microsoft.com/en-us/](https://privacy.microsoft.com/en-us/)
 
 Microsoft and any contributors reserve all others rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
