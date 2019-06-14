@@ -10,6 +10,8 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 180+
 ::: tip What's New?
 :calendar: Check out the **Recently Added** item on the left sidebar :point_left:for the latest tips and tricks!
 
+:fire: Checkout our new Azure Developer page at [azure.com/developer](https://azure.com/developer?WT.mc_id=azure-azuredevtips-micrum).
+
 :punch: that :star: button on the official [GitHub repo](https://github.com/Microsoft/AzureTipsAndTricks/) to stay up to date.
 :::
 
