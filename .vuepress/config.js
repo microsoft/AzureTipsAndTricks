@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip201', '/blog/tip200', '/blog/tip199', '/blog/tip198', '/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
+				children: ['/blog/tip202','/blog/tip201', '/blog/tip200', '/blog/tip199', '/blog/tip198', '/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
 			},
 			{
 				title: 'App Service',
@@ -126,7 +126,7 @@ module.exports = {
 			{
 				title: 'Machine Learning',
 				collapsable: true,
-				children: ['/blog/tip189', '/blog/tip174', '/blog/tip175']
+				children: ['/blog/tip202', '/blog/tip189', '/blog/tip174', '/blog/tip175']
 			},
 			{
 				title: 'Media Services',
