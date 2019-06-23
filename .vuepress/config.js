@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: true,
-				children: ['/blog/tip202','/blog/tip201', '/blog/tip200', '/blog/tip199', '/blog/tip198', '/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
+				children: ['/blog/tip203','/blog/tip202','/blog/tip201', '/blog/tip200', '/blog/tip199', '/blog/tip198', '/blog/tip197', '/blog/tip196', '/blog/tip195','/blog/tip194','/blog/tip193', '/blog/tip192', '/blog/tip191', '/blog/tip190']
 			},
 			{
 				title: 'App Service',
@@ -57,6 +57,11 @@ module.exports = {
 				collapsable: true,
 				children: ['/blog/tip81',
 					'/blog/tip139']
+			},
+			{
+				title: 'CDN',
+				collapsable: true,
+				children: ['/blog/tip203']
 			},
 			{
 				title: 'CLI',
