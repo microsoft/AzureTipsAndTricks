@@ -1,7 +1,7 @@
 ---
 type: post
-title: "Tip 23 - Testing Web Apps in Production with Azure App Service"
-excerpt: "Learn how to use test Web Apps for production using Azure App Service"
+title: "Tip 23 - Traffic Percentage for Web Apps with Azure App Service"
+excerpt: "Learn how to setup traffic percentate rules for Azure App Service"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-25 17:00:00
 ---
@@ -14,25 +14,22 @@ date: 2017-09-25 17:00:00
 
 #### Intro
 
-We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. In this post, we'll look at a feature called `Testing in Production` which isn't as scary as it sounds.  
+We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. In this post, we'll look at a feature called `Routing Rules`.  
 
-#### Testing Web Apps in Production with Azure App Service
+#### Traffic Percentage Feature of Azure App Service
 
-**Hold up!** You'll want to take a look at the [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) post if you haven't worked with deployment slots before. 
+Go to the Azure Portal and select any App Service that uses at least 2 deployment slots. Click on **Deployment Slots** under **Deployment**. Take a look at one of the slots and you'll see traffic percentage. 
 
+**What is Traffic Percentage** This section lets you control how traffic is distributed between your production and other slots. This is useful if you want to try out a new change with a small percentage of requests and then gradually increase the percentage of requests that get the new behavior.
 
-Go to the Azure Portal and select my App Service and click on **Testing in Production** under **Development Tools** to get started. The first thing you'll see is `Static Routing` and you'll notice that it's looking for a deployment slot and traffic percentage. 
+A scenario could be - We'll want to split the traffic to our site into 2 groups to test our new site and see if customers like it. 
 
-**What is Static Routing** This section lets you control how traffic is distributed between your production and other slots. This is useful if you want to try out a new change with a small percentage of requests and then gradually increase the percentage of requests that get the new behavior.
+Production - 75%
+Staging - 25%
 
+Now keep in mind that we have two versions of our site. One that is `production` and `staging`. They are identical except for the staging site has a large font that says `jsQuizEngine version 2`. 
 
-We'll want to split the traffic to our site into 2 groups to test our new site and see if customers like it. Since this is just a demo, I want to send a large number of folks to our new `staging` site as shown below. 
-
-<img :src="$withBase('/files/testinprodazure7.png')">
-
-Great! Now keep in mine that we have two versions of our site. One that is `production` and `staging`. They are identical except for the staging site has a large font that says `jsQuizEngine version 2`. 
-
-We don't want to **swap** sites, we just want to **distribute** traffic between the two site. 
+We don't want to **swap** sites, we just want to **distribute** traffic between the two sites. 
 
 I can test this by going to my production url and refreshing the site until the `staging` site is shown with the production url. 
 
@@ -41,3 +38,5 @@ I can test this by going to my production url and refreshing the site until the 
 Success! it works, but what happens when they leave the site? We actually store a cookie that keeps track of it. You can find this cookie yourself by expecting the site and looking for the cookie shown below. 
 
 <img :src="$withBase('/files/testinprodazure2.png')">
+
+For further reading, then please see this [blog post](https://azure.github.io/AppService/update/2019/03/18/Changes-to-Testing-in-Production-UX.html) submitted by [WizX20](https://github.com/WizX20).
