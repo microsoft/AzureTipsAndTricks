@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-				children: ['/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
+				children: ['/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
 			},
 			{
 				title: 'App Service',
