@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-				children: ['/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
+				children: ['/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
 			},
 			{
 				title: 'App Service',
@@ -131,7 +131,7 @@ module.exports = {
 			{
 				title: 'Logic Apps',
 				collapsable: true,
-				children: ['/blog/tip37', '/blog/tip38', '/blog/tip39', '/blog/tip40', '/blog/tip41', '/blog/tip42', '/blog/tip43', '/blog/tip44', '/blog/tip156', '/blog/tip159']
+				children: ['/blog/tip227','/blog/tip37', '/blog/tip38', '/blog/tip39', '/blog/tip40', '/blog/tip41', '/blog/tip42', '/blog/tip43', '/blog/tip44', '/blog/tip156', '/blog/tip159']
 			},
 			{
 				title: 'Machine Learning',
