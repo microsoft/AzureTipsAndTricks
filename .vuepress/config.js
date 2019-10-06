@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-				children: ['/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
+				children: ['/blog/tip228','/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220','/blog/tip219','/blog/tip218','/blog/tip217','/blog/tip216','/blog/tip215','/blog/tip214','/blog/tip213','/blog/tip212','/blog/tip211','/blog/tip210']
 			},
 			{
 				title: 'App Service',
@@ -127,6 +127,11 @@ module.exports = {
 				title: 'Key Vault',
 				collapsable: true,
 				children: ['/blog/tip180', '/blog/tip181']
+			},
+			{
+				title: 'Kubernetes',
+				collapsable: true,
+				children: ['/blog/tip228']
 			},
 			{
 				title: 'Logic Apps',
