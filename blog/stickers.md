@@ -50,7 +50,7 @@ On Twitter - [@mbcrump](https://twitter.com/mbcrump)
 * [Download Azure Retro](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/Azure-Retro-01.eps)
 
 <img :src="$withBase('/files/floppy-tipsandtricks.png')" height="300"/>
-* [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/floppy-tipsandtricks.eps)
+* [Download Floppy Disk](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/floppy-tipsandtricks.eps)
 
 
 ## Legal
