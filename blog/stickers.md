@@ -43,6 +43,16 @@ On Twitter - [@mbcrump](https://twitter.com/mbcrump)
 * [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-shark-laser-eyes.eps)
 * [Download Boggle](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-boggle.eps)
 
+<img :src="$withBase('/files/4.5x2 _glasses-03.png')" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img :src="$withBase('/files/azure-retro.png')" height="300"/>
+
+* [Download Glasses](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/4.5x2 _glasses-03.eps)
+* [Download Azure Retro](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/Azure-Retro-01.eps)
+
+<img :src="$withBase('/files/floppy-tipsandtricks.png')" height="300"/>
+* [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/floppy-tipsandtricks.eps)
+
+
 ## Legal
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
