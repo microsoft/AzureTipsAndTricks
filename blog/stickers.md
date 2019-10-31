@@ -20,13 +20,28 @@ Select the design that you want and use [Sticker Mule](https://www.stickermule.c
 
 The application used to create all of the images was **Adobe Illustrator**. After creation, we exported to EPS so that transferring image data between different operating systems would be easier. The EPS file type is supported by several different drawing programs and vector graphic editing applications. 
 
-## Reach out to me on Twitter if you have a meetup/usergroup/event and would like for me to send you some stickers.
+## Reach out to me on Twitter or Twitch if you have a meetup/usergroup/event and would like for me to send you some stickers.
 
-On Twitter - [@mbcrump](https://twitter.com/mbcrump)
+On Twitter - [@mbcrump](https://twitter.com/mbcrump) or on Twitch - [@mbcrump](https://twitch.tv/mbcrump)
 
 ## Collage
 
 **NOTE :** The bleed line shown in the images below is for the printer. It will not appear in the printed stickers. 
+<img :src="$withBase('/files/4.5x2 _glasses-03.png')" height="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
+
+* [Download Glasses](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/4.5x2_glasses-03.eps)
+
+<img :src="$withBase('/files/azure-retro.png')" height="300" width="300"/>
+
+
+
+* [Download Azure Retro](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/Azure-Retro-01.eps)
+
+<img :src="$withBase('/files/floppy-tipsandtricks.png')" width="300"/>
+
+* [Download Floppy Disk](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/floppy-tipsandtricks.eps)
+
+## Archived designs (no longer in distribution)
 
 <img :src="$withBase('/files/lightbulb.png')" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;<img :src="$withBase('/files/seattle.png')" height="300"/>
 
@@ -43,14 +58,6 @@ On Twitter - [@mbcrump](https://twitter.com/mbcrump)
 * [Download Shark](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-shark-laser-eyes.eps)
 * [Download Boggle](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/2x2-rounded-boggle.eps)
 
-<img :src="$withBase('/files/4.5x2 _glasses-03.png')" height="300" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img :src="$withBase('/files/azure-retro.png')" height="300"/>
-
-* [Download Glasses](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/4.5x2 _glasses-03.eps)
-* [Download Azure Retro](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/Azure-Retro-01.eps)
-
-<img :src="$withBase('/files/floppy-tipsandtricks.png')" height="300"/>
-* [Download Floppy Disk](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/floppy-tipsandtricks.eps)
 
 
 ## Legal
