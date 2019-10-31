@@ -213,7 +213,7 @@ module.exports = {
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
-			{ text: 'eBooks', link: '/#site-map' },
+			{ text: 'Live Streaming', link: 'http://twitch.tv/mbcrump' },
 			{ text: 'Questions?', link: 'https://github.com/Microsoft/AzureTipsAndTricks/issues/' },
 			{ text: 'RSS Feed', link: 'https://microsoft.github.io/AzureTipsAndTricks/rss.xml' }
 		]//,

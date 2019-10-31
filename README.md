@@ -5,12 +5,12 @@ type: post
 
 # Welcome
 
-Welcome to Azure Tips and Tricks, this site is a special collection of over 230+ tips, videos, conference talks, and eBooks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
+Welcome to Azure Tips and Tricks, this site is a special collection of over 230+ tips, videos, conference talks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
 
 ::: tip What's New?
 :calendar: Check out the **Recently Added** item on the left sidebar :point_left: for the latest tips and tricks!
 
-:unicorn: Checkout my [Twitch Azure Developer Streaming](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)!
+:unicorn: [Live-coding, interviews and more about Azure](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)!
 
 :punch: that :star: button on the official [GitHub repo](https://github.com/Microsoft/AzureTipsAndTricks/) to stay up to date.
 :::
@@ -21,7 +21,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 230+
 |---	|---
 |   [Home](http://azuredev.tips)	|   This site can always be found at [http://azuredev.tips](http://azuredev.tips)	|
 |   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 65+ videos based on the series	|
-|   [eBook Vol 1](http://ebook.azuredev.tips) and [eBook Vol 2](http://ebookvol2.azuredev.tips)	|   We have two volumes of Azure Tips and Tricks in an eBook format based on the best tips of all time	|
+|   [Live-coding, interviews and more](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)|   Join us to discuss all-things Azure! From live-coding, special guest interviews, breaking software development news and more!	|
 |   [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=)	|   Add to the GitHub issue tracker and tag it as a question	|
 |   [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
 |   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
