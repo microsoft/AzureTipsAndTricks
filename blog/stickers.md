@@ -27,9 +27,9 @@ On Twitter - [@mbcrump](https://twitter.com/mbcrump) or on Twitch - [@mbcrump](h
 ## Collage
 
 **NOTE :** The bleed line shown in the images below is for the printer. It will not appear in the printed stickers. 
-<img :src="$withBase('/files/4.5x2_glasses-03.PNG')" height="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img :src="$withBase('/files/glasses.png')" height="300"/>&nbsp;&nbsp;&nbsp;&nbsp;
 
-* [Download Glasses](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/4.5x2_glasses-03.eps)
+* [Download Glasses](https://github.com/Microsoft/AzureTipsAndTricks/blob/master/.vuepress/public/stickers/glasses.eps)
 
 <img :src="$withBase('/files/azure-retro.png')" height="300" width="300"/>
 
