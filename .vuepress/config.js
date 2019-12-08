@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-				children: ['/blog/tip236','/blog/tip235','/blog/tip234','/blog/tip233','/blog/tip232','/blog/tip231','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220']
+				children: ['/blog/tip237','/blog/tip236','/blog/tip235','/blog/tip234','/blog/tip233','/blog/tip232','/blog/tip231','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220']
 			},
 			{
 				title: 'App Service',
@@ -96,7 +96,7 @@ module.exports = {
 			{
 				title: 'DevOps',
 				collapsable: true,
-				children: ['/blog/tip233','/blog/tip206','/blog/tip168', '/blog/tip169']
+				children: ['/blog/tip237','/blog/tip233','/blog/tip206','/blog/tip168', '/blog/tip169']
 			},
 			{
 				title: 'Front Door',
