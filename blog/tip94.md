@@ -62,3 +62,37 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
 
 If you now call `https://mcrumpfunction.azurewebsites.net/api/products/truck/444` then it will return `<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/')">Category truck and the Id is 444</string>`. 
 
+
+####  Functions based on .Net Core 2.1
+
+This is even easier if you're using .Net Core 2.1 for your functions as the routing is set in the function itself. Change the default code
+
+```csharp
+[FunctionName("products")]
+        public static async Task<IActionResult> Run(
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            ILogger log)
+        { ...
+```
+to
+```csharp
+public static class products
+{
+	[FunctionName("products")]
+	public static async Task<IActionResult> Run(
+		[HttpTrigger(AuthorizationLevel.Function, "get", Route = "products/{category:alpha}/{id:int?}")]
+		HttpRequest req,
+		string category,
+		int? id,
+		ILogger log)
+	{
+		log.LogInformation("C# HTTP trigger function processed a request.");
+
+		return category != null
+			? (ActionResult)new OkObjectResult($"Product ID: {id} in category {category}")
+			: new BadRequestObjectResult("Please pass a category in the url");
+	}
+}
+```
+
+
