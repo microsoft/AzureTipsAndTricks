@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-				children: ['/blog/tip238','/blog/tip237','/blog/tip236','/blog/tip235','/blog/tip234','/blog/tip233','/blog/tip232','/blog/tip231','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220']
+				children: ['/blog/tip239','/blog/tip238','/blog/tip237','/blog/tip236','/blog/tip235','/blog/tip234','/blog/tip233','/blog/tip232','/blog/tip231','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip227','/blog/tip226','/blog/tip225','/blog/tip224','/blog/tip223','/blog/tip222','/blog/tip221','/blog/tip220']
 			},
 			{
 				title: 'App Service',
@@ -153,6 +153,11 @@ module.exports = {
 				title: 'Monitor',
 				collapsable: true,
 				children: ['/blog/tip205','/blog/tip195']
+			},
+			{
+				title: 'MySQL',
+				collapsable: true,
+				children: ['/blog/tip239']
 			},
 			{
 				title: 'Portal',
