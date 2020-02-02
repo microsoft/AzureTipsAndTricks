@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip243','/blog/tip242','/blog/tip241','/blog/tip240','/blog/tip239']
+children: ['/blog/tip244','/blog/tip243','/blog/tip242','/blog/tip241']
 			},
 			{
 				title: '.NET',
@@ -137,6 +137,11 @@ children: ['/blog/tip243','/blog/tip242','/blog/tip241','/blog/tip240','/blog/ti
 				title: 'Data Share',
 				collapsable: true,
 				children: ['/blog/tip225']
+			},
+			{
+				title: 'Data Studio',
+				collapsable: true,
+				children: ['/blog/tip244']
 			},
 			{
 				title: 'DevOps',
@@ -247,7 +252,7 @@ children: ['/blog/tip243','/blog/tip242','/blog/tip241','/blog/tip240','/blog/ti
 			{
 				title: 'PowerShell',
 				collapsable: true,
-				children: ['/blog/tip211','/blog/tip198', '/blog/tip194', '/blog/tip24', '/blog/tip120', '/blog/tip137', '/blog/tip149','/blog/tip17']
+				children: ['/blog/tip244','/blog/tip211','/blog/tip198', '/blog/tip194', '/blog/tip24', '/blog/tip120', '/blog/tip137', '/blog/tip149','/blog/tip17']
 			},
 			{
 				title: 'Productivity',
