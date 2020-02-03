@@ -3,7 +3,9 @@ title: Welcome
 type: post
 ---
 
-<link href="style.css" rel="stylesheet"></link>
+<style type="text/css" rel="stylesheet">
+    img { border-radius: 50% }
+</style>
 
 # Welcome
 
@@ -74,41 +76,26 @@ Thanks to all our contributors:
     <td align="center">
         <a href="https://github.com/vaheminasyan2">
             <img src="https://avatars0.githubusercontent.com/u/32709965?s=400&v=4" width="50px;" alt=""/><br />
-            <!-- <sub>
-                <b>Vahe Minasyan</b>
-            </sub> -->
         </a>
     </td>
      <td align="center">
         <a href="https://github.com/theheatDK">
             <img src="https://avatars2.githubusercontent.com/u/17799567?s=400&v=4" width="50px;" alt=""/><br />
-            <!-- <sub>
-                <b>Peter Lorenzen</b>
-            </sub> -->
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/vuder">
             <img src="https://avatars0.githubusercontent.com/u/1086665?s=400&v=4" width="50px;" alt=""/><br />
-            <!-- <sub>
-                <b>Oleksii Temekunidi</b>
-            </sub> -->
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/uneedgo">
             <img src="https://avatars2.githubusercontent.com/u/59988192?s=400&v=4" width="50px;" alt=""/><br />
-            <!-- <sub>
-                <b>uneedgo</b>
-            </sub> -->
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/tosokr">
             <img src="https://avatars0.githubusercontent.com/u/1630501?s=400&v=4" width="50px;" alt=""/><br />
-            <!-- <sub>
-                <b>Aleksandar Stefanov</b>
-            </sub> -->
         </a>
     </td>
     <td align="center">
