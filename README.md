@@ -3,6 +3,8 @@ title: Welcome
 type: post
 ---
 
+<link href="style.css" rel="stylesheet"></link>
+
 # Welcome
 
 Welcome to Azure Tips and Tricks, this site is a special collection of over 230+ tips, videos, conference talks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
@@ -15,7 +17,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 230+
 :punch: that :star: button on the official [GitHub repo](https://github.com/Microsoft/AzureTipsAndTricks/) to stay up to date.
 :::
 
-#### Site Map
+## Site Map
 
 |  Resouce 	|   Description	|
 |---	|---
@@ -28,8 +30,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 230+
 |   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
 |   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project.	|
 
-#### Git Workflow
-------------
+## Git Workflow
 
 In general, we follow the "fork-and-pull" Git workflow.
 
@@ -45,7 +46,7 @@ NOTE:
 * Each page has a "Edit this page on GitHub" link. Click it to easily navigate to the blog post file. They are also located in `/src/blog` with a name such as `tip120.md`.
 
 
-#### Contributing
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -59,7 +60,104 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-#### Legal Notices
+Thanks to all our contributors: 
+
+<table>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/mbcrump">
+            <img src="https://avatars1.githubusercontent.com/u/534885?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>Michael Crump</b>
+            </sub> -->
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vaheminasyan2">
+            <img src="https://avatars0.githubusercontent.com/u/32709965?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>Vahe Minasyan</b>
+            </sub> -->
+        </a>
+    </td>
+     <td align="center">
+        <a href="https://github.com/theheatDK">
+            <img src="https://avatars2.githubusercontent.com/u/17799567?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>Peter Lorenzen</b>
+            </sub> -->
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/vuder">
+            <img src="https://avatars0.githubusercontent.com/u/1086665?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>Oleksii Temekunidi</b>
+            </sub> -->
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/uneedgo">
+            <img src="https://avatars2.githubusercontent.com/u/59988192?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>uneedgo</b>
+            </sub> -->
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/tosokr">
+            <img src="https://avatars0.githubusercontent.com/u/1630501?s=400&v=4" width="50px;" alt=""/><br />
+            <!-- <sub>
+                <b>Aleksandar Stefanov</b>
+            </sub> -->
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/tomkerkhove">
+            <img src="https://avatars2.githubusercontent.com/u/4345663?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/metin">
+            <img src="https://avatars3.githubusercontent.com/u/28767?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/kyleburnsdev">
+            <img src="https://avatars1.githubusercontent.com/u/31851557?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/helderpinto">
+            <img src="https://avatars0.githubusercontent.com/u/10661605?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/TimSmith714">
+            <img src="https://avatars3.githubusercontent.com/u/2846298?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Jeff-Jerousek">
+            <img src="https://avatars3.githubusercontent.com/u/1041099?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/BeigeBadger">
+            <img src="https://avatars0.githubusercontent.com/u/8124536?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/AzureMentor">
+            <img src="https://avatars3.githubusercontent.com/u/30055505?s=400&v=4" width="50px;" alt=""/><br />
+        </a>
+    </td>
+
+
+  </tr>
+</table>
+
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
