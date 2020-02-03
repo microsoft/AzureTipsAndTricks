@@ -19,36 +19,35 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 230+
 
 ## Site Map
 
-|  Resouce 	|   Description	|
-|---	|---
-|   [Home](http://azuredev.tips)	|   This site can always be found at [http://azuredev.tips](http://azuredev.tips)	|
-|   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 65+ videos based on the series	|
-|   [Live-coding, interviews and more](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)|   Join us to discuss all-things Azure! From live-coding, special guest interviews, breaking software development news and more!	|
-|   [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=)	|   Add to the GitHub issue tracker and tag it as a question	|
-|   [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
-|   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
-|   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
-|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project.	|
+| Resouce                                                                                                                 | Description                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Home](http://azuredev.tips)                                                                                            | This site can always be found at [http://azuredev.tips](http://azuredev.tips)                                                              |
+| [Videos](http://videos.azuredev.tips)                                                                                   | Our growing playlist of 65+ videos based on the series                                                                                     |
+| [Live-coding, interviews and more](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)                        | Join us to discuss all-things Azure! From live-coding, special guest interviews, breaking software development news and more!              |
+| [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=) | Add to the GitHub issue tracker and tag it as a question                                                                                   |
+| [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)                                                      | Keep up to date with all the newest tips posted by subscribing to the RSS feed                                                             |
+| [Stickers](http://stickers.azuredev.tips)                                                                               | Feel free to print any of these stickers for your events and community meetups                                                             |
+| [Survey](http://survey.azuredev.tips)                                                                                   | Have an idea for a post? Do you have feedback? Leave it here                                                                               |
+| [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)                                        | Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project. |
 
 ## Git Workflow
 
 In general, we follow the "fork-and-pull" Git workflow.
 
- 1. **Fork** the repo on GitHub
- 2. **Clone** the project to your own machine
- 3. **Commit** changes to your own branch
- 4. **Push** your work back up to your fork
- 5. Submit a **Pull request** so that we can review your changes
+1.  **Fork** the repo on GitHub
+2.  **Clone** the project to your own machine
+3.  **Commit** changes to your own branch
+4.  **Push** your work back up to your fork
+5.  Submit a **Pull request** so that we can review your changes
 
-NOTE: 
+NOTE:
 
-* Be sure to merge the latest from "upstream" before making a pull request! 
-* Each page has a "Edit this page on GitHub" link. Click it to easily navigate to the blog post file. They are also located in `/src/blog` with a name such as `tip120.md`.
-
+- Be sure to merge the latest from "upstream" before making a pull request!
+- Each page has a "Edit this page on GitHub" link. Click it to easily navigate to the blog post file. They are also located in `/src/blog` with a name such as `tip120.md`.
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit [https://cla.microsoft.com](https://cla.microsoft.com).
 
@@ -60,7 +59,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-Thanks to all our contributors: 
+Thanks to all our contributors:
 
 <table>
   <tr>
@@ -152,7 +151,6 @@ Thanks to all our contributors:
             <img src="https://avatars3.githubusercontent.com/u/30055505?s=400&v=4" width="50px;" alt=""/><br />
         </a>
     </td>
-
 
   </tr>
 </table>
