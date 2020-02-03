@@ -63,7 +63,7 @@ Special thanks to our contributors:
   <tr>
     <td align="center">
         <a href="https://github.com/mbcrump">
-            <img src="https://avatars1.githubusercontent.com/u/534885?s=400&v=4" alt=""/><br />
+            <img src="https://avatars1.githubusercontent.com/u/534885?s=400&v=4" width="100px;" alt=""/><br />
             <!-- <sub>
                 <b>Michael Crump</b>
             </sub> -->
@@ -71,67 +71,67 @@ Special thanks to our contributors:
     </td>
     <td align="center">
         <a href="https://github.com/vaheminasyan2">
-            <img src="https://avatars0.githubusercontent.com/u/32709965?s=400&v=4" alt=""/><br />
+            <img src="https://avatars0.githubusercontent.com/u/32709965?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
      <td align="center">
         <a href="https://github.com/theheatDK">
-            <img src="https://avatars2.githubusercontent.com/u/17799567?s=400&v=4" alt=""/><br />
+            <img src="https://avatars2.githubusercontent.com/u/17799567?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/vuder">
-            <img src="https://avatars0.githubusercontent.com/u/1086665?s=400&v=4" alt=""/><br />
+            <img src="https://avatars0.githubusercontent.com/u/1086665?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/uneedgo">
-            <img src="https://avatars2.githubusercontent.com/u/59988192?s=400&v=4" alt=""/><br />
+            <img src="https://avatars2.githubusercontent.com/u/59988192?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/tosokr">
-            <img src="https://avatars0.githubusercontent.com/u/1630501?s=400&v=4" alt=""/><br />
+            <img src="https://avatars0.githubusercontent.com/u/1630501?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/tomkerkhove">
-            <img src="https://avatars2.githubusercontent.com/u/4345663?s=400&v=4" alt=""/><br />
+            <img src="https://avatars2.githubusercontent.com/u/4345663?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/metin">
-            <img src="https://avatars3.githubusercontent.com/u/28767?s=400&v=4" alt=""/><br />
+            <img src="https://avatars3.githubusercontent.com/u/28767?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/kyleburnsdev">
-            <img src="https://avatars1.githubusercontent.com/u/31851557?s=400&v=4" alt=""/><br />
+            <img src="https://avatars1.githubusercontent.com/u/31851557?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/helderpinto">
-            <img src="https://avatars0.githubusercontent.com/u/10661605?s=400&v=4" alt=""/><br />
+            <img src="https://avatars0.githubusercontent.com/u/10661605?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/TimSmith714">
-            <img src="https://avatars3.githubusercontent.com/u/2846298?s=400&v=4" alt=""/><br />
+            <img src="https://avatars3.githubusercontent.com/u/2846298?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/Jeff-Jerousek">
-            <img src="https://avatars3.githubusercontent.com/u/1041099?s=400&v=4" alt=""/><br />
+            <img src="https://avatars3.githubusercontent.com/u/1041099?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/BeigeBadger">
-            <img src="https://avatars0.githubusercontent.com/u/8124536?s=400&v=4" alt=""/><br />
+            <img src="https://avatars0.githubusercontent.com/u/8124536?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
     <td align="center">
         <a href="https://github.com/AzureMentor">
-            <img src="https://avatars3.githubusercontent.com/u/30055505?s=400&v=4" alt=""/><br />
+            <img src="https://avatars3.githubusercontent.com/u/30055505?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
 
