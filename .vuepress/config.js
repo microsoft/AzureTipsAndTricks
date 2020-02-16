@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip246','/blog/tip245','/blog/tip244','/blog/tip243','/blog/tip242','/blog/tip241']
+children: ['/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
 			},
 			{
 				title: '.NET',
@@ -161,7 +161,7 @@ children: ['/blog/tip246','/blog/tip245','/blog/tip244','/blog/tip243','/blog/ti
 			{
 				title: 'Functions',
 				collapsable: true,
-				children: ['/blog/tip211','/blog/tip196','/blog/tip35', '/blog/tip36', '/blog/tip50', '/blog/tip51', '/blog/tip52', '/blog/tip61', '/blog/tip62', '/blog/tip63', '/blog/tip64', '/blog/tip94', '/blog/tip97', '/blog/tip98', '/blog/tip99', '/blog/tip100', '/blog/tip130', '/blog/tip133', '/blog/tip134', '/blog/tip135', '/blog/tip136', '/blog/tip147', '/blog/tip148', '/blog/tip157', '/blog/tip158', '/blog/tip161','/blog/tip125','/blog/tip174', '/blog/tip175']
+				children: ['/blog/tip247','/blog/tip211','/blog/tip196','/blog/tip35', '/blog/tip36', '/blog/tip50', '/blog/tip51', '/blog/tip52', '/blog/tip61', '/blog/tip62', '/blog/tip63', '/blog/tip64', '/blog/tip94', '/blog/tip97', '/blog/tip98', '/blog/tip99', '/blog/tip100', '/blog/tip130', '/blog/tip133', '/blog/tip134', '/blog/tip135', '/blog/tip136', '/blog/tip147', '/blog/tip148', '/blog/tip157', '/blog/tip158', '/blog/tip161','/blog/tip125','/blog/tip174', '/blog/tip175']
 			},
 			{
 				title: 'GitHub',
