@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
+children: ['/blog/tip248','/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
 			},
 			{
 				title: '.NET',
@@ -305,9 +305,9 @@ children: ['/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
 				children: ['/blog/tip235','/blog/tip209','/blog/tip207','/blog/tip201', '/blog/tip191', '/blog/tip9', '/blog/tip10', '/blog/tip12', '/blog/tip53', '/blog/tip226','/blog/tip208','/blog/tip14', '/blog/tip215']
 			},
 			{
-				title: 'Visual Studio',
+				title: 'Visual Studio Family',
 				collapsable: true,
-				children: ['/blog/tip49','/blog/tip65','/blog/tip50','/blog/tip51','/blog/tip52','/blog/tip61','/blog/tip63','/blog/tip130', '/blog/tip43','/blog/tip44','/blog/tip202', '/blog/tip120']
+				children: ['/blog/tip248','/blog/tip49','/blog/tip65','/blog/tip50','/blog/tip51','/blog/tip52','/blog/tip61','/blog/tip63','/blog/tip130', '/blog/tip43','/blog/tip44','/blog/tip202', '/blog/tip120']
 			},
 			{
 
@@ -319,7 +319,7 @@ children: ['/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
-			{ text: 'Live Streaming', link: 'http://twitch.tv/mbcrump' },
+			{ text: 'Developer Live Streaming', link: 'http://twitch.tv/mbcrump' },
 			{ text: 'Questions?', link: 'https://github.com/Microsoft/AzureTipsAndTricks/issues/' },
 			{ text: 'RSS Feed', link: 'https://microsoft.github.io/AzureTipsAndTricks/rss.xml' }
 		]//,
