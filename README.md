@@ -134,6 +134,11 @@ Special thanks to our contributors:
             <img src="https://avatars3.githubusercontent.com/u/30055505?s=400&v=4" width="100px;" alt=""/><br />
         </a>
     </td>
+    <td align="center">
+        <a href="https://github.com/a-patel">
+            <img src="https://avatars2.githubusercontent.com/u/8511777?s=460&v=4" width="100px;" alt=""/><br />
+        </a>
+    </td>
 
   </tr>
 </table>
