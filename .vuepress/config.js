@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip256','/blog/tip255','/blog/tip254','/blog/tip253','/blog/tip252','/blog/tip251','/blog/tip250','/blog/tip249','/blog/tip248','/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
+children: ['/blog/tip257','/blog/tip256','/blog/tip255','/blog/tip254','/blog/tip253','/blog/tip252','/blog/tip251','/blog/tip250','/blog/tip249','/blog/tip248','/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
 			},
 			{
 				title: '.NET',
@@ -111,7 +111,7 @@ children: ['/blog/tip256','/blog/tip255','/blog/tip254','/blog/tip253','/blog/ti
 			{
 				title: 'CLI',
 				collapsable: true,
-				children: ['/blog/tip200','/blog/tip199','/blog/tip7', '/blog/tip8', '/blog/tip19', '/blog/tip34', '/blog/tip111']
+				children: ['/blog/tip257','/blog/tip200','/blog/tip199','/blog/tip7', '/blog/tip8', '/blog/tip19', '/blog/tip34', '/blog/tip111']
 			},
 			{
 				title: 'Cloud Shell',
