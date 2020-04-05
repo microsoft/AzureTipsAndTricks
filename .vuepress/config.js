@@ -32,12 +32,12 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip258','/blog/tip257','/blog/tip256','/blog/tip255','/blog/tip254','/blog/tip253','/blog/tip252','/blog/tip251','/blog/tip250','/blog/tip249','/blog/tip248','/blog/tip247','/blog/tip246','/blog/tip245','/blog/tip244']
+children: ['/blog/tip259','/blog/tip258','/blog/tip257','/blog/tip256']
 			},
 			{
 				title: '.NET',
 				collapsable: true,
-				children: ['/blog/tip228','/blog/tip113','/blog/tip144','/blog/tip54', '/blog/tip55', '/blog/tip56', '/blog/tip68']
+				children: ['/blog/tip259','/blog/tip228','/blog/tip113','/blog/tip144','/blog/tip54', '/blog/tip55', '/blog/tip56', '/blog/tip68']
 			},	
 			{
 				title: 'Active Directory',
