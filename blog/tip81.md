@@ -6,6 +6,10 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-17 17:00:00
 ---
 
+::: danger
+This tip is marked obsolete. More info can be found [here](https://github.com/microsoft/AzureTipsAndTricks/issues/77).
+:::
+
 ::: tip
 :bulb: Learn more : [AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?WT.mc_id=azure-azuredevtips-micrum).
 :::

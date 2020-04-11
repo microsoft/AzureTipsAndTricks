@@ -5,7 +5,7 @@ type: post
 
 # Welcome
 
-Welcome to Azure Tips and Tricks, this site is a special collection of over 230+ tips, videos, conference talks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([@mbcrump](https://twitter.com/mbcrump))
+Welcome to Azure Tips and Tricks, this site is a special collection of over 260+ tips, videos, conference talks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips! - Michael Crump ([Twitter](https://twitter.com/mbcrump) or [Twitch](https://twitch.tv/mbcrump))
 
 ::: tip What's New?
 :calendar: Check out the **Recently Added** item on the left sidebar :point_left: for the latest tips and tricks!
@@ -14,6 +14,10 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 230+
 
 :punch: that :star: button on the official [GitHub repo](https://github.com/Microsoft/AzureTipsAndTricks/) to stay up to date.
 :::
+
+On a side note - If you like Azure Tips and Tricks, then you might enjoy another project that I'm working on for in which I live stream coding, interviews and more. Check out my channel below and hit the [follow button to know when I'm live](https://twitch.tv/mbcrump). 
+
+<center><iframe src="https://player.twitch.tv/?channel=mbcrump" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/mbcrump?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch live video from mbcrump on www.twitch.tv</a></center>
 
 ## Site Map
 
