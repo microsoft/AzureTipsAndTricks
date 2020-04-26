@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip260','/blog/tip258','/blog/tip257','/blog/tip256']
+children: ['/blog/tip261','/blog/tip260','/blog/tip258','/blog/tip257','/blog/tip256']
 			},
 			{
 				title: '.NET',
@@ -201,7 +201,7 @@ children: ['/blog/tip260','/blog/tip258','/blog/tip257','/blog/tip256']
 			{
 				title: 'Kubernetes',
 				collapsable: true,
-				children: ['/blog/tip245','/blog/tip234','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip168','/blog/tip169']
+				children: ['/blog/tip261','/blog/tip245','/blog/tip234','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip168','/blog/tip169']
 			},
 			{
 				title: 'Lab Services',
