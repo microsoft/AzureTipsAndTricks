@@ -24,10 +24,16 @@ date: 2020-04-30 02:00:00
 
 The importance of effectively managing costs and finding ways to save resources can never be underestimated. I had a great opportunity to sit down with Microsoft cloud advocate Thomas Maurer and discuss different ways how to save on the compute cost with Microsoft Azure.
 
-One of the first things we looked into was virtual machines. Running virtual machines can be expensive but there are a few things you can do to make the right decision on the size and type of VM to go with.  Watch this [video](https://www.youtube.com/watch?v=flIVEDHQJWQ&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=2?WT.mc_id=youtube-azuredevtips-micrum) and learn how to approach saving costs with Azure Virtual Machines.  
+One of the first things we looked into was virtual machines. Running virtual machines can be expensive but there are a few things you can do to make the right decision on the size and type of VM to go with.  Watch this video below and learn how to approach saving costs with Azure Virtual Machines. 
 
-How to choose the right payment option for your Azure subscription? This is another question you may have. Watch this [video](https://www.youtube.com/watch?v=QoVFFRA9K1k&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=3?WT.mc_id=youtube-azuredevtips-micrum) and learn what you may want to consider before selecting a purchasing option. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/flIVEDHQJWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Have you had this when you spin up a resource group for some experimental project and then forgot to clean it up? There are many ways how you can stay on top of your resources in Azure and remove them on time to reduce costs. Watch this [video](https://www.youtube.com/watch?v=fRJLWm4JvPo&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=4?WT.mc_id=youtube-azuredevtips-micrum) and learn how you can remove unused Azure Resource Groups automatically.
+How to choose the right payment option for your Azure subscription? This is another question you may have. Watch this video below and learn what to consider before selecting a purchasing option. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QoVFFRA9K1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Have you had this when you spin up a resource group for some experimental project and then forgot to clean it up? There are many ways how you can stay on top of your resources in Azure and remove them on time to reduce costs. Watch this video below and learn how you can remove unused Azure Resource Groups automatically.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fRJLWm4JvPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Saving costs can be easy with Azure at it provides you with many tools and payment options on how to optimize and reduce your costs. Go and check it out!
