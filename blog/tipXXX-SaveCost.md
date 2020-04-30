@@ -26,14 +26,17 @@ The importance of effectively managing costs and finding ways to save resources 
 
 One of the first things we looked into was virtual machines. Running virtual machines can be expensive but there are a few things you can do to make the right decision on the size and type of VM to go with.  Watch this video below and learn how to approach saving costs with Azure Virtual Machines. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/flIVEDHQJWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![How to reduce cost with Azure Virtual Machines](http://img.youtube.com/vi/flIVEDHQJWQ/0.jpg)](http://www.youtube.com/watch?v=flIVEDHQJWQ "How to reduce cost with Azure Virtual Machines")
+
 
 How to choose the right payment option for your Azure subscription? This is another question you may have. Watch this video below and learn what to consider before selecting a purchasing option. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QoVFFRA9K1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![How to approach cost savings and billing APIs for Azure resources](http://img.youtube.com/vi/QoVFFRA9K1k/0.jpg)](http://www.youtube.com/watch?v=QoVFFRA9K1k "How to approach cost savings and billing APIs for Azure resources")
+
 
 Have you had this when you spin up a resource group for some experimental project and then forgot to clean it up? There are many ways how you can stay on top of your resources in Azure and remove them on time to reduce costs. Watch this video below and learn how you can remove unused Azure Resource Groups automatically.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fRJLWm4JvPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![How to keep Azure subscriptions clean](http://img.youtube.com/vi/fRJLWm4JvPo/0.jpg)](http://www.youtube.com/watch?v=fRJLWm4JvPo "How to keep Azure subscriptions clean")
+
 
 Saving costs can be easy with Azure at it provides you with many tools and payment options on how to optimize and reduce your costs. Go and check it out!
