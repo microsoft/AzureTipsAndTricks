@@ -1,0 +1,46 @@
+---
+type: post
+title: "Tip XXX - Enabling developers to work remotely"
+excerpt: "Enabling developers to work remotely"
+tags: [azure, remote development, collaborate, code, ship]
+share: true
+date: 2020-05-01 02:00:00
+---
+
+::: tip 
+
+:fire: Make sure you [star the repo](http://azuredev.tips?WT.mc_id=azure-azuredevtips-micrum) to keep up to date with new tips and tricks.
+
+:tv: Watch the video : [title](link).
+
+:tv: Watch the video : [title](link).
+
+:tv: Watch the video : [title](link).
+
+:tv: Watch the video : [title](link).
+
+:tv: Watch the video : [title](link).
+
+:::
+
+#### Enabling developers to work remotely
+
+Working remotely has never been so approachable as it is today with tools and services enabling developers to collaborate, code, and ship from anywhere and any device. Recently I had a great opportunity to invite to my [twitch](https://www.twitch.tv/mbcrump?WT.mc_id=other-azuredevtips-micrum) channel and stream on remote development with Jonathan Carter, a principal group program manager at Microsoft. Jonathan and his team are working on some of the best in class tools enabling developers to stay productive while working remotely.
+
+Enjoy these snippets of my stream with Jonathan covering five essential Visual Studio Code extensions and tools for remote work.
+ 
+Create a guided code tour for your codebase right inside of Visual Studio Code to ease the collaboration, contribution, and onboarding to a new project. 
+<embedded video>
+  
+Create, manage, and share code snippets and interactive samples using GistPad extension for Visual Studio Code.
+<embedded video>
+ 
+Collaboratively draw on the whiteboard in real-time from within Visual Studio Code with Live Share Whiteboard extension. 
+<embedded video> 
+
+Instantly and securely share your current project, debugging session, terminal instance, localhost web app, voice, and text chat with Live Share extension for Visual Studio Code.
+<embedded video>
+ 
+Quickly spin up a fully configured dev environment to edit, run and debug your applications from any device with Visual Studio Online.
+<embedded video>
+ 
