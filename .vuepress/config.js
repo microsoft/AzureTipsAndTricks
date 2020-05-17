@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip263','/blog/tip262','/blog/tip261','/blog/tip260','/blog/tip258','/blog/tip257','/blog/tip256']
+children: ['/blog/tip264','/blog/tip262','/blog/tip261','/blog/tip260','/blog/tip258','/blog/tip257','/blog/tip256']
 			},
 			{
 				title: '.NET',
@@ -187,6 +187,11 @@ children: ['/blog/tip263','/blog/tip262','/blog/tip261','/blog/tip260','/blog/ti
 				title: 'IoT',
 				collapsable: true,
 				children: ['/blog/tip96', '/blog/tip114', '/blog/tip122', '/blog/tip123', '/blog/tip124', '/blog/tip125', '/blog/tip126']
+			},
+			{
+				title: 'Java',
+				collapsable: true,
+				children: ['/blog/tip264']
 			},
 			{
 				title: 'JavaScript',
