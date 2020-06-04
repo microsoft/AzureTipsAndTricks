@@ -23,17 +23,16 @@ Now that we've created the Azure Storage Blob Container, we'll upload a file to 
 ```csharp
 static void Main(string[] args)
 {
-    var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-    var myClient = storageAccount.CreateCloudBlobClient();
-    var container = myClient.GetContainerReference("images-backup");
-    container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+    string connectionString = CloudConfigurationManager.GetSetting("StorageConnection");
+    BlobContainerClient container = new BlobContainerClient(connectionString, "images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
 //lines modified
-    var blockBlob = container.GetBlockBlobReference("mikepic.png");
-      using (var fileStream = System.IO.File.OpenRead(@"c:\mikepic.png"))
-      {
-         blockBlob.UploadFromStream(fileStream);
-      }
+    var blockBlob = container.GetBlobClient("mikepic.png");
+    using (var fileStream = System.IO.File.OpenRead(@"c:\mikepic.png"))
+    {
+        blockBlob.Upload(fileStream);
+    }
 //lines modified
 
     Console.ReadLine();
@@ -51,16 +50,15 @@ Now that we've uploaded a file to the Azure Storage Blob Container, we'll downlo
 ```csharp
 static void Main(string[] args)
 {
-    var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-    var myClient = storageAccount.CreateCloudBlobClient();
-    var container = myClient.GetContainerReference("images-backup");
-    container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+    string connectionString = CloudConfigurationManager.GetSetting("StorageConnection");
+    BlobContainerClient container = new BlobContainerClient(connectionString, "images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
 //lines modified
-    var blockBlob = container.GetBlockBlobReference("mikepic.png");
+    var blockBlob = container.GetBlobClient("mikepic.png");
     using (var fileStream = System.IO.File.OpenWrite(@"C:\Users\mbcrump\Downloads\mikepic-backup.png"))
     {
-      blockBlob.DownloadToStream(fileStream);
+      blockBlob.DownloadTo(fileStream);
     }
 //lines modified
 
@@ -68,6 +66,6 @@ static void Main(string[] args)
 }
 ```
 
-Note that are now using the **OpenWrite** method and specifying a new name. We are also taking advantage of the **DownloadToStream** method. If we run the application, our new file should be in the downloads folder.
+Note that are now using the **OpenWrite** method and specifying a new name. We are also taking advantage of the **DownloadTo** method. If we run the application, our new file should be in the downloads folder.
 
 <img :src="$withBase('/files/writetoblob2.png')">
