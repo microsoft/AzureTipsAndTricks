@@ -17,7 +17,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 260+
 
 On a side note - If you like Azure Tips and Tricks, then you might enjoy another project that I'm working on for in which I live stream coding, interviews and more. Check out my channel below and hit the [follow button to know when I'm live](https://twitch.tv/mbcrump). 
 
-<center><iframe src="https://player.twitch.tv/?channel=mbcrump" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/mbcrump?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch live video from mbcrump on www.twitch.tv</a></center>
+<iframe src="https://www.twitch.tv/videos/642137579?collection=D2G5i76t-hUMfw&parent=microsoft.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 
 ## Site Map
