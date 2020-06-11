@@ -40,37 +40,22 @@ We can also do this with code by adding as shown below.
 ```csharp
 static void Main(string[] args)
 {
-var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-var myClient = storageAccount.CreateCloudBlobClient();
-var container = myClient.GetContainerReference("images-backup");
-//add method
-SetMetadata(container);
-//add method
-Console.ReadLine();
-}
+    BlobServiceClient storageAccount = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
+    BlobContainerClient container = storageAccount.GetBlobContainerClient("images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
-static void SetMetadata(CloudBlobContainer container)
-{
-    // Add some metadata to the container.
-    container.Metadata.Clear();
-    container.Metadata.Add("Owner", "Michael Crump");
-    container.Metadata["LastUpdated"] = DateTime.Now.ToString();
-    container.SetMetadata();
-}
-```
+    Dictionary<string, string> metaData = new Dictionary<string, string>(2);
+    metaData.Add("Owner", "Michael Crump");
+    metaData["LastUpdated"] = DateTime.Now.ToString();
 
-This method clears the metadata and add the key-value pair that we talked about earlier. 
+    //set metadate
+    container.SetMetadata(metaData);
 
-We can also write a **GetMetadata** method to retrieve metadata from our container.
-
-```csharp
-static void GetMetadata(CloudBlobContainer container)
-{
-    container.FetchAttributes();
-    foreach (var item in container.Metadata)
+    //retrieve container metadate
+    BlobContainerProperties properties = container.GetProperties();
+    foreach (var metadate in properties.Metadata)
     {
-        Console.WriteLine(
-        string.Format("{0}: {1}", item.Key, item.Value));
+        Console.WriteLine(string.Format($"{metadate.Key}: {metadate.Value}"));
     }
 }
 ```
