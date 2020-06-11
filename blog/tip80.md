@@ -43,15 +43,33 @@ static void Main(string[] args)
     BlobServiceClient storageAccount = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
     BlobContainerClient container = storageAccount.GetBlobContainerClient("images-backup");
     container.CreateIfNotExists(PublicAccessType.Blob);
+    //add method
+    SetMetadata(container);
+    //add method
+    Console.ReadLine();
+}
+
+static void SetMetadata(BlobContainerClient container)
+{
+    //clear metadata
+    container.SetMetadata(new Dictionary<string, string>());
 
     Dictionary<string, string> metaData = new Dictionary<string, string>(2);
     metaData.Add("Owner", "Michael Crump");
     metaData["LastUpdated"] = DateTime.Now.ToString();
-
-    //set metadate
+    //set metadata
     container.SetMetadata(metaData);
+}
+```
 
-    //retrieve container metadate
+This method clears the metadata and add the key-value pair that we talked about earlier.
+
+We can also write a GetMetadata method to retrieve metadata from our container.
+
+```csharp
+static void GetMetadata(BlobContainerClient container)
+{
+    //retrieve container metadata
     BlobContainerProperties properties = container.GetProperties();
     foreach (var metadate in properties.Metadata)
     {

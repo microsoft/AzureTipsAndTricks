@@ -47,9 +47,9 @@ If you have an existing container and want to pull down all the files for a spec
     var list = container.GetBlobs();
     var blobs = list.Where(b => Path.GetExtension(b.Name).Equals(".png"));
 
-    foreach (var blob in blobs)
+    foreach (var item in blobs)
     {
-        string name = blob.Name;
+        string name = item.Name;
         BlockBlobClient blockBlob = container.GetBlockBlobClient(name);
         using (var fileStream = File.OpenWrite(@"C:\Users\mbcrump\Downloads\test\" + name))
         {
