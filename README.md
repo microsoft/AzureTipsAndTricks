@@ -17,18 +17,22 @@ Welcome to Azure Tips and Tricks, this site is a special collection of over 260+
 
 On a side note - If you like Azure Tips and Tricks, then you might enjoy another project that I'm working on for in which I live stream coding, interviews and more. Check out my channel below and hit the [follow button to know when I'm live](https://twitch.tv/mbcrump). 
 
-<iframe src="https://player.twitch.tv/?channel=mbcrump&parent=github.io&parent=azuredev.tips" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://player.twitch.tv/?collection=D2G5i76t-hUMfw&amp;parent=microsoft.github.io&amp;parent=azuredev.tips" frameborder="0" allowfullscreen="allowfullscreen" scrolling="no" height="378" width="620"></iframe>
 
-## Site Map
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Home](http://azuredev.tips)                                                                                            | This site can always be found at [http://azuredev.tips](http://azuredev.tips)                                                              |
-| [Videos](http://videos.azuredev.tips)                                                                                   | Our growing playlist of 65+ videos based on the series                                                                                     |
-| [Live-coding, interviews and more](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)                        | Join us to discuss all-things Azure! From live-coding, special guest interviews, breaking software development news and more!              |
-| [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=) | Add to the GitHub issue tracker and tag it as a question                                                                                   |
-| [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)                                                      | Keep up to date with all the newest tips posted by subscribing to the RSS feed                                                             |
-| [Stickers](http://stickers.azuredev.tips)                                                                               | Feel free to print any of these stickers for your events and community meetups                                                             |
-| [Survey](http://survey.azuredev.tips)                                                                                   | Have an idea for a post? Do you have feedback? Leave it here                                                                               |
-| [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)                                        | Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project. |
+#### Site Map
+
+|  Resouce 	|   Description	|
+|---	|---
+|   [Home](http://azuredev.tips)	|   This site can always be found at [http://azuredev.tips](http://azuredev.tips)	|
+|   [Videos](http://videos.azuredev.tips)	|   Our growing playlist of 65+ videos based on the series	|
+|   [Live-coding, interviews and more](https://twitch.tv/mbcrump?WT.mc_id=azure-azuredevtips-micrum)|   Join us to discuss all-things Azure! From live-coding, special guest interviews, breaking software development news and more!	|
+|   [Questions](https://github.com/Microsoft/AzureTipsAndTricks/issues/new?assignees=&labels=&template=questions.md&title=)	|   Add to the GitHub issue tracker and tag it as a question	|
+|   [RSS Feed](https://microsoft.github.io/AzureTipsAndTricks/rss.xml)	|   Keep up to date with all the newest tips posted by subscribing to the RSS feed	|
+|   [Stickers](http://stickers.azuredev.tips)	|   Feel free to print any of these stickers for your events and community meetups	|
+|   [Survey](http://survey.azuredev.tips)	|   Have an idea for a post? Do you have feedback? Leave it here	|
+|   [Contribute and star the repo](https://github.com/Microsoft/AzureTipsAndTricks/)	|   Something out of date? Is something wrong? Then submit a PR and help me fix it. Also, :star: the repo to keep up to date with the project.	|
+                                                           |
+
 
 ## Git Workflow
 
