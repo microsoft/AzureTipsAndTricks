@@ -25,7 +25,7 @@ The goal of this exercise is to copy a file inside our Azure Storage Container t
 
 <img :src="$withBase('/files/storageacct4.png')">
 
-In [previous post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html),We've created the Azure Storage Blob Container and uploaded a file to it.
+In the [previous post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html), we created the Azure Storage Blob Container and uploaded a file to it.
 
 Now we are going to copy a new file inside of it with the name **mikepic-backup.png**. 
 
