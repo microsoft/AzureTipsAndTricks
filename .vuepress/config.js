@@ -32,7 +32,7 @@ module.exports = {
 			{
 				title: 'Recently Added',
 				collapsable: false,
-children: ['/blog/tip267','/blog/tip266','/blog/tip265','/blog/tip264','/blog/tip262']
+children: ['/blog/tip268','/blog/tip267','/blog/tip266','/blog/tip265','/blog/tip264','/blog/tip262']
 			},
 			{
 				title: '.NET',
