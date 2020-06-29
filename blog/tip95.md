@@ -21,15 +21,14 @@ If you have an existing container and know the filename, then you can use this c
 ```csharp
 static void Main(string[] args)
 {
-    var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-    var myClient = storageAccount.CreateCloudBlobClient();
-    var container = myClient.GetContainerReference("images-backup");
-    container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+    BlobServiceClient storageAccount = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
+    BlobContainerClient container = storageAccount.GetBlobContainerClient("images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
-    var blockBlob = container.GetBlockBlobReference("mikepic.png");
+    BlockBlobClient blockBlob = container.GetBlockBlobClient("mikepic.png");
     using (var fileStream = System.IO.File.OpenWrite(@"C:\Users\mbcrump\Downloads\mikepic-backup.png"))
     {
-      blockBlob.DownloadToStream(fileStream);
+        blockBlob.DownloadTo(fileStream);
     }
 
     Console.ReadLine();
@@ -41,21 +40,21 @@ static void Main(string[] args)
 If you have an existing container and want to pull down all the files for a specific type, then you can use this code.
 
 ```csharp
-    var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-    var myClient = storageAccount.CreateCloudBlobClient();
-    var container = myClient.GetContainerReference("images-backup");
-    container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+    BlobServiceClient storageAccount = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
+    BlobContainerClient container = storageAccount.GetBlobContainerClient("images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
-    var list = container.ListBlobs();
-    var blobs = list.OfType<CloudBlockBlob>().Where(b => Path.GetExtension(b.Name).Equals(".png")); 
-    
+    var list = container.GetBlobs();
+    var blobs = list.Where(b => Path.GetExtension(b.Name).Equals(".png"));
+
     foreach (var item in blobs)
     {
-        string name = ((CloudBlockBlob)item).Name;
-        CloudBlockBlob blockBlob = container.GetBlockBlobReference(name);
-        string path = (@"C:\Users\mbcrump\Downloads\test\" + name);
-        blockBlob.DownloadToFile(path, FileMode.OpenOrCreate);
+        string name = item.Name;
+        BlockBlobClient blockBlob = container.GetBlockBlobClient(name);
+        using (var fileStream = File.OpenWrite(@"C:\Users\mbcrump\Downloads\test\" + name))
+        {
+            blockBlob.DownloadTo(fileStream);
+        }
     }
-
     Console.ReadLine();
 ```

@@ -25,26 +25,24 @@ The goal of this exercise is to copy a file inside our Azure Storage Container t
 
 <img :src="$withBase('/files/storageacct4.png')">
 
-We are going to copy a new file inside of it with the name **mikepic-backup.png**. 
+In the [previous post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html), we created the Azure Storage Blob Container and uploaded a file to it.
 
-Now that we've created the Azure Storage Blob Container, we'll upload a file to it. We'll build off our [previous post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html) and add the following lines of code to upload a file off our local hard disk:
+Now we are going to copy a new file inside of it with the name **mikepic-backup.png**. 
 
 ```csharp
 static void Main(string[] args)
 {
-    var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
-    var myClient = storageAccount.CreateCloudBlobClient();
-    var container = myClient.GetContainerReference("images-backup");
-    container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+    BlobServiceClient serviceClient = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
+    BlobContainerClient container = serviceClient.GetBlobContainerClient("images-backup");
+    container.CreateIfNotExists(PublicAccessType.Blob);
 
-    var blockBlob = container.GetBlockBlobReference("mikepic.png");
-//lines added
-    var copyBlockBlob = container.GetBlockBlobReference("mikepic-backup.png");
+    BlockBlobClient blockBlob = container.GetBlockBlobClient("mikepic.png");
 
-    var cb = new AsyncCallback(x => Console.WriteLine("copy completed"));
-    copyBlockBlob.BeginStartCopy(blockBlob, cb, null);
-//end lines added
+    //lines added
+    BlockBlobClient copyBlockBlob = container.GetBlockBlobClient("mikepic-backup.png");
 
+    copyBlockBlob.StartCopyFromUri(blockBlob.Uri);
+    //end lines added
     Console.ReadLine();
 }
 ```

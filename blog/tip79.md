@@ -22,7 +22,7 @@ We've reviewed the following options with Azure Storage so far:
 
 Today, we are going to look at creating an Azure blob hierarchy via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html). If you want to start from this post, then use the code located [here](https://github.com/mbcrump/azurestorage?WT.mc_id=github-azuredevtips-micrum).
 
-The goal of this exercise is to create a blob hierarchy or folder structure inside of our container. So for example, we'd like to place a file in a structure such as such as **backup/images-backup.png**. 
+The goal of this exercise is to create a blob hierarchy or folder structure inside of our container. So for example, we'd like to place a file in a structure such as **backup/images-backup.png**. 
 
 
 If you look below, you will notice that there is no way to create a folder structure from inside the portal. 
@@ -34,20 +34,19 @@ But we can easily do this with code by adding the folder structure we want into 
 ```csharp
 static void Main(string[] args)
 {
- var storageAccount = CloudStorageAccount.Parse(CloudConfigurationManager.GetSetting("StorageConnection"));
- var myClient = storageAccount.CreateCloudBlobClient();
- var container = myClient.GetContainerReference("images-backup");
- container.CreateIfNotExists(BlobContainerPublicAccessType.Blob);
+   BlobServiceClient storageAccount = new BlobServiceClient(CloudConfigurationManager.GetSetting("StorageConnection"));
+   BlobContainerClient container = storageAccount.GetBlobContainerClient("images-backup");
+   container.CreateIfNotExists(PublicAccessType.Blob);
 
-// line modified
- var blockBlob = container.GetBlockBlobReference("backup/mikepic.png");
- using (var fileStream = System.IO.File.OpenRead(@"c:\mikepic.png"))
- {
-    blockBlob.UploadFromStream(fileStream);
- }
- // line modified
+   // line modified
+   BlockBlobClient blockBlob = container.GetBlockBlobClient("backup/mikepic.png");
+   using (var fileStream = System.IO.File.OpenRead(@"c:\mikepic.png"))
+   {
+         blockBlob.Upload(fileStream);
+   }
+   // line modified
 
- Console.ReadLine();
+   Console.ReadLine();
 }
 ```
 
