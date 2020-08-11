@@ -19,7 +19,7 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html)
 * [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
 * [Deleting an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html)
-* [Ensure a clean RowKey in Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html)
+* [Ensure a clean RowKey in Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip87.html)
 * [What's the purpose of ETag in Azure Storage Table?](https://microsoft.github.io/AzureTipsAndTricks/blog/tip88.html)
 * [Shared Access Tokens with Azure Storage Blob Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip89.html)
 
@@ -53,31 +53,23 @@ The specified resource does not exist. RequestId:7dd786ac-001e-0057-3c0a-9bd1e40
 </Error>
 ```
 
-This is where we'd typically want to generate a SAS token and serve it up in an application. You can do this very easily by opening the Azure Portal and navigate to your Azure Storage Account and select Blob Service. Then click on **Access Policy** and give it a name, permissions and a start and end date and make sure you save it. 
+This is where we'd typically want to generate a SAS token and serve it up in an application. You can do this very easily by opening the Azure Portal and navigate to your Azure Storage Account and select Blob Service. Then click on **Access Policy** and give it a name, permissions and a start and end date and make sure you save it.
 
 <img :src="$withBase('/files/azuresas2.jpg')">
 
-I named mine **imageSAP**. Now we could simple access this through code with a call to **GetSharedAccessSignature** as shown below:
+I named mine **imageSAP**. Now we could simple access this through code as shown below:
 
 ```csharp
-CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-    CloudConfigurationManager.GetSetting("StorageConnection"));
+StorageSharedKeyCredential credential = new StorageSharedKeyCredential(CloudConfigurationManager.GetSetting("StorageAccountName"), CloudConfigurationManager.GetSetting("StorageAccountKey"));
 
-CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
-
-CloudBlobContainer container = blobClient.GetContainerReference("images");
-
-var blobs = new List<TweetEntity>();
-
-foreach (var blob in container.ListBlobs())
+BlobSasBuilder blobSas = new BlobSasBuilder
 {
-    if (blob.GetType() == typeof(CloudBlockBlob))
-    {
-        var sas = container.GetSharedAccessSignature(null, "imageSAP");
-        // sas now contains the signature that we could append to a URL. 
-    }
-}
+    BlobContainerName = "images",
+    Identifier = "imageSAP"
+};
 
+string sas = blobSas.ToSasQueryParameters(credential).ToString();
+// sas now contains the signature that we could append to a URL. 
 ```
 
 As stated in the code, we now have access to the token from our **imageSAP** policy that will generate our signature that gives us access to the image for the specified time. We could then see the image once we go to the site. 
