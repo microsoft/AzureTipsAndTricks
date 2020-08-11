@@ -5,6 +5,7 @@ excerpt: "Learn how to quickly load test your web application with Azure App Ser
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-02 17:00:00
 ---
+::: danger This tip is marked obsolete. :::
 
 ::: tip
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-micrum). 
