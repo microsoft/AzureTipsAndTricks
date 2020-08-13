@@ -38,9 +38,8 @@ Add the following code to **Program.cs** to search the index:
 ```csharp
 static void Main(string[] args)
 {
-
-    var searchServiceUri = "<yoursearchserviceuri>";
-    var apiKey = "<yourapikey>";
+    var searchServiceUri = "<YourSearchServiceUri>";
+    var apiKey = "<YourApiKey>";
 
     var indexClient = new SearchIndexClient(new Uri(searchServiceUri), new AzureKeyCredential(apiKey));
     var searchClient = indexClient.GetSearchClient("azuresql-index"); //check this to match your index
@@ -69,20 +68,17 @@ Create a class named **MySQLDB** and add the following:
 
 ```csharp
 
-[SerializePropertyNamesAsCamelCase]
 class MySQLDB
 {
-    [IsFilterable, IsSortable, IsFacetable]
     public string CustomerID { get; set; }
-    [IsFilterable, IsSortable, IsFacetable]
+
     public string FirstName { get; set; }
-    [IsFilterable, IsSortable, IsFacetable]
+
     public string LastName { get; set; }
-    [IsFilterable, IsSortable, IsFacetable]
+
     public string EmailAddress { get; set; }
-    [IsFilterable, IsSortable, IsFacetable]
+
     public string ModifiedDate { get; set; }
-    
 }
 ```
 
