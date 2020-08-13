@@ -29,7 +29,7 @@ Open the Azure Portal, and search for **Search Services** and click on the **Sea
 
 You'll also want to remember the name of your search service. In my case it is - mcadventureworks 
 
-Once that is complete, head into Visual Studio and create a Console Application. Use NuGet to pull in references to **Microsoft.Azure.Search** as shown below. 
+Once that is complete, head into Visual Studio and create a Console Application. Use NuGet to pull in references to **Azure.Search.Documents** as shown below. 
 
 <img :src="$withBase('/files/part4azsearch1.png')">
 
@@ -39,26 +39,26 @@ Add the following code to **Program.cs** to search the index:
 static void Main(string[] args)
 {
 
-    var searchServiceName = "yoursearchservice";
+    var searchServiceUri = "yoursearchserviceuri";
     var apiKey = "yourapikey";
 
-    var searchClient = new SearchServiceClient(searchServiceName, new SearchCredentials(apiKey));
-    var indexClient = searchClient.Indexes.GetClient("azuresql-index"); //check this to match your index
+    var indexClient = new SearchIndexClient(new Uri(searchServiceUri), new AzureKeyCredential(apiKey));
+    var searchClient = indexClient.GetSearchClient("azuresql-index"); //check this to match your index
 
-    DocumentSearchResult<MySQLDB> results;
+    SearchResults<MySQLDB> results;
 
     Console.WriteLine("Search the entire index for the term 'Michael' \n");
 
-    results = indexClient.Documents.Search<MySQLDB>("Michael");
+    results = searchClient.Search<MySQLDB>("Michael");
 
     WriteDocuments(results);
 
     Console.Read();
 }
 
-private static void WriteDocuments(DocumentSearchResult<MySQLDB> searchResults)
+private static void WriteDocuments(SearchResults<MySQLDB> searchResults)
 {
-    foreach (SearchResult<MySQLDB> result in searchResults.Results)
+    foreach (SearchResult<MySQLDB> result in searchResults.GetResults())
     {
         Console.WriteLine(result.Document.FirstName + " " + result.Document.LastName);
     }
