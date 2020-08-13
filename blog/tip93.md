@@ -39,17 +39,15 @@ Add the following code to **Program.cs** to search the index:
 static void Main(string[] args)
 {
 
-    var searchServiceUri = "yoursearchserviceuri";
-    var apiKey = "yourapikey";
+    var searchServiceUri = "<yoursearchserviceuri>";
+    var apiKey = "<yourapikey>";
 
     var indexClient = new SearchIndexClient(new Uri(searchServiceUri), new AzureKeyCredential(apiKey));
     var searchClient = indexClient.GetSearchClient("azuresql-index"); //check this to match your index
 
-    SearchResults<MySQLDB> results;
-
     Console.WriteLine("Search the entire index for the term 'Michael' \n");
 
-    results = searchClient.Search<MySQLDB>("Michael");
+    var results = searchClient.Search<MySQLDB>("Michael");
 
     WriteDocuments(results);
 
