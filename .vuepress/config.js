@@ -324,7 +324,6 @@ children: ['/blog/tip277','/blog/tip276','/blog/tip275','/blog/tip274','/blog/ti
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Videos', link: 'http://videos.azuredev.tips' },
-			{ text: 'Developer Live Streaming', link: 'http://twitch.tv/mbcrump' },
 			{ text: 'Questions?', link: 'https://github.com/Microsoft/AzureTipsAndTricks/issues/' },
 			{ text: 'RSS Feed', link: 'https://microsoft.github.io/AzureTipsAndTricks/rss.xml' }
 		]//,
