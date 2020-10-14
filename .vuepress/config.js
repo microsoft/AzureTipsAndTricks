@@ -146,7 +146,7 @@ children: ['/blog/tip279', '/blog/tip278', '/blog/tip277','/blog/tip276','/blog/
 			{
 				title: 'DevOps',
 				collapsable: true,
-				children: ['/blog/tip237','/blog/tip233','/blog/tip206','/blog/tip168','/blog/tip169','/blog/tip101','/blog/tip102','/blog/tip103','/blog/tip104','/blog/tip105','/blog/tip107','/blog/tip108','/blog/tip109','/blog/tip110']
+				children: ['/blog/tip237','/blog/tip233','/blog/tip206','/blog/tip168','/blog/tip169','/blog/tip101','/blog/tip102','/blog/tip103','/blog/tip104','/blog/tip105','/blog/tip107','/blog/tip108','/blog/tip109','/blog/tip110', '/blog/tip279']
 			},			
 			{
 				title: 'Dev Spaces',
@@ -161,7 +161,7 @@ children: ['/blog/tip279', '/blog/tip278', '/blog/tip277','/blog/tip276','/blog/
 			{
 				title: 'Functions',
 				collapsable: true,
-				children: ['/blog/tip277','/blog/tip260','/blog/tip247','/blog/tip211','/blog/tip196','/blog/tip35', '/blog/tip36', '/blog/tip50', '/blog/tip51', '/blog/tip52', '/blog/tip61', '/blog/tip62', '/blog/tip63', '/blog/tip64', '/blog/tip94', '/blog/tip97', '/blog/tip98', '/blog/tip99', '/blog/tip100', '/blog/tip130', '/blog/tip133', '/blog/tip134', '/blog/tip135', '/blog/tip136', '/blog/tip147', '/blog/tip148', '/blog/tip157', '/blog/tip158', '/blog/tip161','/blog/tip125','/blog/tip174', '/blog/tip175']
+				children: ['/blog/tip277','/blog/tip260','/blog/tip247','/blog/tip211','/blog/tip196','/blog/tip35', '/blog/tip36', '/blog/tip50', '/blog/tip51', '/blog/tip52', '/blog/tip61', '/blog/tip62', '/blog/tip63', '/blog/tip64', '/blog/tip94', '/blog/tip97', '/blog/tip98', '/blog/tip99', '/blog/tip100', '/blog/tip130', '/blog/tip133', '/blog/tip134', '/blog/tip135', '/blog/tip136', '/blog/tip147', '/blog/tip148', '/blog/tip157', '/blog/tip158', '/blog/tip161','/blog/tip125','/blog/tip174', '/blog/tip175', '/blog/tip278', '/blog/tip279']
 			},
 			{
 				title: 'GitHub',
@@ -206,7 +206,7 @@ children: ['/blog/tip279', '/blog/tip278', '/blog/tip277','/blog/tip276','/blog/
 			{
 				title: 'Kubernetes',
 				collapsable: true,
-				children: ['/blog/tip261','/blog/tip245','/blog/tip234','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip168','/blog/tip169']
+				children: ['/blog/tip261','/blog/tip245','/blog/tip234','/blog/tip230','/blog/tip229','/blog/tip228','/blog/tip168','/blog/tip169', '/blog/tip278' ]
 			},
 			{
 				title: 'Lab Services',
