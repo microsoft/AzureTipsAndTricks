@@ -12,6 +12,8 @@ date: 2017-11-06 17:00:00
 :tv: Watch the video : [How to Run an App Inside a Container Image with Docker](https://www.youtube.com/watch?v=lpr2tO-FCEw&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=37?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Run an app inside a Container Image with Docker
+
 #### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 

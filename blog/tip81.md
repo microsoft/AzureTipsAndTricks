@@ -14,7 +14,7 @@ This tip is marked obsolete. More info can be found [here](https://github.com/mi
 :bulb: Learn more : [AzCopy v10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?WT.mc_id=azure-azuredevtips-azureappsdev).
 :::
 
-#### Working with AzCopy and Azure Storage
+### Working with AzCopy and Azure Storage
 
 We've reviewed the following options with Azure Storage so far:
 

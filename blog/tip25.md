@@ -12,6 +12,8 @@ date: 2017-10-01 17:00:00
 :tv: Watch the video : [How to use the Azure Resource Explorer](https://www.youtube.com/watch?v=hBl_2iaqIDs&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=20?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Use the Azure Resource Explorer to quickly explore REST APIs"
+
 #### Intro
 
 We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. We also took a look at a feature called [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) which allows us to distribute traffic between our production and other slots. We also looked at using [PowerShell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip24.html) to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature. In this post, we'll continue exploring our web app with a feature called Azure Resource Explorer which will allow us to quickly explore REST APIs.  

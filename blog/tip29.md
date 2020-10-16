@@ -12,7 +12,7 @@ date: 2017-10-08 17:00:00
 :tv: Watch the video : [How to Clone Web Apps Using Azure App Services](https://www.youtube.com/watch?v=23kFf-GnJoc&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=24?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Cloning Web Apps Using and Azure App Services
+### Cloning Web Apps Using and Azure App Services
 
 Keep in mind that this feature is only available to apps hosted on Premium App Service Plans - Thanks to **Mike Kauspedas** for reminding me! 
 

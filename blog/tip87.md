@@ -10,6 +10,8 @@ date: 2018-01-29 17:00:00
 :bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
+### Avoid Bad Request Errors in Azure Storage Table
+
 #### Ensure a clean RowKey in Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items so far:

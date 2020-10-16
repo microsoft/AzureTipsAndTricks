@@ -12,7 +12,7 @@ date: 2017-10-18 17:00:00
 :tv: Watch the video : [How to renew or revoke Azure Functions keys](https://www.youtube.com/watch?v=v67yVTLEu3U&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=30?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Quickly Renew or Revoke Azure Functions Keys
+### Quickly Renew or Revoke Azure Functions Keys
 
 There are times when you've created a new Azure Function HTTP Trigger where your Function Key needs to be changed. For example, here is my Function URL: 
 

@@ -12,6 +12,8 @@ date: 2017-09-25 17:00:00
 :tv: Watch the video : [How to Test Web Applications in Production](https://www.youtube.com/watch?v=TLGLBbv3HoA&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=19?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Traffic Percentage for Web Apps with Azure App Service
+
 #### Intro
 
 We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. In this post, we'll look at a feature called `Routing Rules`.  

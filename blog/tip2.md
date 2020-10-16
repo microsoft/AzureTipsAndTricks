@@ -12,7 +12,7 @@ date: 2017-08-21 17:00:00
 :tv: Watch the video : [How to Quickly Change Themes in the Azure Portal](https://www.youtube.com/watch?v=LWboFa1AVmk&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=2?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Quickly change themes in the Azure Portal
+### Quickly change themes in the Azure Portal
 
 Most developers are aware that you can change themes by going into the Azure portal and selecting Settings and changing the theme as shown below. 
 

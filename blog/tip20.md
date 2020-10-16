@@ -12,7 +12,7 @@ date: 2017-09-21 17:00:00
 :tv: Watch the video : [How to Work with Files in Azure App Service](https://www.youtube.com/watch?v=igLj2WlVQ9M&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=16?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Working with Files in Azure App Service
+### Working with Files in Azure App Service
 In the [Tip 19 - Deploy an Azure Web App using only the CLI](tip19.html), we created a web app and uploaded it to Azure App Service. In this post, we'll take a look at the files uploaded and three tools that I use to work with them
 
 ##### Console Access to my App Service

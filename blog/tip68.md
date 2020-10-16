@@ -10,7 +10,7 @@ date: 2017-12-13 17:00:00
 :bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Access Cosmos DB through a .NET Application
+### Access Cosmos DB through a .NET Application
 
 I use .NET to access my Cosmos DB instance a lot and typically before spinning up an ASP.NET MVC application (for instance), I use a console application to explore objects and play with different settings. In this brief walkthrough, I'll show you how I access it and provide a "template" that you can use for your own explorations. Keep in mind that this is just how I work with Cosmos DB, you may have a different (or better) way. 
 

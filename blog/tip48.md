@@ -12,6 +12,8 @@ date: 2017-11-08 17:00:00
 :tv: Watch the video : [How to Push a Container Image to a Docker Repo](https://www.youtube.com/watch?v=r_tGl4zF1ZQ&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=42?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Pushing a Container Image to a Docker Repo
+
 #### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 

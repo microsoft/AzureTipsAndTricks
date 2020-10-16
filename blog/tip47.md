@@ -12,6 +12,8 @@ date: 2017-11-07 17:00:00
 :tv: Watch the video : [How to Create a Container Image with Docker](https://www.youtube.com/watch?v=R--rdLMN-Wk&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=41?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Creating a Container Image with Docker
+
 #### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 

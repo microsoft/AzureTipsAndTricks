@@ -10,6 +10,8 @@ date: 2018-02-27 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
+### Creating an Email Subscription with Azure Functions - Writing the Frontend
+
 #### Where are we?
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-azureappsdev)

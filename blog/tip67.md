@@ -10,7 +10,7 @@ date: 2017-12-12 17:00:00
 :bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Querying documents properties with special characters in Cosmos DB
+### Querying documents properties with special characters in Cosmos DB
 
 I was working with Cosmos DB yesterday and hit the following snag that I couldn't query my document that had special characters in it. Such is an example: 
 

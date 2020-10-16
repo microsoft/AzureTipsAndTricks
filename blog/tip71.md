@@ -10,7 +10,7 @@ date: 2017-12-19 17:00:00
 :bulb: Learn more : [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Language Detection with Cognitive Service and Azure
+### Language Detection with Cognitive Service and Azure
 
 After reviewing the [Text Analysis API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview?WT.mc_id=docs-azuredevtips-azureappsdev), I noticed three capabilities that I wanted to take a further look at: 
 

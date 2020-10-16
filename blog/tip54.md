@@ -7,7 +7,7 @@ date: 2017-11-20 17:00:00
 ---
 
 
-#### Getting a .NET Core WebAPI Project Ready for Docker
+### Getting a .NET Core WebAPI Project Ready for Docker
 
 How hard do you think it is to:
 

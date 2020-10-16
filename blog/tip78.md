@@ -10,7 +10,7 @@ date: 2018-01-14 17:00:00
 :bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Copy Azure Storage Blobs and Files via C#
+### Copy Azure Storage Blobs and Files via C#
 
 Last week we've reviewed the following options with Azure Storage :
 

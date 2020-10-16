@@ -6,6 +6,7 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-10-22 17:00:00
 ---
 
+### Parse Emails to be used in a Azure Logic Apps
 
 #### My Scenario - Tracking Run Data
 

@@ -10,12 +10,14 @@ date: 2018-02-06 17:00:00
 :bulb: Learn more : [SQL Server on Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
+### Part 3 - Querying an Azure Search Index
+
 #### Implementing Azure Search with SQL Server and ASP.NET MVC
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
 * [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](https://microsoft.github.io/AzureTipsAndTricks/blog/tip90.html)
-* [Part 2 - Implementing Azure Search with SQL Server](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html)
+* [Part 2 - Implementing Azure Search with SQL Server and ASP.NET MVC](https://microsoft.github.io/AzureTipsAndTricks/blog/tip91.html)
 * [Part 3 - Querying an Azure Search Index](https://microsoft.github.io/AzureTipsAndTricks/blog/tip92.html)
 * [Part 4 - Searching an index with Azure Search with C#](https://microsoft.github.io/AzureTipsAndTricks/blog/tip93.html)
 

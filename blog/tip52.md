@@ -7,7 +7,7 @@ date: 2017-11-15 17:00:00
 ---
 
 
-#### Deploy Azure Functions with Visual Studio Code
+### Deploy Azure Functions with Visual Studio Code
 
 We previously looked at adding an Azure Function project to Visual Studio Code in this [post](tip50.html) and then we looked at [debugging it locally](tip51.html). In this post, we'll wrap up this mini-series by deploying Azure Functions to Azure directly.
 

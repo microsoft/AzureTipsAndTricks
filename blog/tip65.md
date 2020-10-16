@@ -10,7 +10,7 @@ date: 2017-12-10 17:00:00
 :bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Use Visual Studio Code to work with Cosmos DB
+### Use Visual Studio Code to work with Cosmos DB
 
 **What is Cosmos DB?** Azure Cosmos DB is Microsoft's globally distributed, multi-model database. For more info visit [this page](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-azureappsdev).
 

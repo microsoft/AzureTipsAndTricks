@@ -12,6 +12,8 @@ date: 2017-11-05 17:00:00
 :tv: Watch the video : [How to Get Started with Docker and Azure](https://www.youtube.com/watch?v=Kx7mOgdr3Ro&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=36?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Getting Started with Docker and Azure
+
 #### Containers for the rest of us
 
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 

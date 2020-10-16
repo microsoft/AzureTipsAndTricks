@@ -12,7 +12,7 @@ date: 2017-10-29 17:00:00
 :tv: Watch the video : [How to quickly roll back versions of Azure Logic Apps](https://www.youtube.com/watch?v=AqInZgTY57Y&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=33?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Quickly Roll Back to a Previous Version of an Azure Logic App
+### Quickly Roll Back to a Previous Version of an Azure Logic App
 
 This one seems to come up a lot, so I'll add it here. If you have created an Azure Logic App and would like to go back to a previous version, then you can do so very easily. Go ahead and open your logic app and look under **Development Tools** then **Versions** and select a previous version. 
 

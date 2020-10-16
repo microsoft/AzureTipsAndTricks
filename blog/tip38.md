@@ -12,6 +12,8 @@ date: 2017-10-23 17:00:00
 :tv: Watch the video : [How to easily work with JSON with Azure Logic Apps](https://www.youtube.com/watch?v=mhCxxCXIkrU&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=31?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Create a JSON Schema to be used in a Azure Logic Apps
+
 #### My Scenario - Tracking Run Data
 
 I thought I'd use this week's Tip and Tricks series to show a practical example of how I am using Azure. I've started running outdoors and would like to extract several links that my app generates via email and send them to my OneDrive account automatically vs doing it manually after each run. I'm also concerned that the app that generates my data may be abandoned one day. In order to secure my data, I used a combination of [Zappier.com](http://www.zapier.com) and [Azure](http://www.azure.com) to solve my problem and over the course of this week, we'll cover the following sections needed in order to implement this: 

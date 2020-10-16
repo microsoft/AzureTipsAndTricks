@@ -10,7 +10,7 @@ date: 2017-08-30 17:00:00
 :bulb: Learn more : [Azure Command-Line Interface (CLI)](https://docs.microsoft.com/cli/azure?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Configure the Azure CLI to set Defaults and More
+#### Configure the Azure CLI to set Output Defaults and more
 
 In my last tip, I covered using the `--output Table` parameter to customize the results from the Azure CLI. You can also set it as a default amongst other thing. Simply run `az configure` and you'll see the following : 
 

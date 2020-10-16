@@ -10,7 +10,7 @@ date: 2018-02-12 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Customize the Azure Functions endpoint
+### Customize an Azure Functions Endpoint in Seconds
 
 This one tends to come up a lot and typically folks want to solve the following two problems. 
 

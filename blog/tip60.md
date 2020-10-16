@@ -10,6 +10,8 @@ date: 2017-11-29 17:00:00
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
+### Use Visual Studio 2017 with Docker Support
+
 #### Intro
 
 I've recently covered a variety of Docker topics including:

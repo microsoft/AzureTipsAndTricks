@@ -10,7 +10,7 @@ date: 2017-12-17 17:00:00
 :bulb: Learn more : [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Access and embed Azure Cloud Shell Anywhere
+### Access and embed Azure Cloud Shell Anywhere
 
 I've discussed at great lengths many aspects of Azure Cloud Shell. Some of my recent posts include : 
 

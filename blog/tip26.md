@@ -13,6 +13,8 @@ date: 2017-10-02 17:00:00
 :tv: Watch the video : [How to Load Test Your Web Apps with Azure App Services](https://www.youtube.com/watch?v=S-NNM_4j0YQ&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=21?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Load Testing web apps with Azure App Services
+
 #### Intro
 
 We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. We also took a look at a feature called [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) which allows us to distribute traffic between our production and other slots. We also looked at using [PowerShell](https://microsoft.github.io/AzureTipsAndTricks/blog/tip24.html) to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature and looking briefly at the [Azure Resource Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip25.html) to explore REST APIs. In this post, we'll look at a simple and quick way to perform load testing of your web app. 

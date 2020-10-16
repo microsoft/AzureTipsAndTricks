@@ -10,7 +10,7 @@ date: 2018-02-21 17:00:00
 :bulb: Learn more : [Azure IoT Hub Overview](https://docs.microsoft.com/azure/iot-hub/about-iot-hub?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Getting up and running with Azure IoT MXChip
+### Getting up and running with Azure IoT MXChip
 
 I recently was given an Azure IoT DevKit that included the new [MXChip](http://mxchip.com/az3166). The chip is very impressive and while it supports a lot of amazing features, the following caught my eyes:
 

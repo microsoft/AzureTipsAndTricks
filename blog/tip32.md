@@ -10,7 +10,7 @@ date: 2017-10-11 17:00:00
 :bulb: Learn more : [App Service Documentation](https://docs.microsoft.com/azure/app-service?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Using Application Insights with Azure App Service
+### Using Application Insights with Azure App Service
 
 **Application Insights** is a simple way to detect and diagnose exceptions and application performance issues in your web apps and web services. In this blog post, I'll walk you through adding it to an ASP.NET MVC application. 
 

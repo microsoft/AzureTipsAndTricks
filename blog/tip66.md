@@ -10,7 +10,7 @@ date: 2017-12-11 17:00:00
 :bulb: Learn more : [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Using the Data Migration Tool with Cosmos DB
+### Using the Data Migration Tool with Cosmos DB
 
 One tasks that seems to come up over and over is migrating data from one format into another. I was recently building out an API and needed to dump some data into Cosmos DB. The tool that made short work of this was the [Azure DocumentDB Data Migration Tool](https://www.microsoft.com/en-us/download/details.aspx?id=46436). In my case, I needed to dump a large JSON file into Cosmos DB. Here is how I did it. 
 

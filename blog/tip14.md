@@ -12,7 +12,7 @@ date: 2017-09-11 17:00:00
 :tv: Watch the video : [How to generate SSH public key to log into Linux VM](https://www.youtube.com/watch?v=16bUZ43CGxs&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=12?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Generate SSH keys to log into Linux VM with Cloud Shell
+### Generate SSH keys to log into Linux VM with Cloud Shell
 
 For these instructions, I'll assume you have a Linux VM already setup and connecting via Cloud Shell. 
 

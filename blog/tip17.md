@@ -6,7 +6,7 @@ tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2017-09-18 17:00:00
 ---
 
-#### Use PowerShell within Azure Cloud Shell
+### Use PowerShell within Azure Cloud Shell
 
 
 <img :src="$withBase('/files/bashscreenshot.png')">

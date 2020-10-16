@@ -12,7 +12,7 @@ date: 2017-10-30 17:00:00
 :tv: Watch the video : [How to edit an existing API Connection with Azure Logic Apps](https://www.youtube.com/watch?v=M99wMqOvRGM&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=34?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Modifying an existing API Connection with Azure Logic App
+### Modifying an existing API Connection with Azure Logic App
 
 If you have created an Azure Logic App, and have an existing API Connection that you would like to modify, then you can do so very easily. Go ahead and open your logic app and look under **Development Tools** then **API Connections** and you'll see a list of API connections associated with the logic app. 
 

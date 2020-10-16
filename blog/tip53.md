@@ -7,7 +7,7 @@ date: 2017-11-19 17:00:00
 ---
 
 
-#### Prebuilt Azure VMs ready for Containers
+### Prebuilt Azure VMs ready for Containers
 
 While I was at Microsoft Connect last week, I met someone who recently read my Docker Container mini-series that covered [Getting Started with Docker and Azure](https://microsoft.github.io/AzureTipsAndTricks/blog/tip45.html), [Running an app inside a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip46.html), [Creating a Container Image with Docker](https://microsoft.github.io/AzureTipsAndTricks/blog/tip47.html) and [Pushing a Container Image to a Docker Repo](https://microsoft.github.io/AzureTipsAndTricks/blog/tip48.html). The question that came up was how they wish we had prebuilt Azure VMs that had container images already on them. This would save them additional time and something that they would expect. You can imagine their surprise when I told them that we had them already. In this post, we'll take a quick look at how to find them. 
 

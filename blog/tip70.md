@@ -10,7 +10,7 @@ date: 2017-12-18 17:00:00
 :bulb: Learn more : [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Key Phrase Extraction with Cognitive Service and Azure
+### Key Phrase Extraction with Cognitive Service and Azure
 
 I recently took a look at Text Analysis that was introduced with Cognitive Services and is now inside the Azure portal. If you open the Azure portal and look for **AI and Cognitive Services** then you'll see the following:
 

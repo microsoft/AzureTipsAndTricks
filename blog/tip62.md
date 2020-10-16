@@ -10,7 +10,7 @@ date: 2017-12-04 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Force HTTPS in Azure Functions
+### Force HTTPS in Azure Functions
 
 I was looking into adding HTTPS to an existing Azure Function that I had and was pleasantly surprised that you can easily do this now through the Azure Portal (and I assume CLI). Simply log into the portal and select your Azure Function, go to **Platform Features** and then click on **Custom Domains** as shown below: 
 

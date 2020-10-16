@@ -12,7 +12,7 @@ date: 2017-10-15 17:00:00
 :tv: Watch the video : [How to Prevent Changes to Resources in Azure App Services](https://www.youtube.com/watch?v=AScLxYSHbrU&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=27?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Prevent Changes to Resources in Azure App Service
+### Prevent Changes to Resources in Azure App Service
 
 **Locks** allow you to prevent changes to a subscription or resources to prevent other users from accidentally deleting or modifying critical resources.
 

@@ -10,7 +10,7 @@ date: 2017-11-21 17:00:00
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Use .NET Core WebAPI and Docker Compose
+### Use .NET Core WebAPI and Docker Compose
 
 How hard do you think it is to:
 

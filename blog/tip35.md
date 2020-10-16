@@ -12,7 +12,7 @@ date: 2017-10-17 17:00:00
 :tv: Watch the video : [How to work with the Azure Functions File System](https://www.youtube.com/watch?v=IoKkdVCvpNc&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=29?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Work with the Azure Functions File System using the Console
+### Work with the Azure Functions File System using the Console
 
 I debated writing this one, but have seen a lot of folks struggling with files and folders while using Azure Functions. The most common question being, "How do I rename my Function?" as shown below.
 

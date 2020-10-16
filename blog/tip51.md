@@ -7,7 +7,7 @@ date: 2017-11-14 17:00:00
 ---
 
 
-#### Debug Azure Functions with Visual Studio Code
+### Debug Azure Functions with Visual Studio Code
 
 Yesterday, we looked at adding an Azure Function project to Visual Studio Code in this [post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip50.html). Today, we'll take that same app and look at debugging it locally. 
 

@@ -10,6 +10,8 @@ date: 2018-02-25 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
+### Generate a Weekly Digest Email for a Blog using Azure Functions, SendGrid and Azure Storage
+
 #### Where are we?
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)

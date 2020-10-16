@@ -10,7 +10,7 @@ date: 2017-11-26 17:00:00
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Docker Registry vs. Docker Repository
+### Docker Registry vs. Docker Repository
 
 We used [Docker Compose in Tip 55](tip55.html) to create an image using our existing [ASP.NET WebAPI project](tip54.html) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](tip56.html). The bit of feedback that I feel that I didn't drive home was the difference between Docker Registry and Docker Repository. I wanted to cover that in this tip.
 

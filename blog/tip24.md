@@ -12,6 +12,8 @@ date: 2017-09-26 17:00:00
 :tv: Watch the video : [How to Add Logic to Your Testing in Production Sites with PowerShell](https://www.youtube.com/watch?v=laAwhwahb5I&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=38?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
+### Add logic to your Testing in Production sites with PowerShell
+
 #### Intro
 
 We've recently created a [web app](https://microsoft.github.io/AzureTipsAndTricks/blog/tip19.html) and uploaded it to Azure App Service. We also took a look at [multiple ways](https://microsoft.github.io/AzureTipsAndTricks/blog/tip20.html) to examine those files through the Azure portal interface and how we'd add [extensions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip21.html) and [deployment slots](https://microsoft.github.io/AzureTipsAndTricks/blog/tip22.html) for our web app. We also took a look at a feature called [Testing in Production](https://microsoft.github.io/AzureTipsAndTricks/blog/tip23.html) which allows us to distribute traffic between our production and other slots. In this post, we'll look at adding additional logic by using PowerShell to automatically distribute the load between your Production and deployment slot sites with the Testing in Production feature.   

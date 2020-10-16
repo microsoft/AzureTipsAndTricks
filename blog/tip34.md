@@ -12,7 +12,7 @@ date: 2017-10-16 17:00:00
 :tv: Watch the video : [How to work with the Azure CLI using MacOS](https://www.youtube.com/watch?v=m-xUgEl6dcM&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=28?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Working with the Azure CLI using a Mac
+### Working with the Azure CLI using a Mac
 
 The **Azure CLI 2.0** provides a command-line experience for managing Azure resources. You can use it with Azure Cloud Shell which sits inside your web browser, or you can install it on macOS, Linux, and Windows. In this post, we'll install it on a Mac. 
 

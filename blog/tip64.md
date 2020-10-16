@@ -10,7 +10,7 @@ date: 2017-12-06 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Using a different route prefix with Azure Functions
+### Using a different route prefix with Azure Functions
 
 Sometimes you have the requirement to use a different route prefix than the one that Azure Functions auto-generates
 

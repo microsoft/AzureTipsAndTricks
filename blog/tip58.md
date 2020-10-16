@@ -10,7 +10,7 @@ date: 2017-11-27 17:00:00
 :bulb: Learn more : [Azure for Containers](https://docs.microsoft.com/azure/containers/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Continuous Deployment with Docker and Web App for Containers
+### Continuous Deployment with Docker and Web App for Containers
 
 To recap, [in Tip 55 - Docker Compose](tip55.html) to create an image using our existing [ASP.NET WebAPI project](tip54.html) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](tip56.html). I also explained the difference between [Docker Registry and Docker Repository in Tip 57](tip57.html) and this tip, I'll cover setting up Continuous Deployment with Docker and Web App for Containers. 
 

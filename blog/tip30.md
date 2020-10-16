@@ -12,7 +12,7 @@ date: 2017-10-09 17:00:00
 :tv: Watch the video : [How to Work with Log Stream and Azure App Services](https://www.youtube.com/watch?v=wyuxnZZMeak&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=25?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Working with Log Stream and Azure App Services
+### Working with Log Stream and Azure App Services
 
 The **Log Stream** is the ability to see logging information in real-time (or as close to it as possible). You can do this by using the Azure Portal or through some of CLI tooling such as PowerShell or BASH. 
 

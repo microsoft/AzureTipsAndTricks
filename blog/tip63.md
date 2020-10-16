@@ -10,7 +10,7 @@ date: 2017-12-05 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Open an existing Azure Function in Visual Studio
+### Open an existing Azure Function in Visual Studio
 
 I recently wanted to modify an existing Azure Function in Visual Studio 2017 and noticed this is very straightforward. Simply log into the portal and select your Azure Function, go to **Overview** and then click on **Download app content** as shown below: 
 

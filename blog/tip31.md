@@ -12,7 +12,7 @@ date: 2017-10-10 17:00:00
 :tv: Watch the video : [How to Set Up e-mail Alerts with Azure App Services ](https://www.youtube.com/watch?v=gY44IAPSXAE&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=26?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-#### Setting up Email Alerts with Azure App Servicess
+### Setting up Email Alerts with Azure App Servicess
 
 **Alerts** allows you to receive an alert based on monitoring metric for your Azure app services. You can be notified in a variety of ways such as the Azure Portal, Webhooks or Email. In this post, we'll setup an alert based on a 404 error message and send it via email. 
 
