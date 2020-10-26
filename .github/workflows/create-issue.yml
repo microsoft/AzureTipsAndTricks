@@ -14,7 +14,7 @@ jobs:
       - name: GH CLI
         run: |         
           echo "POST_COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)" >> $GITHUB_ENV
-          gh issue create --title "Update Made in Public Repo" --body "$POST_COMMIT_MESSAGE" -R microsoft/azuretipsandtricks-private
+          gh issue create --title "Update Made in Public Repo" --body "test" -R microsoft/azuretipsandtricks-private
 
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
