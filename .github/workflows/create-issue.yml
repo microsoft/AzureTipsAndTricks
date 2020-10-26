@@ -12,11 +12,10 @@ jobs:
         run: |
           brew install gh
       - name: Cli Login
-        run: | 
-          gh auth login --with-token ${{ secrets.PRIVATE_REPO_PAT  }}
-          gh issue create --title "I found a bug" --body "Nothing works"
+        run: |         
+          gh issue create --title "I found a bug" --body "Nothing works" -R microsoft/azuretipsandtricks-private
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+          GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_OWNER: 'microsoft'
           GITHUB_REPOSITORY: 'azuretipsandtricks-private'
