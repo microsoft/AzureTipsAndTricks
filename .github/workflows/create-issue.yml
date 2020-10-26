@@ -8,9 +8,13 @@ jobs:
     name: Create Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Git Creation Demo
+      - name: Install GH Cli
         run: |
           brew install gh
+      - name: Cli Login
+        run: | 
+          gh auth login --with-token ${{ secrets.PRIVATE_REPO_PAT  }}
+          gh issue create --title "I found a bug" --body "Nothing works"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           GITHUB_SHA: ${{ github.sha }}
