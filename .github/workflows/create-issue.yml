@@ -8,9 +8,9 @@ jobs:
     name: Create Issue
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
       - name: Git Creation Demo
-        uses: bryannice/gitactions-git-issue-creation@master
+        run: |
+          brew install gh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           GITHUB_SHA: ${{ github.sha }}
