@@ -11,9 +11,11 @@ jobs:
       - name: Install GH Cli
         run: |
           brew install gh
-      - name: Cli Login
+      - name: GH CLI
         run: |         
-          gh issue create --title "I found a bug" --body "Nothing works" -R microsoft/azuretipsandtricks-private
+          echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
+          gh issue create --title "Update Made in Public Repo" --body "${{ env.POST_COMMIT_MESSAGE }}" -R microsoft/azuretipsandtricks-private
+
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
           GITHUB_SHA: ${{ github.sha }}
