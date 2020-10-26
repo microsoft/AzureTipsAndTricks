@@ -17,7 +17,7 @@ jobs:
         brew install gh
     - name: GH CLI
       run: |         
-        COMMIT_MESSAGE="Update made in public repo \n Message: $(git log --no-merges -1 --pretty=%B) \n Link: https://github.com/microsoft/AzureTipsAndTricks/commit/${{ github.sha }}"
+        COMMIT_MESSAGE=""**Update made in public repo** <br /><br /> **Message:** $(git log --no-merges -1 --pretty=%B) <br /> **Link:** https://github.com/microsoft/AzureTipsAndTricks/commit/${{ github.sha }}""
         gh issue create --title "Update Made in Public Repo" --body "$COMMIT_MESSAGE" -R microsoft/azuretipsandtricks-private
 
       env:
