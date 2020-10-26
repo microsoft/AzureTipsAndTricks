@@ -12,7 +12,7 @@ jobs:
       - name: Git Creation Demo
         uses: bryannice/gitactions-git-issue-creation@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT }}
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_OWNER: 'microsoft'
           GITHUB_REPOSITORY: 'azuretipsandtricks-private'
