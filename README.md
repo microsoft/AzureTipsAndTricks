@@ -3,7 +3,7 @@ title: Welcome
 type: post
 ---
 
-# Welcome
+# Welcome test
 
 Welcome to Azure Tips and Tricks, this site is a special collection of over 260+ tips, videos, conference talks that span the entire universe of the Azure platform. The tips you'll find here are based on real-world scenarios that I've encountered (along with the community) while using Azure. Feel free to jump in and come back weekly for new tips!
 
