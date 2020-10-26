@@ -8,14 +8,18 @@ jobs:
     name: Create Issue
     runs-on: ubuntu-latest
     steps:
-      - name: Install GH Cli
-        run: |
-          brew install gh
-      - name: GH CLI
-        run: |         
-          COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)
-          gh issue create --title "Update Made in Public Repo" --body "$COMMIT_MESSAGE" -R microsoft/azuretipsandtricks-private
+    - uses: actions/checkout@v2
+      name: Checkout Repo
+      with:
+        submodules: true
+    - name: Install GH Cli
+      run: |
+        brew install gh
+    - name: GH CLI
+      run: |         
+        COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)
+        gh issue create --title "Update Made in Public Repo" --body "$COMMIT_MESSAGE" -R microsoft/azuretipsandtricks-private
 
-        env:
-          GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
-          GITHUB_SHA: ${{ github.sha }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
+        GITHUB_SHA: ${{ github.sha }}
