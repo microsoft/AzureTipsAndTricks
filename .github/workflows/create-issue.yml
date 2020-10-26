@@ -13,13 +13,9 @@ jobs:
           brew install gh
       - name: GH CLI
         run: |         
-          echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-          gh issue create --title "Update Made in Public Repo" --body "${{ env.POST_COMMIT_MESSAGE }}" -R microsoft/azuretipsandtricks-private
+          echo "POST_COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)" >> $GITHUB_ENV
+          gh issue create --title "Update Made in Public Repo" --body $POST_COMMIT_MESSAGE -R microsoft/azuretipsandtricks-private
 
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
           GITHUB_SHA: ${{ github.sha }}
-          GITHUB_OWNER: 'microsoft'
-          GITHUB_REPOSITORY: 'azuretipsandtricks-private'
-          GITHUB_ISSUE_TITLE: 'Demo''ing Git Issue Creation'
-          GITHUB_ISSUE_BODY: 'Demo''ing Git Issue Creation'
