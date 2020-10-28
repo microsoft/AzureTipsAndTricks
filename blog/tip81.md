@@ -2,7 +2,7 @@
 type: post
 title: "Tip 81 - Working with AzCopy and Azure Storage"
 excerpt: "Learn how to add metadata to a file inside Azure Storage Blob Container"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-17 17:00:00
 ---
 
@@ -34,23 +34,23 @@ Today, we are going to look at working with AzCopy to manipulate our Azure Stora
 
 You can download either the latest version of AzCopy on [Windows](http://aka.ms/downloadazcopy?WT.mc_id=akams-azuredevtips-azureappsdev) or [Linux](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-linux?WT.mc_id=docs-azuredevtips-azureappsdev).
 
-For this example, I'm going to use Windows. After I downloaded and installed the utility, I navigated inside my command prompt to the following folder `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy` and ran the `azcopy.exe` command to ensure everything was working properly. 
+For this example, I'm going to use Windows. After I downloaded and installed the utility, I navigated inside my command prompt to the following folder `%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy` and ran the `azcopy.exe` command to ensure everything was working properly.
 
 <img :src="$withBase('/files/azcopy1blog.png')">
 
 So you may be wondering if you need to do the device login as we did with the [Azure CLI](https://www.michaelcrump.net/azure-cli-with-win10-bash/). The answer is no, we'll be using our Azure Storage Access Key.
 
-#### Getting the Azure Storage Access Key 
+#### Getting the Azure Storage Access Key
 
 Go ahead and open the Azure Portal and navigate to the Azure Storage account that we worked with [earlier](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html).
 
-Look under **Settings**, then **Access Keys** and copy the key1. 
+Look under **Settings**, then **Access Keys** and copy the key1.
 
 <img :src="$withBase('/files/azcopy2blog.png')">
 
-Store the key somewhere that you can retrieve it again. 
+Store the key somewhere that you can retrieve it again.
 
-#### Kick the tires with a couple of commands. 
+#### Kick the tires with a couple of commands.
 
 We can easily download a file from our Azure Storage Blob Container that we've been working with earlier with the following command:
 
@@ -77,6 +77,6 @@ Finally, you can copy from one Azure Storage account to another one with the fol
 AzCopy /Source:https://mbcrumpsa.blob.core.windows.net/images-backup /Dest:https://mbcrumpsa.blob.core.windows.net/images /SourceKey:thekeyyoucopiedearlier /DestKey:thekeyyoucopiedearlier /Pattern:"mikepicnew.png"
 ```
 
-In this case, I am copying a file named `mikepicnew.png` from `images-backup` to `images` and then I'll refresh the container. 
+In this case, I am copying a file named `mikepicnew.png` from `images-backup` to `images` and then I'll refresh the container.
 
 <img :src="$withBase('/files/azcopy5blog.gif')">

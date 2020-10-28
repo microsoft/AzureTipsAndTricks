@@ -2,7 +2,7 @@
 type: post
 title: "Tip 34 - Working with the Azure CLI using a Mac"
 excerpt: "Learn how to work with the Azure CLI 2.0 using a Mac"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-10-16 17:00:00
 ---
 

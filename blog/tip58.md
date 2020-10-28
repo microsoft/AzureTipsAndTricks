@@ -2,7 +2,7 @@
 type: post
 title: "Tip 58 - Continuous Deployment with Docker and Web App for Containers"
 excerpt: "Learn how to setup continuous deployment with Docker and Web App for Containers"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web, Containers]
 date: 2017-11-27 17:00:00
 ---
 
@@ -12,20 +12,20 @@ date: 2017-11-27 17:00:00
 
 ### Continuous Deployment with Docker and Web App for Containers
 
-To recap, [in Tip 55 - Docker Compose](tip55.html) to create an image using our existing [ASP.NET WebAPI project](tip54.html) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](tip56.html). I also explained the difference between [Docker Registry and Docker Repository in Tip 57](tip57.html) and this tip, I'll cover setting up Continuous Deployment with Docker and Web App for Containers. 
+To recap, [in Tip 55 - Docker Compose](tip55.html) to create an image using our existing [ASP.NET WebAPI project](tip54.html) and push it to Docker Cloud. I also covered deploying it to Azure using [Web App for Containers](tip56.html). I also explained the difference between [Docker Registry and Docker Repository in Tip 57](tip57.html) and this tip, I'll cover setting up Continuous Deployment with Docker and Web App for Containers.
 
-Navigate back to the Web App for Container service [we recently created](tip56.html). Look under **Settings** and click on **Docker Container**. You'll see **Continuous Deployment** and will need to switch it on and then **Show the URL** and copy and paste it into somewhere else. Go ahead and press **save**. 
+Navigate back to the Web App for Container service [we recently created](tip56.html). Look under **Settings** and click on **Docker Container**. You'll see **Continuous Deployment** and will need to switch it on and then **Show the URL** and copy and paste it into somewhere else. Go ahead and press **save**.
 
 <img :src="$withBase('/files/dockercd1.png')">
 
-**Note** If you want to verify CD is setup correctly, go to your **Application Settings** and under **App Settings**, you'll see `DOCKER_ENABLE_CI` has been set to true. 
+**Note** If you want to verify CD is setup correctly, go to your **Application Settings** and under **App Settings**, you'll see `DOCKER_ENABLE_CI` has been set to true.
 
 
-Navigate back over to [Docker Hub](https://hub.docker.com/r/mbcrump/mbcwebapi/) and navigate to your repository. You'll see **Web Hooks** and want to add the URL that you copied earlier. 
+Navigate back over to [Docker Hub](https://hub.docker.com/r/mbcrump/mbcwebapi/) and navigate to your repository. You'll see **Web Hooks** and want to add the URL that you copied earlier.
 
 <img :src="$withBase('/files/dockercd2.png')">
 
-Now head back to the terminal or command prompt and make a change to your application. I'm going to go into my `ValuesController.cs` application and modify what returns from the `api\values` to `"myupdatedvalue1", "myupdatedvalue2"` instead of `"value1", "value2"` 
+Now head back to the terminal or command prompt and make a change to your application. I'm going to go into my `ValuesController.cs` application and modify what returns from the `api\values` to `"myupdatedvalue1", "myupdatedvalue2"` instead of `"value1", "value2"`
 
 ```csharp
 // GET api/values
@@ -36,7 +36,7 @@ Now head back to the terminal or command prompt and make a change to your applic
         }
 ```
 
-I'm going to run the `publish -c Release -o ./obj/Docker/publish` command to create the new .dlls for the site. 
+I'm going to run the `publish -c Release -o ./obj/Docker/publish` command to create the new .dlls for the site.
 
 ```
 Michaels-MacBook-Pro:mbcwebapi mbcrump$ cd mbcwebapi
@@ -48,7 +48,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
   mbcwebapi -> /Users/mbcrump/mbcwebapi/mbcwebapi/obj/Docker/publish/
 ```
 
-Now I'll run `docker-compose build` to rebuild my **latest** image. 
+Now I'll run `docker-compose build` to rebuild my **latest** image.
 
 ```
 Michaels-MacBook-Pro:mbcwebapi mbcrump$ docker-compose build
@@ -79,18 +79,18 @@ I'll now push this image to Docker Cloud with `docker push mbcrump/mbcwebapi:lat
 ```
 Michaels-MacBook-Pro:mbcwebapi mbcrump$ docker push mbcrump/mbcwebapi:latest
 The push refers to a repository [docker.io/mbcrump/mbcwebapi]
-bb538a44e79e: Pushed 
-2810d33d0bd6: Layer already exists 
-eff6ab78003d: Layer already exists 
-8b2ae5b337fe: Layer already exists 
-587f57f69c02: Layer already exists 
-5c4bb5b2f630: Layer already exists 
-a75caa09eb1f: Layer already exists 
+bb538a44e79e: Pushed
+2810d33d0bd6: Layer already exists
+eff6ab78003d: Layer already exists
+8b2ae5b337fe: Layer already exists
+587f57f69c02: Layer already exists
+5c4bb5b2f630: Layer already exists
+a75caa09eb1f: Layer already exists
 latest: digest: sha256:d441ddbc8854b63529e7e99e5731a7497dd5c14665a9bfc5cb006827018cb518 size: 1790
-Michaels-MacBook-Pro:mbcwebapi mbcrump$ 
+Michaels-MacBook-Pro:mbcwebapi mbcrump$
 ```
 
-If I switch back over to Docker Hub, then I show **History** and see it has automatically deployed my latest build. 
+If I switch back over to Docker Hub, then I show **History** and see it has automatically deployed my latest build.
 
 <img :src="$withBase('/files/dockercd3.png')">
 

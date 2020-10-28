@@ -2,7 +2,7 @@
 type: post
 title: "Tip 86 - Deleting an item from a Azure Storage Table"
 excerpt: "Learn how to delete an item from an Azure Storage Table"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-28 17:00:00
 ---
 
@@ -20,7 +20,7 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
 * [Deleting an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip86.html)]
 
-Today, we'll be taking a look at deleting an item through C# code into an Azure Storage Table. 
+Today, we'll be taking a look at deleting an item through C# code into an Azure Storage Table.
 
 #### Getting Started
 
@@ -52,7 +52,7 @@ In this example, we retrieve the message and then delete the entity.
 
 #### Putting it all together.
 
-The **Main** method inside of the `Program.cs` file, we'll call our helper method. 
+The **Main** method inside of the `Program.cs` file, we'll call our helper method.
 
 ```csharp
 static void Main(string[] args)

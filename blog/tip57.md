@@ -2,7 +2,7 @@
 type: post
 title: "Tip 57 - Docker Registry vs. Docker Repository"
 excerpt: "Learn the difference between a docker registry and docker repository"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Containers]
 date: 2017-11-26 17:00:00
 ---
 
@@ -22,7 +22,7 @@ Docker Registry is a service that **stores** your docker images, but it could be
 * [Docker Hub](https://hub.docker.com/)
 * [Quay Enterprise](https://coreos.com/quay-enterprise/docs/latest/)
 
-There are also other choices such as Google or AWS Container Registry. 
+There are also other choices such as Google or AWS Container Registry.
 
 #### Docker Repository
 
@@ -30,7 +30,7 @@ A Docker Repository is a **collection** of related images with same name, that h
 
 So the command docker `pull microsoft/aspnetcore:latest` will download the image tagged `latest` within the `microsoft/aspnetcore` repository from the Docker Hub registry.
 
-To wrap it up. Look at the image below. We have a Docker Repository named `microsoft/aspnetcore` that is stored in a Docker Registry using Docker Hub. 
+To wrap it up. Look at the image below. We have a Docker Repository named `microsoft/aspnetcore` that is stored in a Docker Registry using Docker Hub.
 
 <img :src="$withBase('/files/explaindocker1.png')">
 

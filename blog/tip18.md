@@ -2,7 +2,7 @@
 type: post
 title: "Tip 18 - Use Tags to quickly organize Azure Resources"
 excerpt: "Learn how to take advantage of tags to organize your Azure resources"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-09-19 17:00:00
 ---
 

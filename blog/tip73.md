@@ -2,7 +2,7 @@
 type: post
 title: "Tip 73 - Send Emails through Azure with C# and SendGrid"
 excerpt: "Learn how to send emails through Azure with C# and SendGrid"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance, Communication Services]
 date: 2018-01-03 17:00:00
 ---
 
@@ -14,11 +14,11 @@ date: 2018-01-03 17:00:00
 
 In this post, I'll walk through the process that I completed to create an account with SendGrid and send an email with C#.
 
-Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for what I was trying to accomplish. 
+Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for what I was trying to accomplish.
 
 <img :src="$withBase('/files/sendgrid1.png')">
 
-Go to your SendGrid account once provisioned and click on **Manage** and it will bring you to [https://app.sendgrid.com/](https://app.sendgrid.com/) as shown below. 
+Go to your SendGrid account once provisioned and click on **Manage** and it will bring you to [https://app.sendgrid.com/](https://app.sendgrid.com/) as shown below.
 
 <img :src="$withBase('/files/sendgrid2.png')">
 
@@ -26,14 +26,14 @@ From the SendGrid portal, you are going to want to grab your API key. You can fi
 
 <img :src="$withBase('/files/sendgrid3.png')">
 
-Give your API Key a name and then give it **Full Access** and click **Create and View**. 
+Give your API Key a name and then give it **Full Access** and click **Create and View**.
 
 <img :src="$withBase('/files/sendgrid4.png')">
 
 **Remember this!** Copy this key somewhere safe as we'll be using it again shortly!
 
 
-Now that you have your API Key, open Visual Studio and create a new Console Application. (Keep in mind this could be an Azure Function for example). You'll need to add in the **Sendgrid** NuGet package (which you can do from Manage NuGet packages). 
+Now that you have your API Key, open Visual Studio and create a new Console Application. (Keep in mind this could be an Azure Function for example). You'll need to add in the **Sendgrid** NuGet package (which you can do from Manage NuGet packages).
 
 <img :src="$withBase('/files/sendgrid5.png')">
 

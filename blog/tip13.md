@@ -2,7 +2,7 @@
 type: post
 title: "Tip 13 - Demystifying storage in Cloud Shell"
 excerpt: "Understand what the Azure Cloud Shell is using storage for."
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-09-10 17:00:00
 ---
 

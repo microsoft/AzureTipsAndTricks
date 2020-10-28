@@ -2,7 +2,7 @@
 type: post
 title: "Tip 52 - Deploy Azure Functions with Visual Studio Code"
 excerpt: "Learn how to deploy Azure Functions with Visual Studio Code"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless, Visual Studio Family]
 date: 2017-11-15 17:00:00
 ---
 
@@ -15,10 +15,10 @@ Select the Azure subscription that you'd like to use and select "Create Function
 
 <img :src="$withBase('/files/azfuncdeploy.gif')">
 
-Now we'll push some code to the newly created Azure Function. Select your Azure Subscription and click deploy. You'll be asked to select the folder to deploy (which it creates a zip), then a subscription, the Function App. Press Yes when asked to overwrite and it will begin deploying. 
+Now we'll push some code to the newly created Azure Function. Select your Azure Subscription and click deploy. You'll be asked to select the folder to deploy (which it creates a zip), then a subscription, the Function App. Press Yes when asked to overwrite and it will begin deploying.
 
 <img :src="$withBase('/files/azfuncdeploy1.gif')">
 
-You can switch over to your browser to verify if you want. 
+You can switch over to your browser to verify if you want.
 
 <img :src="$withBase('/files/azfuncdeploy2.png')">

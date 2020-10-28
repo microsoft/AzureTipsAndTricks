@@ -2,7 +2,7 @@
 type: post
 title: "Tip 35 - Work with the Azure Functions File System using the Console"
 excerpt: "Learn how to quickly rename Azure functions using the Azure Portal Console"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless]
 date: 2017-10-17 17:00:00
 ---
 
@@ -22,7 +22,7 @@ My preferred method for this type of task is working with the Azure Portal Conso
 
 <img :src="$withBase('/files/azfunc2.png')">
 
-Now that we have a **Command Prompt**, we should see the following: 
+Now that we have a **Command Prompt**, we should see the following:
 
 ```
 > dir
@@ -45,6 +45,6 @@ We will rename the **TimerTriggerCSharp1** to something more meaningful by typin
 
 `ren TimerTriggerCharp1 MyAwesomeNewTriggerName`
 
-You'll need to refresh the Azure Portal and you can see that the name changed. 
+You'll need to refresh the Azure Portal and you can see that the name changed.
 
 <img :src="$withBase('/files/azfunc3.png')">

@@ -2,7 +2,7 @@
 type: post
 title: "Tip 99 - Creating an Email Subscription with Azure Functions - Writing the Frontend"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless]
 date: 2018-02-27 17:00:00
 ---
 
@@ -17,14 +17,14 @@ date: 2018-02-27 17:00:00
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-azureappsdev)
 
 
-This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
+This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage.
 
 * [Part 1 - What we're going to build and how to build it](https://microsoft.github.io/AzureTipsAndTricks/blog/tip97.html)
 * [Part 2 - Storing Emails using Azure Table Storage](https://microsoft.github.io/AzureTipsAndTricks/blog/tip98.html)
 * [Part 3 - Writing the Frontend with HTML5 and jQuery](https://microsoft.github.io/AzureTipsAndTricks/blog/tip99.html)
 * [Part 4 - Sending Emails with Sendgrid and Azure Functions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip100.html)
 
-We're trying to build a Email Subscription similar to the following. If you want to catch up, then read the previous posts. 
+We're trying to build a Email Subscription similar to the following. If you want to catch up, then read the previous posts.
 
 <img :src="$withBase('/files/emailsub1.png')">
 
@@ -32,30 +32,30 @@ We're trying to build a Email Subscription similar to the following. If you want
 
 In our last post, we left off by creating an Azure Function that had the ability to accept a POST request and store data using Azure Table Storage for our email address. While this works great in something like Postman, we need to create a way to allow a user to interact with it.
 
-Now is a great time to go ahead and publish our Azure Function. Simply right click the project name and select **Publish**, then **Publish** again as shown below. 
+Now is a great time to go ahead and publish our Azure Function. Simply right click the project name and select **Publish**, then **Publish** again as shown below.
 
 <img :src="$withBase('/files/emailsub8.png')">
 
-Once it deploys, if you click on the **StoreEmail** function, then you'll see a **Get Function URL** as shown below. 
+Once it deploys, if you click on the **StoreEmail** function, then you'll see a **Get Function URL** as shown below.
 
 <img :src="$withBase('/files/emailsub9.png')">
 
-If you click it, then copy and paste the Function url as you'll use that later. 
+If you click it, then copy and paste the Function url as you'll use that later.
 
 <img :src="$withBase('/files/emailsub10.png')">
 
 #### Dealing with CORS
 
-While we're in the portal, click on your Azure Function and under **Platform Features**, you'll see **API** and then **CORS**. 
+While we're in the portal, click on your Azure Function and under **Platform Features**, you'll see **API** and then **CORS**.
 
-Cross-Origin Resource Sharing (CORS) allows JavaScript code running in a browser on an external host to interact with your backend. 
- 
+Cross-Origin Resource Sharing (CORS) allows JavaScript code running in a browser on an external host to interact with your backend.
+
 
 Since we'll be moving this to a web host shorly, you'll want to specify your domain name. Here is mine:
 
 <img :src="$withBase('/files/emailsub11.png')">
 
-#### Finally, the frontend. 
+#### Finally, the frontend.
 
 Create a new .HTML page anywhere and begin by adding the following code:
 
@@ -77,9 +77,9 @@ Create a new .HTML page anywhere and begin by adding the following code:
 <div id="contactFormStatus" class="style-1')">
 ```
 
-This gives us a **form** along with an **input** type for our email address and a **submit** button. We also have a **div** tag at the bottom which we'll use to show status of the request. 
+This gives us a **form** along with an **input** type for our email address and a **submit** button. We also have a **div** tag at the bottom which we'll use to show status of the request.
 
-Now we'll use jQuery and a Ajax call to POST the email address to our Azure Function url that we copied earlier. We will be using a regex that I stole off the web for additional verification they are supplying a valid email address. 
+Now we'll use jQuery and a Ajax call to POST the email address to our Azure Function url that we copied earlier. We will be using a regex that I stole off the web for additional verification they are supplying a valid email address.
 
 ```html
  <script src="https://code.jquery.com/jquery-3.1.1.min.js')"></script>
@@ -118,7 +118,7 @@ Now we'll use jQuery and a Ajax call to POST the email address to our Azure Func
  </script>
 ```
 
-We'll now put in some CSS to make the site look prettier. 
+We'll now put in some CSS to make the site look prettier.
 
 ```css
 <style type="text/css')">
@@ -229,7 +229,7 @@ select {
 </style>
 ```
 
-If you try to run the code on your server then you'll see it works as designed. You can also use something like Azure Storage Explorer to see the data in the table. 
+If you try to run the code on your server then you'll see it works as designed. You can also use something like Azure Storage Explorer to see the data in the table.
 
 <img :src="$withBase('/files/emailsub-newdemo.gif')">
 

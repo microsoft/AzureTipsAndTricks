@@ -2,7 +2,7 @@
 type: post
 title: "Tip 23 - Traffic Percentage for Web Apps with Azure App Service"
 excerpt: "Learn how to setup traffic percentate rules for Azure App Service"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web]
 date: 2017-09-25 17:00:00
 ---
 

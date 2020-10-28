@@ -2,7 +2,7 @@
 type: post
 title: "Tip 85 - Updating an item from a Azure Storage Table"
 excerpt: "Learn how to update an item from an Azure Storage Table"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-24 17:00:00
 ---
 
@@ -19,7 +19,7 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [Reading an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip84.html)
 * [Today - Updating an item from a Azure Storage Table](https://microsoft.github.io/AzureTipsAndTricks/blog/tip85.html)
 
-Today, we'll be taking a look at updating an item through C# code into an Azure Storage Table. 
+Today, we'll be taking a look at updating an item through C# code into an Azure Storage Table.
 
 #### Getting Started
 
@@ -55,11 +55,11 @@ static void UpdateMessage(CloudTable table, string partitionKey, string rowKey, 
 }
 ```
 
-In this example, once it performs the lookup, if it is not null, then we want to update the message with the one that we specify. 
+In this example, once it performs the lookup, if it is not null, then we want to update the message with the one that we specify.
 
 #### Putting it all together.
 
-The **Main** method inside of the `Program.cs` file, we'll call our helper method. 
+The **Main** method inside of the `Program.cs` file, we'll call our helper method.
 
 ```csharp
 static void Main(string[] args)

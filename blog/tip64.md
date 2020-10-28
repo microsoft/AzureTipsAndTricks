@@ -2,7 +2,7 @@
 type: post
 title: "Tip 64 - Using a different route prefix with Azure Functions"
 excerpt: "Learn how to use a different route prefix with Azure Function"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless]
 date: 2017-12-06 17:00:00
 ---
 
@@ -14,13 +14,13 @@ date: 2017-12-06 17:00:00
 
 Sometimes you have the requirement to use a different route prefix than the one that Azure Functions auto-generates
 
-For example: `https://mynewapimc.azurewebsites.net/api/HttpTriggerCSharp1` uses `api` before the function name. You might want to either remove `api` or change it to another name. 
+For example: `https://mynewapimc.azurewebsites.net/api/HttpTriggerCSharp1` uses `api` before the function name. You might want to either remove `api` or change it to another name.
 
-I typically fix this by going into the Azure Portal and clicking on my Azure Function. I then click on **Platform Features** and **Advanced tools(Kudu)**. 
+I typically fix this by going into the Azure Portal and clicking on my Azure Function. I then click on **Platform Features** and **Advanced tools(Kudu)**.
 
 <img :src="$withBase('/files/azfunckudu1.png')">
 
-I then navigate to `wwwroot` and hit edit on the `host.json` file. 
+I then navigate to `wwwroot` and hit edit on the `host.json` file.
 
 <img :src="$withBase('/files/azfunckudu2.png')">
 

@@ -2,20 +2,20 @@
 type: post
 title: "Tip 51 - Debug Azure Functions with Visual Studio Code"
 excerpt: "Learn how to write local Azure Functions with Visual Studio Code"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless, Visual Studio Family]
 date: 2017-11-14 17:00:00
 ---
 
 
 ### Debug Azure Functions with Visual Studio Code
 
-Yesterday, we looked at adding an Azure Function project to Visual Studio Code in this [post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip50.html). Today, we'll take that same app and look at debugging it locally. 
+Yesterday, we looked at adding an Azure Function project to Visual Studio Code in this [post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip50.html). Today, we'll take that same app and look at debugging it locally.
 
-All you need to do is to place your break point and hit F5 to start debugging. 
+All you need to do is to place your break point and hit F5 to start debugging.
 
 <img :src="$withBase('/files/azfuncdebug1.png')">
 
-If you click on the terminal tab, then you can see what is happening behind the scenes such as: Reading the host files, starting up the node instance, and the URL that the app is running on (if you selected the HttpTrigger tempate). 
+If you click on the terminal tab, then you can see what is happening behind the scenes such as: Reading the host files, starting up the node instance, and the URL that the app is running on (if you selected the HttpTrigger tempate).
 
 ```
 
@@ -54,7 +54,7 @@ Http Functions:
         HttpTriggerJS: http://localhost:7071/api/HttpTriggerJS
 ```
 
-Copy the URL the app is running on and paste it in a browser and your breakpoint will fire. If you step through the breakpoint, then you'll see the function is expecting a parameter. 
+Copy the URL the app is running on and paste it in a browser and your breakpoint will fire. If you step through the breakpoint, then you'll see the function is expecting a parameter.
 
 <img :src="$withBase('/files/azfuncdebug2.png')">
 

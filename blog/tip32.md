@@ -2,7 +2,7 @@
 type: post
 title: "Tip 32 - Using Application Insights with Azure App Service"
 excerpt: "Learn how to setup Application Insights in an MVC application using Azure App Service"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-10-11 17:00:00
 ---
 

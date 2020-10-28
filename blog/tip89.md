@@ -2,7 +2,7 @@
 type: post
 title: "Tip 89 - Shared Access Tokens with Azure Storage Blob Containers"
 excerpt: "Learn how to create shared access tokens with Azure Storage Blob Containers"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-31 17:00:00
 ---
 
@@ -23,13 +23,13 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [What's the purpose of ETag in Azure Storage Table?](https://microsoft.github.io/AzureTipsAndTricks/blog/tip88.html)
 * [Shared Access Tokens with Azure Storage Blob Containers](https://microsoft.github.io/AzureTipsAndTricks/blog/tip89.html)
 
-#### What is it? 
+#### What is it?
 
 A shared access signature (or you may hear SAS) provides delegated access to resources in your storage account. With a SAS, you can grant  access to resources in your storage account, without sharing your master account keys. In other words, a SAS is a secure way to share your storage resources without compromising your account keys.
 
-#### A Practical Example 
+#### A Practical Example
 
-Let's say that I have a image that is stored in an Azure Storage Blob Container with the endpoint of [https://mbcrumpsa.blob.core.windows.net/images/mikepic.png](https://mbcrumpsa.blob.core.windows.net/images/mikepic.png). 
+Let's say that I have a image that is stored in an Azure Storage Blob Container with the endpoint of [https://mbcrumpsa.blob.core.windows.net/images/mikepic.png](https://mbcrumpsa.blob.core.windows.net/images/mikepic.png).
 
 I can store this file, one of three ways:
 
@@ -37,7 +37,7 @@ I can store this file, one of three ways:
 * Public read access for blobs only: Blobs within the container can be read by anonymous request, but container data is not available. Anonymous clients cannot enumerate the blobs within the container.
 * Full public read access: All container and blob data can be read by anonymous request. Clients can enumerate blobs within the container by anonymous request, but cannot enumerate containers within the storage account.
 
-The second and third option would give full access to the image and it would display with no problem. But if you select **No public read access** as shown below, then the image will not display b/c you don't have permissions. 
+The second and third option would give full access to the image and it would display with no problem. But if you select **No public read access** as shown below, then the image will not display b/c you don't have permissions.
 
 <img :src="$withBase('/files/azuresas1.jpg')">
 
@@ -69,7 +69,7 @@ BlobSasBuilder blobSas = new BlobSasBuilder
 };
 
 string sas = blobSas.ToSasQueryParameters(credential).ToString();
-// sas now contains the signature that we could append to a URL. 
+// sas now contains the signature that we could append to a URL.
 ```
 
-As stated in the code, we now have access to the token from our **imageSAP** policy that will generate our signature that gives us access to the image for the specified time. We could then see the image once we go to the site. 
+As stated in the code, we now have access to the token from our **imageSAP** policy that will generate our signature that gives us access to the image for the specified time. We could then see the image once we go to the site.

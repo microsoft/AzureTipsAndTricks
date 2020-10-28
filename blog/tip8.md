@@ -2,7 +2,7 @@
 type: post
 title: "Tip 8 - Configure the Azure CLI to set Output Defaults and more"
 excerpt: "Learn how to configure the Azure CLI"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-08-30 17:00:00
 ---
 

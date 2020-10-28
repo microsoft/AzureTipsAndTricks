@@ -2,7 +2,7 @@
 type: post
 title: "Tip 70 - Key Phrase Extraction with Cognitive Service and Azure"
 excerpt: "Learn how to access text analysis with Cognitive Service and Azure"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [AI + Machine Learning]
 date: 2017-12-18 17:00:00
 ---
 
@@ -20,11 +20,11 @@ Let's give **Text Analysis** a spin. Open the blade and fill out the following i
 
 <img :src="$withBase('/files/aicog2.png')">
 
-Select **Keys** and copy the value of Key 1. 
+Select **Keys** and copy the value of Key 1.
 
 <img :src="$withBase('/files/aicog3.png')">
 
-We'll use [Postman](https://www.getpostman.com/) to test. Go ahead and download it if you haven't already and once complete you'll use one of the following endpoints depending on what you want to use. 
+We'll use [Postman](https://www.getpostman.com/) to test. Go ahead and download it if you haven't already and once complete you'll use one of the following endpoints depending on what you want to use.
 
 ```
 https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment
@@ -32,18 +32,18 @@ https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases
 https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/languages
 ```
 
-We'll use the  **keyPhrases** endpoint for learning purposes. 
+We'll use the  **keyPhrases** endpoint for learning purposes.
 
-**What are Key Phrases?** They automatically extract key phrases to quickly identify the main points. 
+**What are Key Phrases?** They automatically extract key phrases to quickly identify the main points.
 
 
 Copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases` url into Postman and set the following three header properties:
 
-* Ocp-Apim-Subscription-Key = should be your Key 1 (from our discussion earlier). 
+* Ocp-Apim-Subscription-Key = should be your Key 1 (from our discussion earlier).
 * Content-Type = Set it to application/json.
 * Accept = Set it to application/json.
 
-Your screen should look like the following: 
+Your screen should look like the following:
 
 <img :src="$withBase('/files/aicog4.png')">
 

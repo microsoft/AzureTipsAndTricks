@@ -2,7 +2,7 @@
 type: post
 title: "Tip 10 - Quickly Connect to a Linux VM with SSH"
 excerpt: "Learn how to quickly connect to a Linux VM with SSH"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Virtual Machines]
 date: 2017-09-04 17:00:00
 ---
 

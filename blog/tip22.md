@@ -2,7 +2,7 @@
 type: post
 title: "Tip 22 - Deployment Slots for Web Apps using Azure App Service"
 excerpt: "Learn how to use Deployment Slots for Web Apps using Azure App Service"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web]
 date: 2017-09-24 17:00:00
 ---
 

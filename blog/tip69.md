@@ -2,7 +2,7 @@
 type: post
 title: "Tip 69 - Access and embed Azure Cloud Shell Anywhere"
 excerpt: "Learn how to access Azure Cloud Shell anywhere"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-12-17 17:00:00
 ---
 

@@ -2,7 +2,7 @@
 type: post
 title: "Tip 15 - Underlying Software in Azure Cloud Shell"
 excerpt: "Learn about some of the software found inside a Azure Cloud Shell instance"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-09-12 17:00:00
 ---
 

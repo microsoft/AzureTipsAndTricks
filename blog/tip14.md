@@ -2,7 +2,7 @@
 type: post
 title: "Tip 14 - Generate SSH public key to log into Linux VM with Cloud Shell"
 excerpt: "Learn how to generate SSH keys to log into a Linux VM with Cloud Shell and BASH on Windows 10"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance, Virtual Machines]
 date: 2017-09-11 17:00:00
 ---
 

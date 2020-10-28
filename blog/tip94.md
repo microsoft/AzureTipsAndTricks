@@ -2,7 +2,7 @@
 type: post
 title: "Tip 94 - Customize an Azure Functions Endpoint in Seconds"
 excerpt: "Learn how to query an Azure Search Index using C#"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Serverless]
 date: 2018-02-12 17:00:00
 ---
 
@@ -12,14 +12,14 @@ date: 2018-02-12 17:00:00
 
 ### Customize an Azure Functions Endpoint in Seconds
 
-This one tends to come up a lot and typically folks want to solve the following two problems. 
+This one tends to come up a lot and typically folks want to solve the following two problems.
 
 * They want to know know how to pass a string parameter to the functions URL.
 * Then parse the string from the URL and use it in my code logic.
 
 They basically want a url like the following - https://mcrumpfunction.azurewebsites.net/api/products/truck/444
 
-You can achieve this by going into your Azure Function and looking at your **function.json** file and adding the route. More than likely **route** is missing, but you can easily add it. 
+You can achieve this by going into your Azure Function and looking at your **function.json** file and adding the route. More than likely **route** is missing, but you can easily add it.
 
 Below is a sample that looks for the word products in the string followed by a category that is alphanumeric and an id that is an integer:
 
@@ -60,7 +60,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
 }
 ```
 
-If you now call `https://mcrumpfunction.azurewebsites.net/api/products/truck/444` then it will return `<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/')">Category truck and the Id is 444</string>`. 
+If you now call `https://mcrumpfunction.azurewebsites.net/api/products/truck/444` then it will return `<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/')">Category truck and the Id is 444</string>`.
 
 
 ####  Functions based on .Net Core 2.1

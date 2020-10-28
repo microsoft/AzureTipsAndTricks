@@ -2,7 +2,7 @@
 type: post
 title: "Tip 19 - Deploy an Azure Web App using only the CLI"
 excerpt: "Learn how to deploy an Azure Web App using only the CLI tools from scratch"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web, Management and Governance]
 date: 2017-09-20 17:00:00
 ---
 

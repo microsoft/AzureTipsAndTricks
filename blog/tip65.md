@@ -2,7 +2,7 @@
 type: post
 title: "Tip 65 - Use Visual Studio Code to work with Cosmos DB"
 excerpt: "Learn how to use Visual Studio Code to work with Cosmos DB"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Databases, Visual Studio Family]
 date: 2017-12-10 17:00:00
 ---
 
@@ -19,17 +19,17 @@ Something that I wasn't aware of until yesterday is the [Visual Studio Code exte
 
 <img :src="$withBase('/files/cosmosvscode1.png')">
 
-You can easily view, create and delete databases, collections, graphs, and documents, along with other things detailed in their marketplace submission.  
+You can easily view, create and delete databases, collections, graphs, and documents, along with other things detailed in their marketplace submission.
 
-After installing it via the extension above, here is what it looks like to setup our Cosmos DB resource and type from within Visual Studio Code. 
+After installing it via the extension above, here is what it looks like to setup our Cosmos DB resource and type from within Visual Studio Code.
 
 <img :src="$withBase('/files/cosmosvscode2.gif')">
 
-Now we'll setup our database and collection. 
+Now we'll setup our database and collection.
 
 <img :src="$withBase('/files/cosmosvscode4.gif')">
 
-Finally, we'll create a document and add the following data to it. 
+Finally, we'll create a document and add the following data to it.
 
 ```json
 {

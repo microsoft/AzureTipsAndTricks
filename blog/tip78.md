@@ -2,7 +2,7 @@
 type: post
 title: "Tip 78 - Copy Azure Storage Blobs and Files via C#"
 excerpt: "Learn how to copy Azure Storage Blobs and Files via C#"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-14 17:00:00
 ---
 
@@ -21,13 +21,13 @@ Last week we've reviewed the following options with Azure Storage :
 
 Today, we are going to copy Azure Storage Blobs (and Files) via C#. Go ahead and open the Azure Portal and open the C# app that we worked with [earlier](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html).
 
-The goal of this exercise is to copy a file inside our Azure Storage Container to a new file. So for example, our Azure Storage Container only contains one file now: 
+The goal of this exercise is to copy a file inside our Azure Storage Container to a new file. So for example, our Azure Storage Container only contains one file now:
 
 <img :src="$withBase('/files/storageacct4.png')">
 
 In the [previous post](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html), we created the Azure Storage Blob Container and uploaded a file to it.
 
-Now we are going to copy a new file inside of it with the name **mikepic-backup.png**. 
+Now we are going to copy a new file inside of it with the name **mikepic-backup.png**.
 
 ```csharp
 static void Main(string[] args)

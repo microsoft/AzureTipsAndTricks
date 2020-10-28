@@ -2,7 +2,7 @@
 type: post
 title: "Tip 54 - Getting a .NET Core WebAPI Project Ready for Docker"
 excerpt: "Learn how to get a .NET Core WebAPI Project ready for docker"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Languages & Frameworks, Containers]
 date: 2017-11-20 17:00:00
 ---
 
@@ -15,17 +15,17 @@ How hard do you think it is to:
 * [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](tip55.html)
 * [Use it in Azure with Web App for Containers](tip56.html)
 
-In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers. 
+In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers.
 
 #### Create a .NET Core WebAPI Project
 
-Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows?WT.mc_id=microsoft-azuredevtips-azureappsdev) is installed and then follow the direction below: 
+Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows?WT.mc_id=microsoft-azuredevtips-azureappsdev) is installed and then follow the direction below:
 
-Create a directory on your HDD `mkdir mbcwebapi`. Now `cd mbcwebapi` into it. 
+Create a directory on your HDD `mkdir mbcwebapi`. Now `cd mbcwebapi` into it.
 
-Create another directory inside your mbcwebapi folder `mkdir mbcwebapi`. Now `cd mbcwebapi` into it. 
+Create another directory inside your mbcwebapi folder `mkdir mbcwebapi`. Now `cd mbcwebapi` into it.
 
-Run `dotnet new webapi` to scaffold a new ASP.NET WebAPI Project. 
+Run `dotnet new webapi` to scaffold a new ASP.NET WebAPI Project.
 
 
 ```
@@ -43,11 +43,11 @@ Running 'dotnet restore' on /Users/mbcrump/mbcwebapi/mbcwebapi.csproj...
 
 Restore succeeded.
 ```
-If you use `dotnet run` then you'll have a URL that you can paste into your browser. 
+If you use `dotnet run` then you'll have a URL that you can paste into your browser.
 
 <img :src="$withBase('/files/webapiazure1.png')">
 
-Add `http://localhost:5000/api/values` to see a response from the WebAPI, otherwise the site will 404. 
+Add `http://localhost:5000/api/values` to see a response from the WebAPI, otherwise the site will 404.
 
 <img :src="$withBase('/files/webapiazure2.png')">
 
@@ -55,7 +55,7 @@ You should see `["value1","value2"]`. Nice! It is working properly!
 
 #### Publish the .NET Core WebAPI
 
-The `dotnet publish` command packs the application and its dependencies into a folder for deployment to a hosting system. We are going to prep our project for Docker, so use `dotnet publish -c Release -o ./obj/Docker/publish`. 
+The `dotnet publish` command packs the application and its dependencies into a folder for deployment to a hosting system. We are going to prep our project for Docker, so use `dotnet publish -c Release -o ./obj/Docker/publish`.
 
 ```
 Michaels-MacBook-Pro:mbcwebapi mbcrump$ dotnet publish -c Release -o ./obj/Docker/publish
@@ -64,10 +64,10 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
   mbcwebapi -> /Users/mbcrump/mbcwebapi/bin/Release/netcoreapp2.0/mbcwebapi.dll
   mbcwebapi -> /Users/mbcrump/mbcwebapi/obj/Docker/publish/
-Michaels-MacBook-Pro:mbcwebapi mbcrump$ 
+Michaels-MacBook-Pro:mbcwebapi mbcrump$
 ```
 
-If you navigate to the /obj/Docker/publish folder, then you will see our WebAPI is packaged and ready for deployment. 
+If you navigate to the /obj/Docker/publish folder, then you will see our WebAPI is packaged and ready for deployment.
 
 ```
 11/19/2017  12:12 PM               178 appsettings.Development.json

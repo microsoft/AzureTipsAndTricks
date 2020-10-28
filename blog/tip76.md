@@ -2,7 +2,7 @@
 type: post
 title: "Tip 76 - Uploading and Downloading a Stream into an Azure Storage Blob"
 excerpt: "Learn how to create to upload and download a stream into an Azure Storage Blob with C#"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-09 17:00:00
 ---
 

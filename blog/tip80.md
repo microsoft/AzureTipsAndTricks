@@ -2,7 +2,7 @@
 type: post
 title: "Tip 80 - Adding Metadata to a file inside Azure Storage Blob Container"
 excerpt: "Learn how to add metadata to a file inside Azure Storage Blob Container"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-16 17:00:00
 ---
 
@@ -27,11 +27,11 @@ Today, we are going to look at setting user-defined metadata to a file inside an
 **What is User-defined metadata?** [User-defined metadata](https://docs.microsoft.com/azure/storage/blobs/storage-properties-metadata?WT.mc_id=docs-azuredevtips-azureappsdev) is metadata that you specify on a given resource in the form of a name-value pair. You can use metadata to store additional values with a storage resource. These additional metadata values are for your own purposes only, and do not affect how the resource behaves.*(courtesy of docs)*
 
 
-If you look below, you will notice that there is a way to do this inside the portal. 
+If you look below, you will notice that there is a way to do this inside the portal.
 
 <img :src="$withBase('/files/azmetadata1.png')">
 
-You'll notice this is key-value pairs. 
+You'll notice this is key-value pairs.
 
 <img :src="$withBase('/files/azmetadata2.png')">
 

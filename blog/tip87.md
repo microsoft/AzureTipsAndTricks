@@ -2,7 +2,7 @@
 type: post
 title: "Tip 87 - Avoid Bad Request Errors in Azure Storage Table"
 excerpt: "Learn how to ensure a clean rowkey is returned using Azure Storage Table"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-29 17:00:00
 ---
 
@@ -25,7 +25,7 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 
 #### The problem
 
-If you've ever been working with Azure Table Storage and tried to insert data and received **400 Bad Request**, then you've probably narrowed this down to a malformed **PartitionKey** or **RowKey** after many hours. This is due to the fact that for **PartitionKey** and **RowKey**, there are some disallowed characters such as: 
+If you've ever been working with Azure Table Storage and tried to insert data and received **400 Bad Request**, then you've probably narrowed this down to a malformed **PartitionKey** or **RowKey** after many hours. This is due to the fact that for **PartitionKey** and **RowKey**, there are some disallowed characters such as:
 
 * The forward slash (/) character
 * The backslash (\) character
@@ -37,12 +37,12 @@ If you've ever been working with Azure Table Storage and tried to insert data an
 * The carriage return (\r) character
 * Control characters from U+007F to U+009F
 
-**Debugging in Visual Studio** If you are debugging in Visual Studio, then you can also check the *StorageException.RequestInformation.ExtendedInformation* to gain additional information about the error. 
+**Debugging in Visual Studio** If you are debugging in Visual Studio, then you can also check the *StorageException.RequestInformation.ExtendedInformation* to gain additional information about the error.
 
 
 #### The Solution
 
-There is many ways that you can handle this, but my favorite is this extension method that simply strips away those characters as shown below.  
+There is many ways that you can handle this, but my favorite is this extension method that simply strips away those characters as shown below.
 
 ```csharp
 public static string ToAzureKeyString(this string str)

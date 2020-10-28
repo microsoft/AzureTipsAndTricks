@@ -2,7 +2,7 @@
 type: post
 title: "Tip 25 - Use the Azure Resource Explorer to quickly explore REST APIs"
 excerpt: "Learn how to use the Azure Resource Explorer to quickly explore REST APIs"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Management and Governance]
 date: 2017-10-01 17:00:00
 ---
 

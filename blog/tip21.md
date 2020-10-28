@@ -2,7 +2,7 @@
 type: post
 title: "Tip 21 - Adding Extensions to Web Apps in Azure App Service"
 excerpt: "Learn how to work with extensions in Azure App Service"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web]
 date: 2017-09-23 17:00:00
 ---
 

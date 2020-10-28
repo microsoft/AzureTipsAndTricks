@@ -2,7 +2,7 @@
 type: post
 title: "Tip 24 - Add logic to your Testing in Production sites with PowerShell"
 excerpt: "Learn how to use additional logic in your Testing in Production sites with PowerShell and the CLI"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Languages & Frameworks]
 date: 2017-09-26 17:00:00
 ---
 

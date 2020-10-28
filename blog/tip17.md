@@ -2,7 +2,7 @@
 type: post
 title: "Tip 17 - Use PowerShell with Azure Cloud Shell"
 excerpt: "Learn how to take advantage of PowerShell within Azure Cloud Shell"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Languages & Frameworks]
 date: 2017-09-18 17:00:00
 ---
 

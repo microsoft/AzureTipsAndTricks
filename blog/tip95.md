@@ -2,7 +2,7 @@
 type: post
 title: "Tip 95 - Access all files from an Azure Storage Blob Container"
 excerpt: "Learn how to get all Files from an Azure Storage Blob Container"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-02-13 17:00:00
 ---
 
@@ -12,7 +12,7 @@ date: 2018-02-13 17:00:00
 
 ### Access all files from an Azure Storage Blob Container
 
-Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In the past [posts](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html), I've described how to create an Azure Storage account through the Portal and [how to](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html)  create an Azure Storage Blob Container through C#. I've even detailed how to upload and download a stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html) but I've always grabbed one file at a time. In this post, I'll show you how you can quickly access **all the files of a given extension** in a container instead of a single one. 
+Azure Storage is described as a service that provides storages that is available, secure, durable, scalable, and redundant. Azure Storage consists of 1) Blob storage, 2) File Storage, and 3) Queue storage. In the past [posts](https://microsoft.github.io/AzureTipsAndTricks/blog/tip74.html), I've described how to create an Azure Storage account through the Portal and [how to](https://microsoft.github.io/AzureTipsAndTricks/blog/tip75.html)  create an Azure Storage Blob Container through C#. I've even detailed how to upload and download a stream into an Azure Storage Blob](https://microsoft.github.io/AzureTipsAndTricks/blog/tip76.html) but I've always grabbed one file at a time. In this post, I'll show you how you can quickly access **all the files of a given extension** in a container instead of a single one.
 
 #### Download a Single File in an Azure Storage Blob Container
 

@@ -2,7 +2,7 @@
 type: post
 title: "Tip 20 - Working with Files in Azure App Service"
 excerpt: "Learn how to work with files that you've uploaded to Azure App Service"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Web]
 date: 2017-09-21 17:00:00
 ---
 
