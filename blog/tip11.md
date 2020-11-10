@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Tip 11 - Access Cloud Shell from within Microsoft Docs"
+title: "Tip 11 - Access Cloud Shell from within Microsoft Documentation"
 excerpt: "Learn how to quickly access Azure Cloud Shell from within the Microsoft Docs"
 tags: [Management and Governance]
 date: 2017-09-05 17:00:00
