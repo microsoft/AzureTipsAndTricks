@@ -51,7 +51,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-Special thanks to all our [Contributors](https://github.com/microsoft/AzureTipsAndTricks/graphs/contributors) :pray: .
+Special thanks to all our [Contributors](https://github.com/microsoft/AzureTipsAndTricks/graphs/contributors) :thumbsup: .
 
 #### Legal Notices
 
