@@ -2,15 +2,15 @@
 type: post
 title: "Tip 85 - Updating an item from a Azure Storage Table"
 excerpt: "Learn how to update an item from an Azure Storage Table"
-tags: [Storage]
+tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-01-24 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
 :::
 
-### Updating an item from a Azure Storage Table
+#### Updating an item from a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
@@ -36,21 +36,10 @@ In our `Program.cs` file, we'll now add in a helper method that passes in a tabl
 ```csharp
 static void UpdateMessage(CloudTable table, string partitionKey, string rowKey, string newMessage)
 {
-    TableOperation retrieve = TableOperation.Retrieve<Thanks>(partitionKey, rowKey);
+    Thanks entity = table.GetEntity<Thanks>(partitionKey, rowKey);
+    entity.Name = newMessage;
 
-    TableResult result = table.Execute(retrieve);
-
-    Thanks thanks = (Thanks)result.Result;
-
-    thanks.ETag = "*";
-    thanks.Name = newMessage;
-
-    if (result != null)
-    {
-        TableOperation update = TableOperation.Replace(thanks);
-
-        table.Execute(update);
-    }
+    table.UpdateEntity(entity, ETag.All, TableUpdateMode.Replace);
 
 }
 ```
@@ -64,20 +53,13 @@ The **Main** method inside of the `Program.cs` file, we'll call our helper metho
 ```csharp
 static void Main(string[] args)
 {
-    CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-                    CloudConfigurationManager.GetSetting("StorageConnection"));
+    var serviceClient = new TableServiceClient(ConfigurationManager.AppSettings["StorageConnection"]);
 
-    CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-    CloudTable table = tableClient.GetTableReference("thankfulfor");
-
+    TableClient table = serviceClient.GetTableClient("thankfulfor");
     table.CreateIfNotExists();
 
     //added these lines
-    UpdateMessage(table, "ThanksApp", "I'm thankful for the time with my family", "I'm thankful for the time with my family and friends");
-    //added these lines
-
-    table.Execute(update);
+    UpdateMessage(table, "ThanksApp", "I am thankful for the time with my family", "I am thankful for the time with my family and friends");
     Console.ReadKey();
 
 }

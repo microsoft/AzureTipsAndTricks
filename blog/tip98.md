@@ -2,19 +2,17 @@
 type: post
 title: "Tip 98 - Creating an Email Subscription with Azure Functions - Storing Emails"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
-tags: [Serverless]
+tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 date: 2018-02-26 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
+:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-micrum).
 :::
-
-### Creating an Email Subscription with Azure Functions - Storing Emails
 
 #### Where are we?
 
-**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-azureappsdev)
+**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-micrum)
 
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage.
@@ -32,7 +30,7 @@ We're trying to build a Email Subscription similar to the following. If you want
 
 We recently created a Visual Studio project that used the Azure Functions template. We used NuGet to pull in references to the following packages that we'll be working with shortly:
 
-* WindowsAzure.Storage `To work with Azure Table Storage.`
+* Azure.Data.Tables `To work with Azure Table Storage.`
 * Microsoft.WindowsAzure.ConfigurationManager `To hide our API keys`
 * Sendgrid `To send our emails`
 * System.ServiceModel.Syndication `To work with RSS feeds - use prerelease packages to find it`
@@ -45,8 +43,7 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 
 `[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]`
 
-**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=docs-azuredevtips-azureappsdev) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments.
-
+**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=docs-azuredevtips-micrum) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments.
 
 Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has a single field:
 
@@ -55,8 +52,13 @@ Since we'll be working with Azure Table Storage and I prefer to show you code th
 We'll also supply the PartitionKey to be the same every time and use a Guid for our RowKey.
 
 ```csharp
-class Email : TableEntity
+class EmailEntity : ITableEntity
 {
+    public string PartitionKey { get; set; }
+    public string RowKey { get; set; }
+    public DateTimeOffset? Timestamp { get; set; }
+    public ETag ETag { get; set; }
+
     public string EmailAddress { get; set; }
 
     public EmailEntity(string email)
@@ -77,11 +79,9 @@ class Email : TableEntity
 I also have a helper class that we'll use to store the data, so add the following which will allow us to pass a table object and a new email instance:
 
 ```csharp
-static void CreateMessage(CloudTable table, Email newemail)
+static void CreateMessage(TableClient table, EmailEntity newemail)
 {
-    TableOperation insert = TableOperation.Insert(newemail);
-
-    table.Execute(insert);
+    table.AddEntity(newemail);
 }
 ```
 
@@ -110,12 +110,9 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
     try
     {
         // the line below can be hardcoded if you aren't using AppSettings
-        CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["TableStorageConnString"]);
+        var serviceClient = new TableServiceClient(ConfigurationManager.AppSettings["TableStorageConnString"]);
 
-        CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-        CloudTable table = tableClient.GetTableReference("MCBlogSubscribers");
-
+        TableClient table = serviceClient.GetTableClient("MCBlogSubscribers");
         table.CreateIfNotExists();
 
         CreateMessage(table, new EmailEntity(postData["fromEmail"]));

@@ -104,7 +104,7 @@ We'll begin by using the **Timer Trigger** and leaving everything as the default
 
 Once the project spins up, we'll use NuGet to pull in references to :
 
-* WindowsAzure.Storage `To work with Azure Table Storage.`
+* Azure.Data.Tables `To work with Azure Table Storage.`
 * Microsoft.WindowsAzure.ConfigurationManager `To hide our API keys`
 * Sendgrid `To send our emails`
 * System.ServiceModel.Syndication `To work with RSS feeds - use prerelease packages to find it`
