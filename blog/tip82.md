@@ -2,12 +2,12 @@
 type: post
 title: "Tip 82 - Creating your first Azure Storage Table"
 excerpt: "Learn how to creating your first Azure Storage Table"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-21 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips).
 :::
 
 #### Creating your first Azure Storage Table
@@ -70,7 +70,7 @@ Create a C# Console Application using Visual Studio, and use NuGet to pull in re
 
 Inside of your Console app, you will see **App.config**, now add the following section:
 
-```text
+```
   <appSettings>
     <add key="StorageConnection" value="YOUR-CONNECTION-STRING-COPIED-FROM-EARLIER"/>
   </appSettings>

@@ -2,15 +2,15 @@
 type: post
 title: "Tip 85 - Updating an item from a Azure Storage Table"
 excerpt: "Learn how to update an item from an Azure Storage Table"
-tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+tags: [Storage]
 date: 2018-01-24 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-micrum).
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips).
 :::
 
-#### Updating an item from a Azure Storage Table
+### Updating an item from a Azure Storage Table
 
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
