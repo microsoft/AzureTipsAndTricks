@@ -66,6 +66,7 @@ Create a C# Console Application using Visual Studio, and use NuGet to pull in re
 
 * Azure.Data.Tables
 
+<img :src="$withBase('/files/storagethroughcsharp2.png')">
 <img :src="$withBase('/files/storagethroughcsharp3.png')">
 
 Inside of your Console app, you will see **App.config**, now add the following section:
