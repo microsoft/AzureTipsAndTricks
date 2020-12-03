@@ -7,12 +7,12 @@ date: 2018-02-26 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips).
+:bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
 #### Where are we?
 
-**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips)
+**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-azureappsdev)
 
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage.
@@ -43,7 +43,7 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 
 `[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]`
 
-**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=docs-azuredevtips) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments.
+**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings?WT.mc_id=docs-azuredevtips-azureappsdev) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments.
 
 Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has a single field:
 

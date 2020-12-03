@@ -7,7 +7,7 @@ date: 2018-01-23 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips).
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
 ### Adding an item to a Azure Storage Table

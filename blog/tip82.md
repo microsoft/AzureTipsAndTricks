@@ -7,10 +7,10 @@ date: 2018-01-21 17:00:00
 ---
 
 ::: tip
-:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips).
+:bulb: Learn more : [Azure storage account overview](https://docs.microsoft.com/azure/storage/common/storage-account-overview?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-#### Creating your first Azure Storage Table
+### Creating your first Azure Storage Table
 
 In case you are new to the Azure Storage, we've reviewed the following options so far:
 
@@ -85,6 +85,7 @@ static void Main(string[] args)
 
     TableClient table = serviceClient.GetTableClient("thankfulfor");
     table.CreateIfNotExists();
+    Console.ReadKey();
 }
 ```
 
