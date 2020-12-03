@@ -23,7 +23,6 @@ Look under **Settings**, then **Access Keys** and copy the connection string.
 Create a C# Console Application, and use NuGet to pull in references to :
 
 * Azure.Storage.Blob
-* Microsoft.WindowsAzure.ConfigurationManager
 
 <img :src="$withBase('/files/storagethroughcsharp2.png')">
 <img :src="$withBase('/files/storagethroughcsharp3.png')">
@@ -41,7 +40,7 @@ Copy the following code into your Main method:
 ```csharp
 static void Main(string[] args)
 {
-    string connectionString = CloudConfigurationManager.GetSetting("StorageConnection");
+    string connectionString = ConfigurationManager.AppSettings("StorageConnection");
     BlobContainerClient container = new BlobContainerClient(connectionString, "images-backup");
     container.CreateIfNotExists(PublicAccessType.Blob);
     Console.ReadLine();
