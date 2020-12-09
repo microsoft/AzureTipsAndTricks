@@ -12,7 +12,7 @@ date: 2018-02-25 17:00:00
 
 ### How to generate a weekly gigest email for a blog using Azure Functions, SendGrid and Azure Storage
 
-#### Where are we?
+#### Overview
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
 

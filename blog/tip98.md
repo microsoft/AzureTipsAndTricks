@@ -12,7 +12,7 @@ date: 2018-02-26 17:00:00
 
 ### How to create an email subscription with Azure Functions - Storing Emails
 
-#### Where are we?
+#### Overview
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription?WT.mc_id=github-azuredevtips-azureappsdev)
 
