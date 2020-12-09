@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Tip 99 - How to create an email subscription with Azure Functions - Writing the Frontend"
+title: "Tip 99 - How to create an email subscription with Azure Functions - writing the frontend"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [Serverless]
 date: 2018-02-27 17:00:00
