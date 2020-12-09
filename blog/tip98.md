@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Tip 98 - Creating an Email Subscription with Azure Functions - Storing Emails"
+title: "Tip 98 - How to create an email subscription with Azure Functions - Storing Emails"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [Serverless]
 date: 2018-02-26 17:00:00
@@ -9,6 +9,8 @@ date: 2018-02-26 17:00:00
 ::: tip
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
+
+### How to create an email subscription with Azure Functions - Storing Emails
 
 #### Where are we?
 
