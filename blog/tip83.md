@@ -31,16 +31,20 @@ Open the C# Console application that we were working with [previously](https://m
 Copy the following code into your new class:
 
 ```csharp
-using Microsoft.WindowsAzure.Storage.Table;
+using Azure;
+using Azure.Data.Tables;
 using System;
 
-namespace StorageAccountAzure.Entities
+namespace TipsAndTrickSampleTest.Entities
 {
-    class Thanks : TableEntity
+    class Thanks : ITableEntity
     {
-
         public string Name { get; set; }
         public DateTime Date { get; set; }
+        public string PartitionKey { get; set; }
+        public string RowKey { get; set; }
+        public DateTimeOffset? Timestamp { get; set; }
+        public ETag ETag { get; set; }
 
         public Thanks(string name, DateTime date)
         {
@@ -58,16 +62,14 @@ namespace StorageAccountAzure.Entities
 }
 ```
 
-This code will use a base class of **TableEntity** which will make it easier to work with Azure Storage Tables. We are going to create two fields in our table named **Name** and **Date**. We'll pass in the Name we want to use via a string and provide the current Date for the Date property.
+This entity use **ITableEntity** as base which will make it easier to work with Azure Storage Tables. We are going to create two fields in our table named **Name** and **Date**. We'll pass in the Name we want to use via a string and provide the current Date for the Date property.
 
 Heading back over to our `Program.cs` file. We'll now add in a helper method to create the item in the table.
 
 ```csharp
-static void CreateMessage(CloudTable table, Thanks message)
+static void CreateMessage(TableClient table, Thanks message)
 {
-    TableOperation insert = TableOperation.Insert(message);
-
-    table.Execute(insert);
+    table.AddEntity(message);
 }
 ```
 
@@ -78,22 +80,16 @@ The **Main** method inside of the `Program.cs` file just needs to call the metho
 ```csharp
 static void Main(string[] args)
 {
-    CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-                    CloudConfigurationManager.GetSetting("StorageConnection"));
+    var serviceClient = new TableServiceClient(ConfigurationManager.AppSettings["StorageConnection"]);
 
-    CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-    CloudTable table = tableClient.GetTableReference("thankfulfor");
-
+    TableClient table = serviceClient.GetTableClient("thankfulfor");
     table.CreateIfNotExists();
 
-//added this line
-    CreateMessage(table, new Thanks("I'm thankful for the time with my family", DateTime.Now));
-//added this line
+    //added this line
+    CreateMessage(table, new Thanks("I am thankful for the time with my family", DateTime.Now));
+    //added this line
     Console.ReadKey();
-
 }
 ```
 
 If we run the program now, then it will add our message along with the current DateTime to our Azure Storage Table called **thankfulfor**. If we want to test it now, then we can use [Azure Storage Explorer](https://microsoft.github.io/AzureTipsAndTricks/blog/tip77.html). If you come back tomorrow, then I'll show you how to do this through code.
-

@@ -34,17 +34,9 @@ In our `Program.cs` file, we'll now add in a helper method that passes in a tabl
 
 
 ```csharp
-static void DeleteMessage(CloudTable table, string partitionKey, string rowKey)
+static void DeleteMessage(TableClient table, string partitionKey, string rowKey)
 {
-    TableOperation retrieve = TableOperation.Retrieve<Thanks>(partitionKey, rowKey);
-
-    TableResult result = table.Execute(retrieve);
-
-    var deleteEntity = (Thanks)result.Result;
-
-    TableOperation delete = TableOperation.Delete(deleteEntity);
-
-    table.Execute(delete);
+    table.DeleteEntity(partitionKey, rowKey);
 }
 ```
 
@@ -57,21 +49,13 @@ The **Main** method inside of the `Program.cs` file, we'll call our helper metho
 ```csharp
 static void Main(string[] args)
 {
-    CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-                    CloudConfigurationManager.GetSetting("StorageConnection"));
+    var serviceClient = new TableServiceClient(ConfigurationManager.AppSettings["StorageConnection"]);
 
-    CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-    CloudTable table = tableClient.GetTableReference("thankfulfor");
-
+    TableClient table = serviceClient.GetTableClient("thankfulfor");
     table.CreateIfNotExists();
 
     //added these lines
-    DeleteMessage(table, "ThanksApp", "I'm thankful for the time with my family");
-    //added these lines
-
-    table.Execute(update);
+    DeleteMessage(table, "ThanksApp", "I am thankful for the time with my family");
     Console.ReadKey();
-
 }
 ```

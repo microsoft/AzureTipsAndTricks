@@ -36,21 +36,10 @@ In our `Program.cs` file, we'll now add in a helper method that passes in a tabl
 ```csharp
 static void UpdateMessage(CloudTable table, string partitionKey, string rowKey, string newMessage)
 {
-    TableOperation retrieve = TableOperation.Retrieve<Thanks>(partitionKey, rowKey);
+    Thanks entity = table.GetEntity<Thanks>(partitionKey, rowKey);
+    entity.Name = newMessage;
 
-    TableResult result = table.Execute(retrieve);
-
-    Thanks thanks = (Thanks)result.Result;
-
-    thanks.ETag = "*";
-    thanks.Name = newMessage;
-
-    if (result != null)
-    {
-        TableOperation update = TableOperation.Replace(thanks);
-
-        table.Execute(update);
-    }
+    table.UpdateEntity(entity, ETag.All, TableUpdateMode.Replace);
 
 }
 ```
@@ -64,20 +53,13 @@ The **Main** method inside of the `Program.cs` file, we'll call our helper metho
 ```csharp
 static void Main(string[] args)
 {
-    CloudStorageAccount storageAccount = CloudStorageAccount.Parse(
-                    CloudConfigurationManager.GetSetting("StorageConnection"));
+    var serviceClient = new TableServiceClient(ConfigurationManager.AppSettings["StorageConnection"]);
 
-    CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-    CloudTable table = tableClient.GetTableReference("thankfulfor");
-
+    TableClient table = serviceClient.GetTableClient("thankfulfor");
     table.CreateIfNotExists();
 
     //added these lines
-    UpdateMessage(table, "ThanksApp", "I'm thankful for the time with my family", "I'm thankful for the time with my family and friends");
-    //added these lines
-
-    table.Execute(update);
+    UpdateMessage(table, "ThanksApp", "I am thankful for the time with my family", "I am thankful for the time with my family and friends");
     Console.ReadKey();
 
 }
