@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Tip 97 - Generate a Weekly Digest Email for a Blog using Azure Functions, SendGrid and Azure Storage"
+title: "Tip 97 - How to generate a weekly gigest email for a blog using Azure Functions, SendGrid and Azure Storage"
 excerpt: "Learn how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage"
 tags: [Serverless]
 date: 2018-02-25 17:00:00
@@ -10,16 +10,16 @@ date: 2018-02-25 17:00:00
 :bulb: Learn more : [Azure Functions Documentation](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=docs-azuredevtips-azureappsdev).
 :::
 
-### Generate a Weekly Digest Email for a Blog using Azure Functions, SendGrid and Azure Storage
+### How to generate a weekly gigest email for a blog using Azure Functions, SendGrid and Azure Storage
 
-#### Where are we?
+#### Overview
 
 **Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
 
 
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage.
 
-* [Part 1 - What we're going to build and how to build it](https://microsoft.github.io/AzureTipsAndTricks/blog/tip97.html)
+* [Part 1 - What we're going to build and how to build it (this post)](https://microsoft.github.io/AzureTipsAndTricks/blog/tip97.html)
 * [Part 2 - Storing Emails using Azure Table Storage](https://microsoft.github.io/AzureTipsAndTricks/blog/tip98.html)
 * [Part 3 - Writing the Frontend with HTML5 and jQuery](https://microsoft.github.io/AzureTipsAndTricks/blog/tip99.html)
 * [Part 4 - Sending Emails with Sendgrid and Azure Functions](https://microsoft.github.io/AzureTipsAndTricks/blog/tip100.html)
