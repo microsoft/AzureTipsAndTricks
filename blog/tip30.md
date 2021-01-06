@@ -14,6 +14,8 @@ date: 2017-10-09 17:00:00
 
 ### Working with Log Stream and Azure App Services
 
+This article is for ASP.NET MVC (targeting the .NET Framework). 
+
 The **Log Stream** is the ability to see logging information in real-time (or as close to it as possible). You can do this by using the Azure Portal or through some of CLI tooling such as PowerShell or BASH.
 
 In order to take advantage of this, you'll need to log into your Azure account and go to your App Service that you created and look under **Monitoring** then you will see **Log Stream**. Open it and you'll see the following message `Application logs are switched off. You can turn them on using the 'Diagnostic logs' settings.`
