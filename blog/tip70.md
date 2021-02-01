@@ -8,6 +8,9 @@ date: 2017-12-18 17:00:00
 
 ::: tip
 :bulb: Learn more : [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services?WT.mc_id=docs-azuredevtips-azureappsdev).
+
+:bulb: Checkout [Azure AI for developers page](https://azure.microsoft.com/en-us/overview/ai-platform/dev-resources/?WT.mc_id=docs-azuredevtips-azureappsdev).
+
 :::
 
 ### Key Phrase Extraction with Cognitive Service and Azure
