@@ -42,6 +42,9 @@ jobs:
       run: |      
         cd "${{ github.workspace }}/private"   
         git checkout "public-pr-${{ github.event.number }}"
-        gh pr create --title "Public Repo PR" --body "test" -R microsoft/azuretipsandtricks-private
+        https://github.com/microsoft/AzureTipsAndTricks/pull/135
+        COMMIT_MESSAGE="**Pull Request Created in public repo** <br /><br /> **Title:** "${{ github.event.pull_request.title }}" <br /><br /> **Link:** https://github.com/microsoft/AzureTipsAndTricks/pull/${{ github.event.number }}"
+        
+        gh pr create --title "Public Repo PR" --body $COMMIT_MESSAGE" -R microsoft/azuretipsandtricks-private
       env:
         GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
