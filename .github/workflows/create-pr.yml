@@ -25,6 +25,10 @@ jobs:
         git checkout -b "pr-${{ github.event.number }}"
         cp -r "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
         cp -r "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/private/src/.vuepress/public/files"
+        
+        git config --global user.email "github-action@microsoft.com"
+        git config --global user.name "GitHub Action"
+        
         git add .
         git commit -m "${{ github.event.pull_request.title }}"
         git push origin "pr-${{ github.event.number }}"
