@@ -12,7 +12,7 @@ date: 2017-08-20 17:00:00
 :tv: Watch the video : [How to use keyboard shortcuts in the Azure portal](https://www.youtube.com/watch?v=A0uXwdLDzf4&list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC&index=1?WT.mc_id=youtube-azuredevtips-azureappsdev).
 :::
 
-### Use Keyboard Shortcuts in the Azure Portal - TEST test
+### Use Keyboard Shortcuts in the Azure Portal - TEST
 
 #### Azure Portal Keyboard Shortcuts
 
