@@ -6,6 +6,10 @@ jobs:
     name: Create Issue
     runs-on: ubuntu-latest
     steps:
+    - name: Dump context
+      uses: crazy-max/ghaction-dump-context@v1
+        
+        
     - uses: actions/checkout@v2
       name: Checkout Repo
       with:
