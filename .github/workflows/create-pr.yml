@@ -18,16 +18,16 @@ jobs:
       run: |
         git clone "https://${{ secrets.PRIVATE_REPO_PAT  }}@github.com/microsoft/azuretipsandtricks-private.git" private
         cd private
-        git checkout -b "${{ github.context.payload.pull_request.title }}"
+        git checkout -b "${{ github.event.title }}"
         cp -R "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
         cp "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/src/.vuepress/public/file"
         git add .
-        git commit -m "${{ github.context.payload.pull_request.title }}"
-        git push origin "${{ github.context.payload.pull_request.title }}"
+        git commit -m "${{ github.event.title }}"
+        git push origin "${{ github.event.titlee }}"
         
     - name: GH CLI
       run: |      
         cd private   
-        gh pr create --title "${{ github.context.payload.pull_request.title }}"
+        gh pr create --title "${{ github.event.title }}"
       env:
         GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
