@@ -40,7 +40,8 @@ jobs:
         
     - name: GH CLI
       run: |      
-        cd private   
+        cd "${{ github.workspace }}/private"   
+        git checkout "public-pr-${{ github.event.number }}"
         gh pr create --title "${{ github.event.pull_request.title }}"
       env:
         GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
