@@ -42,6 +42,6 @@ jobs:
       run: |      
         cd "${{ github.workspace }}/private"   
         git checkout "public-pr-${{ github.event.number }}"
-        gh pr create --title "Public Repo PR"
+        gh pr create --title "Public Repo PR" --body "test" -R microsoft/azuretipsandtricks-private
       env:
         GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_PAT  }}
