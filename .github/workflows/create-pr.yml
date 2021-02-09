@@ -28,8 +28,8 @@ jobs:
         
         git fetch
         git pull
-        git checkout -b "pr-${{ github.event.number }}"
-        git push -u origin "pr-${{ github.event.number }}"
+        git checkout -b "public-pr-${{ github.event.number }}"
+        git push -u origin "public-pr-${{ github.event.number }}"
         
         cp -r "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
         cp -r "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/private/src/.vuepress/public/files"
