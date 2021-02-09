@@ -24,7 +24,7 @@ jobs:
         cd private
         git checkout -b "pr-${{ github.event.number }}"
         cp -r "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
-        cp -r "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/src/.vuepress/public/file"
+        cp -r "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/src/.vuepress/public/files"
         git add .
         git commit -m "${{ github.event.pull_request.title }}"
         git push origin "pr-${{ github.event.number }}"
