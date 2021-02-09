@@ -23,8 +23,8 @@ jobs:
         git clone "https://${{ secrets.PRIVATE_REPO_PAT  }}@github.com/microsoft/azuretipsandtricks-private.git" private
         cd private
         git checkout -b "pr-${{ github.event.number }}"
-        cp -R "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
-        cp "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/src/.vuepress/public/file"
+        cp -r "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
+        cp -r "${{ github.workspace }}/.vuepress/public/files"  "${{ github.workspace }}/src/.vuepress/public/file"
         git add .
         git commit -m "${{ github.event.pull_request.title }}"
         git push origin "pr-${{ github.event.number }}"
