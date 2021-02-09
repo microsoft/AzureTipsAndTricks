@@ -17,6 +17,8 @@ jobs:
     - name: Clone Private repo
       run: |
         git clone https://github.com/microsoft/azuretipsandtricks-private.git private
+        Username: "GitHub Action"
+        Password: ${{ secrets.PRIVATE_REPO_PAT  }}
         cd private
         git checkout -b ${{ github.context.payload.pull_request.title }}
         cp -R "${{ github.workspace }}/blog" "${{ github.workspace }}/private/src/blog"
