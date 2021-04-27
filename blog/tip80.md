@@ -71,9 +71,9 @@ static void GetMetadata(BlobContainerClient container)
 {
     //retrieve container metadata
     BlobContainerProperties properties = container.GetProperties();
-    foreach (var metadate in properties.Metadata)
+    foreach (var metadata in properties.Metadata)
     {
-        Console.WriteLine(string.Format($"{metadate.Key}: {metadate.Value}"));
+        Console.WriteLine(string.Format($"{metadata.Key}: {metadata.Value}"));
     }
 }
 ```
