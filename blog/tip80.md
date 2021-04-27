@@ -54,11 +54,11 @@ static void SetMetadata(BlobContainerClient container)
     //clear metadata
     container.SetMetadata(new Dictionary<string, string>());
 
-    Dictionary<string, string> metaData = new Dictionary<string, string>(2);
-    metaData.Add("Owner", "Michael Crump");
-    metaData["LastUpdated"] = DateTime.Now.ToString();
+    Dictionary<string, string> metadata = new Dictionary<string, string>(2);
+    metadata.Add("Owner", "Michael Crump");
+    metadata["LastUpdated"] = DateTime.Now.ToString();
     //set metadata
-    container.SetMetadata(metaData);
+    container.SetMetadata(metadata);
 }
 ```
 
