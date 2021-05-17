@@ -9,7 +9,7 @@ date: 2017-12-19 17:00:00
 ::: tip
 :bulb: Learn more : [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services?WT.mc_id=docs-azuredevtips-azureappsdev).
 
-:bulb: Checkout [Azure AI for developers page](https://azure.microsoft.com/en-us/overview/ai-platform/dev-resources/?WT.mc_id=docs-azuredevtips-azureappsdev).
+:bulb: Checkout [Azure AI resources for developers](https://azure.microsoft.com/en-us/overview/ai-platform/dev-resources/?WT.mc_id=docs-azuredevtips-azureappsdev).
 
 :::
 
