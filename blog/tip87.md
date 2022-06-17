@@ -42,7 +42,7 @@ If you've ever been working with Azure Table Storage and tried to insert data an
 
 #### The Solution
 
-There are many ways how you can handle this, but my favorite is below extension method that simply strips away those characters.
+There is many ways that you can handle this, but my favorite is this extension method that simply strips away those characters as shown below.
 
 ```csharp
 public static string ToAzureKeyString(this string str)
@@ -52,10 +52,8 @@ public static string ToAzureKeyString(this string str)
         .Where(c => c != '/'
                     && c != '\\'
                     && c != '#'
+                    && c != '/'
                     && c != '?'
-                    && c != '\t'
-                    && c != '\n'
-                    && c != '\r'
                     && !char.IsControl(c)))
         sb.Append(c);
     return sb.ToString();
