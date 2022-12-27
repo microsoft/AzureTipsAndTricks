@@ -10,7 +10,7 @@ Welcome to Azure Tips and Tricks, this site is a special collection hundreds of 
 
 #### Site Map
 
-|  Resouce 	|   Description	|
+|  Resource 	|   Description	|
 |---	| ---
 |   [Home](/AzureTipsAndTricks)	|   This site can always be found at [https://aka.ms/azuretipsandtricks](https://aka.ms/azuretipsandtricks)	|
 |   [Videos](https://www.youtube.com/playlist?list=PLLasX02E8BPCNCK8Thcxu-Y-XcBUbhFWC)	|   Our growing playlist of hundreds videos based on the series	|
